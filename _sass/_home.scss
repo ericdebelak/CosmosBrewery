@@ -1,36 +1,69 @@
-.home {
+html.home {
+  height: 100%;
+  overflow: hidden;
+}
+
+body.home {
   background: url(/images/1-AreYou21/desktop/background21.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.home img {
+  display: block;
+  margin: 0 auto;
+}
+
+.planet {
+  background: url(/images/1-AreYou21/desktop/planet.png);
+  background-size: cover;
+  animation: rotate 400s infinite;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.planet-container {
+  position: relative;
+  height: 555px;
+  width: 555px;
+}
+
+.planet-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+@keyframes rotate {
+  0%    { transform: rotate(0deg); }
+  100%  { transform: rotate(360deg); }
 }
 
 .stars1 {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
-  animation: stars1 60s infinite;
-}
-
-@keyframes stars1 {
-  0%    { transform: rotate(0deg) translateX(10px) rotate(0deg); }
-  100%  { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+  animation: rotate 500s infinite;
 }
 
 .stars2 {
   background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
   background-size: cover;
-  animation: stars2 500s infinite;
-}
-
-@keyframes stars2 {
-  0%    { transform: rotate(0deg); }
-  100%  { transform: rotate(-360deg); }
+  animation: rotate 500s infinite;
 }
 
 .stars3 {
   background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
   background-size: cover;
-  animation: stars3 500s infinite;
+  animation: rotate 1000s infinite;
 }
-
-@keyframes stars3 {
-    0%   { transform: rotate(0deg); }
-    100%  { transform: rotate(360deg); }
-  }
