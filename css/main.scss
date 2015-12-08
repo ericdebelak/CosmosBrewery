@@ -14,9 +14,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #fff;
+$background-color: #000;
+$brand-color:      #84ad40;
 
 $grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
@@ -38,6 +38,12 @@ $on-laptop:        800px;
     font-family: Bitstream;
     src: url(/fonts/BitstreamBold.ttf);
     font-weight: bold;
+}
+
+@font-face {
+    font-family: Bitstream;
+    src: url(/fonts/BitstreamHeavy.ttf);
+    font-weight: 900;
 }
 
 @font-face {

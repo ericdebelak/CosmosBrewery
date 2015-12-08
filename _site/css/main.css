@@ -6,6 +6,10 @@
   src: url(/fonts/BitstreamBold.ttf);
   font-weight: bold; }
 @font-face {
+  font-family: Bitstream;
+  src: url(/fonts/BitstreamHeavy.ttf);
+  font-weight: 900; }
+@font-face {
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
 html.home {
@@ -28,7 +32,7 @@ body.home {
 .planet {
   background: url(/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
-  animation: rotate 500s infinite;
+  animation: rotate 600s infinite;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -42,8 +46,9 @@ body.home {
   display: block;
   margin: 0 auto; }
 
-.planet-text {
+.planet-text-container {
   display: flex;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   position: absolute;
@@ -70,8 +75,26 @@ body.home {
 .home h1 {
   font-size: 5em;
   letter-spacing: 35px;
-  margin-right: -35px;
+  margin: 0 -35px -15px 0;
   text-transform: uppercase; }
+
+.home h4 {
+  font-size: 1.5em;
+  font-weight: 900; }
+
+.home h3 {
+  font-size: 2em;
+  color: #84ad40;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+.planet-text h2 {
+  font-size: 3em;
+  font-weight: 900; }
+
+.planet-text p {
+  font-size: 3em;
+  font-weight: 900; }
 
 /**
  * Reset some basic elements
@@ -87,8 +110,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 16px/1.5 Bitstream;
-  color: #111;
-  background-color: #fdfdfd;
+  color: #fff;
+  background-color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -141,12 +164,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #84ad40;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #59752b; }
   a:hover {
-    color: #111;
+    color: #fff;
     text-decoration: underline; }
 
 /**
@@ -248,7 +271,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #fff;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
@@ -257,7 +280,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 15px;
-      background-color: #fdfdfd;
+      background-color: #000;
       border: 1px solid white;
       border-radius: 5px;
       text-align: right; }
