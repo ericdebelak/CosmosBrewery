@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Bitstream;
+  src: url(/fonts/Bitstream.ttf); }
+@font-face {
+  font-family: Bitstream;
+  src: url(/fonts/BitstreamBold.ttf);
+  font-weight: bold; }
+@font-face {
+  font-family: Davida;
+  src: url(/fonts/DavidaD.otf); }
 html.home {
   height: 100%;
   overflow: hidden; }
@@ -18,7 +28,7 @@ body.home {
 .planet {
   background: url(/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
-  animation: rotate 400s infinite;
+  animation: rotate 500s infinite;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -28,7 +38,9 @@ body.home {
 .planet-container {
   position: relative;
   height: 555px;
-  width: 555px; }
+  width: 555px;
+  display: block;
+  margin: 0 auto; }
 
 .planet-text {
   display: flex;
@@ -40,11 +52,6 @@ body.home {
   top: 0;
   left: 0; }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
 .stars1 {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
@@ -60,6 +67,12 @@ body.home {
   background-size: cover;
   animation: rotate 1000s infinite; }
 
+.home h1 {
+  font-size: 5em;
+  letter-spacing: 35px;
+  margin-right: -35px;
+  text-transform: uppercase; }
+
 /**
  * Reset some basic elements
  */
@@ -73,7 +86,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 Bitstream;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -122,7 +135,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: bold; }
 
 /**
  * Links
@@ -205,6 +218,10 @@ pre {
   vertical-align: middle; }
   .icon > svg path {
     fill: #fff; }
+
+.davida {
+  font-family: Davida;
+  font-weight: normal; }
 
 /**
  * Site header
@@ -382,8 +399,14 @@ pre {
   height: 100%;
   width: 100%;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: -1; }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 /**
  * Syntax highlighting styles
  */
