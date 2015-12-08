@@ -1,3 +1,36 @@
+.home {
+  background: url(/images/1-AreYou21/desktop/background21.png); }
+
+.stars1 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
+  background-size: cover;
+  animation: stars1 60s infinite; }
+
+@keyframes stars1 {
+  0% {
+    transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  100% {
+    transform: rotate(360deg) translateX(10px) rotate(-360deg); } }
+.stars2 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
+  background-size: cover;
+  animation: stars2 500s infinite; }
+
+@keyframes stars2 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+.stars3 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
+  background-size: cover;
+  animation: stars3 500s infinite; }
+
+@keyframes stars3 {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 /**
  * Reset some basic elements
  */
@@ -78,8 +111,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #fff;
+  border-left: 4px solid white;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -93,7 +126,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid white;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -142,14 +175,14 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #828282; }
+    fill: #fff; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #bfbfbf;
+  border-bottom: 1px solid white;
   min-height: 56px;
   position: relative; }
 
@@ -161,7 +194,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #bfbfbf; }
 
 .site-nav {
   float: right;
@@ -179,7 +212,7 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      border: 1px solid white;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -194,7 +227,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
+            fill: #bfbfbf; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -212,7 +245,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid white;
   padding: 30px 0; }
 
 .footer-heading {
@@ -226,7 +259,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #fff;
   margin-left: -15px; }
 
 .footer-col {
@@ -277,7 +310,7 @@ pre {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #fff; }
 
 .post-link {
   display: block;
@@ -314,6 +347,13 @@ pre {
     @media screen and (max-width: 800px) {
       .post-content h4 {
         font-size: 18px; } }
+
+.stars {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0; }
 
 /**
  * Syntax highlighting styles

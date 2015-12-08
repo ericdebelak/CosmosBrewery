@@ -1,0 +1,36 @@
+.home {
+  background: url(/images/1-AreYou21/desktop/background21.png);
+}
+
+.stars1 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
+  background-size: cover;
+  animation: stars1 60s infinite;
+}
+
+@keyframes stars1 {
+  0%    { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  100%  { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+.stars2 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
+  background-size: cover;
+  animation: stars2 500s infinite;
+}
+
+@keyframes stars2 {
+  0%    { transform: rotate(0deg); }
+  100%  { transform: rotate(-360deg); }
+}
+
+.stars3 {
+  background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
+  background-size: cover;
+  animation: stars3 500s infinite;
+}
+
+@keyframes stars3 {
+    0%   { transform: rotate(0deg); }
+    100%  { transform: rotate(360deg); }
+  }
