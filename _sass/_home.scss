@@ -1,6 +1,5 @@
 html.home {
   height: 100%;
-  overflow: hidden;
 }
 
 body.home {
@@ -8,7 +7,6 @@ body.home {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   text-align: center;
   color: #fff;
 }
@@ -21,7 +19,7 @@ body.home {
 .planet {
   background: url(/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
-  animation: rotate 600s infinite;
+  animation: rotate 300s infinite;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -48,22 +46,22 @@ body.home {
   left: 0;
 }
 
-.stars1 {
+.home .stars1 {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
-  animation: rotate 500s infinite;
+  animation: rotate 250s infinite;
 }
 
-.stars2 {
+.home .stars2 {
   background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
   background-size: cover;
-  animation: rotate 500s infinite;
+  animation: rotate 200s infinite;
 }
 
-.stars3 {
+.home .stars3 {
   background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
   background-size: cover;
-  animation: rotate 1000s infinite;
+  animation: rotate 500s infinite;
 }
 
 .home h1 {

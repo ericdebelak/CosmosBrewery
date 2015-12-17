@@ -13,15 +13,13 @@
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
 html.home {
-  height: 100%;
-  overflow: hidden; }
+  height: 100%; }
 
 body.home {
   background: url(/images/1-AreYou21/desktop/background21.png);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   text-align: center;
   color: #fff; }
 
@@ -32,7 +30,7 @@ body.home {
 .planet {
   background: url(/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
-  animation: rotate 600s infinite;
+  animation: rotate 300s infinite;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -57,20 +55,20 @@ body.home {
   top: 0;
   left: 0; }
 
-.stars1 {
+.home .stars1 {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
-  animation: rotate 500s infinite; }
+  animation: rotate 250s infinite; }
 
-.stars2 {
+.home .stars2 {
   background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
   background-size: cover;
-  animation: rotate 500s infinite; }
+  animation: rotate 200s infinite; }
 
-.stars3 {
+.home .stars3 {
   background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
   background-size: cover;
-  animation: rotate 1000s infinite; }
+  animation: rotate 500s infinite; }
 
 .home h1 {
   font-size: 5em;
@@ -419,6 +417,29 @@ pre {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
+.beer-bar {
+  width: 134px;
+  margin-left: 250px;
+  text-align: center;
+  text-transform: uppercase; }
+  .beer-bar img {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+  .beer-bar img:hover {
+    border: 1px solid #fff;
+    margin-left: -50px; }
+  .beer-bar .active {
+    margin-left: -50px;
+    border: 1px solid #fff; }
+
+.beer-bar:hover .active {
+  margin-left: 0; }
+.beer-bar:hover .active:hover {
+  margin-left: -50px; }
+
 /**
  * Syntax highlighting styles
  */
@@ -559,3 +580,29 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+body.x-pa {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png);
+  background-size: cover; }
+
+.x-pa .planet-container {
+  position: absolute;
+  left: -277px;
+  top: 50%;
+  bottom: 50%;
+  margin-top: -107px; }
+
+.x-pa .stars1 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.x-pa .stars2 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.x-pa .stars3 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
