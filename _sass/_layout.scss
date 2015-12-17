@@ -3,6 +3,9 @@
   font-family: Davida;
   font-weight: normal;
 }
+.green {
+  color: $brand-color;
+}
 
 /**
  * Site header
@@ -191,11 +194,13 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    text-align: right;
+    color: $brand-color;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
+    font-size: 3em;
+    letter-spacing: 5px;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -205,6 +210,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    display: flex;
 
     h2 {
         font-size: 32px;
@@ -248,9 +254,11 @@
 // Beer Bar
 .beer-bar {
   width: 134px;
-  margin-left: 250px;
+  margin-left: 50px;
   text-align: center;
   text-transform: uppercase;
+  display: inline-block;
+  float: left;
   img {
     display: block;
     margin-bottom: 15px;
@@ -275,4 +283,15 @@
   .active:hover {
     margin-left: -50px;
   }
+}
+// Beer can
+.beer-can {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+// Beer content
+.beer-content {
+  flex: 1;
+  padding: 0 0 0 50px;
 }

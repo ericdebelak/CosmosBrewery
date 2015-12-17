@@ -107,7 +107,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 Bitstream;
+  font: 400 20px/1.5 Bitstream;
   color: #fff;
   background-color: #000;
   -webkit-text-size-adjust: 100%;
@@ -140,7 +140,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 17.5px; }
 
 /**
  * Lists
@@ -243,6 +243,9 @@ pre {
 .davida {
   font-family: Davida;
   font-weight: normal; }
+
+.green {
+  color: #84ad40; }
 
 /**
  * Site header
@@ -365,7 +368,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 17.5px;
   color: #fff; }
 
 .post-link {
@@ -376,18 +379,21 @@ pre {
  * Posts
  */
 .post-header {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: right;
+  color: #84ad40; }
 
 .post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
+  font-size: 3em;
+  letter-spacing: 5px;
   line-height: 1; }
   @media screen and (max-width: 1200px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  display: flex; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 1200px) {
@@ -419,9 +425,11 @@ pre {
     transform: rotate(360deg); } }
 .beer-bar {
   width: 134px;
-  margin-left: 250px;
+  margin-left: 50px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  display: inline-block;
+  float: left; }
   .beer-bar img {
     display: block;
     margin-bottom: 15px;
@@ -439,6 +447,14 @@ pre {
   margin-left: 0; }
 .beer-bar:hover .active:hover {
   margin-left: -50px; }
+
+.beer-can {
+  display: inline-block;
+  margin-left: 50px; }
+
+.beer-content {
+  flex: 1;
+  padding: 0 0 0 50px; }
 
 /**
  * Syntax highlighting styles
