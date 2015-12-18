@@ -1,9 +1,9 @@
-body.crop-formation {
+body.habitable-saizon {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
   background-size: cover;
 }
 
-.crop-formation .planet-container {
+.habitable-saizon .planet-container {
   position: absolute;
   left: -384px;
   top: 50%;
@@ -12,7 +12,7 @@ body.crop-formation {
   margin-top: 0px;
 }
 
-.crop-formation .planet {
+.habitable-saizon .planet {
   height: 302px;
   width: 768px;
   animation: cropFormation 10s, rotateCrop 50s infinite 10s;
@@ -49,38 +49,38 @@ body.crop-formation {
 
 
 
-.crop-formation .stars1 {
+.habitable-saizon .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
 }
 
-.crop-formation .stars2 {
+.habitable-saizon .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
 }
 
-.crop-formation .stars3 {
+.habitable-saizon .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
 }
 
-.crop-formation .beer-can {
+.habitable-saizon .beer-can {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png);
 }
 
-.crop-formation .beer-footer-icons {
+.habitable-saizon .beer-footer-icons {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
   height: 94px;
   width: 199px;
 }
 
-.crop-formation .site-header {
+.habitable-saizon .site-header {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png);
 }
 
-.crop-formation .post-title {
+.habitable-saizon .post-title {
   color: $yellow;
 }

@@ -706,7 +706,7 @@ body.crop-formation {
 .crop-formation .site-header {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
 
-.post-title {
+.crop-formation .post-title {
   color: #f2c13b; }
 
 .beer-bar {
@@ -744,7 +744,7 @@ body.crop-formation {
   height: 97px;
   width: 137px; }
 
-.habitable-saizone-link {
+.habitable-saizon-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
   height: 97px;
   width: 137px; }
@@ -768,3 +768,68 @@ body.crop-formation {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
   height: 97px;
   width: 137px; }
+
+body.habitable-saizon {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
+  background-size: cover; }
+
+.habitable-saizon .planet-container {
+  position: absolute;
+  left: -384px;
+  top: 50%;
+  height: 302px;
+  width: 768px;
+  margin-top: 0px; }
+
+.habitable-saizon .planet {
+  height: 302px;
+  width: 768px;
+  animation: cropFormation 10s, rotateCrop 50s infinite 10s;
+  background-repeat: no-repeat; }
+
+@keyframes cropFormation {
+  0% {
+    opacity: 0; }
+  50% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
+    opacity: 1; }
+  100% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+@keyframes rotateCrop {
+  0% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+  50% {
+    transform: rotate(10deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+  100% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+.habitable-saizon .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.habitable-saizon .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.habitable-saizon .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.habitable-saizon .beer-can {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png); }
+
+.habitable-saizon .beer-footer-icons {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+
+.habitable-saizon .site-header {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
+
+.habitable-saizon .post-title {
+  color: #f2c13b; }
