@@ -247,6 +247,9 @@ pre {
 .green {
   color: #84ad40; }
 
+.yellow {
+  color: #f2c13b; }
+
 /**
  * Site header
  */
@@ -439,31 +442,6 @@ pre {
     transform: rotate(0deg); }
   100% {
     transform: rotate(360deg); } }
-.beer-bar {
-  width: 134px;
-  margin-left: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  display: inline-block;
-  float: left; }
-  .beer-bar img {
-    display: block;
-    margin-bottom: 15px;
-    border: 1px solid transparent;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
-  .beer-bar img:hover {
-    border: 1px solid #fff;
-    margin-left: -50px; }
-  .beer-bar .active {
-    margin-left: -50px;
-    border: 1px solid #fff; }
-
-.beer-bar:hover .active {
-  margin-left: 0; }
-.beer-bar:hover .active:hover {
-  margin-left: -50px; }
-
 .beer-can {
   display: inline-block;
   margin-left: 50px; }
@@ -475,6 +453,16 @@ pre {
 
 .beer-figures td {
   padding-right: 25px; }
+
+.beer-can {
+  width: 304px;
+  height: 749px; }
+
+.beer-footer-icons {
+  height: 83px;
+  width: 357px;
+  position: absolute;
+  bottom: 0; }
 
 /**
  * Syntax highlighting styles
@@ -649,3 +637,134 @@ body.x-pa {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
+
+.x-pa .beer-can {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png); }
+
+.x-pa .beer-footer-icons {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png); }
+
+body.crop-formation {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
+  background-size: cover; }
+
+.crop-formation .planet-container {
+  position: absolute;
+  left: -384px;
+  top: 50%;
+  height: 302px;
+  width: 768px;
+  margin-top: 0px; }
+
+.crop-formation .planet {
+  height: 302px;
+  width: 768px;
+  animation: cropFormation 10s, rotateCrop 50s infinite 10s;
+  background-repeat: no-repeat; }
+
+@keyframes cropFormation {
+  0% {
+    opacity: 0; }
+  50% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
+    opacity: 1; }
+  100% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+@keyframes rotateCrop {
+  0% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+  50% {
+    transform: rotate(10deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+  100% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+.crop-formation .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.crop-formation .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.crop-formation .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.crop-formation .beer-can {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png); }
+
+.crop-formation .beer-footer-icons {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+
+.crop-formation .site-header {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
+
+.post-title {
+  color: #f2c13b; }
+
+.beer-bar {
+  width: 134px;
+  margin-left: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  float: left; }
+  .beer-bar div {
+    display: block;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+  .beer-bar div:hover {
+    border: 1px solid #fff;
+    margin-left: -50px; }
+  .beer-bar .active {
+    margin-left: -50px;
+    border: 1px solid #fff; }
+
+.beer-bar:hover .active {
+  margin-left: 0; }
+.beer-bar:hover .active:hover {
+  margin-left: -50px; }
+
+.planet-xpa-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
+  height: 97px;
+  width: 137px; }
+
+.crop-formation-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
+  height: 97px;
+  width: 137px; }
+
+.habitable-saizone-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
+  height: 97px;
+  width: 137px; }
+
+.cosmonut-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
+  height: 97px;
+  width: 137px; }
+
+.dark-martian-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
+  height: 97px;
+  width: 137px; }
+
+.paint-planet-red-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
+  height: 97px;
+  width: 137px; }
+
+.light-source-link {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
+  height: 97px;
+  width: 137px; }

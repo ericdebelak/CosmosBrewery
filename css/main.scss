@@ -17,6 +17,7 @@ $spacing-unit:     30px;
 $text-color:       #fff;
 $background-color: #000;
 $brand-color:      #84ad40;
+$yellow:           #f2c13b;
 
 $grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
@@ -72,5 +73,7 @@ $on-laptop:        1200px;
         "base",
         "layout",
         "syntax-highlighting",
-        "xpa"
+        "xpa",
+        "crop-formation",
+        "beer-bar"
 ;
