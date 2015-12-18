@@ -17,72 +17,92 @@
     position: relative;
 }
 
+.site-title {
+  float: left;
+}
+
 .site-nav {
-    float: right;
-    line-height: 56px;
+  float: right;
+
+  .trigger {
+    display: flex;
+    height: 114px;
+    align-items: center;
+    a {
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 50px 30px;
+    }
+    a.active {
+      background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
+      background-size: cover;
+    }
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+    top: 9px;
+    right: $spacing-unit / 2;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: right;
 
     .menu-icon {
+        display: block;
+        float: right;
+        width: 36px;
+        height: 26px;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+
+        > svg {
+            width: 18px;
+            height: 15px;
+
+            path {
+                fill: $grey-color-dark;
+            }
+        }
+    }
+
+    .trigger {
+        clear: both;
         display: none;
     }
 
+    &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        display: block;
+        padding: 5px 10px;
 
-        // Gaps between nav items, but not on the last one
         &:not(:last-child) {
-            margin-right: 20px;
+            margin-right: 0;
         }
+        margin-left: 20px;
     }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
+  }
 }
 
 
@@ -244,6 +264,7 @@
   top: 0;
   left: 0;
   z-index: -1;
+  overflow: hidden;
 }
 // GENERAL REUSEABLE ANIMATIONS
 @keyframes rotate {
@@ -294,4 +315,12 @@
 .beer-content {
   flex: 1;
   padding: 0 0 0 50px;
+  font-weight: bold;
+}
+
+// Beer rating table
+.beer-figures {
+  td {
+    padding-right: 25px;
+  }
 }

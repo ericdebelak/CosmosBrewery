@@ -27,7 +27,7 @@ body.home {
   display: block;
   margin: 0 auto; }
 
-.planet {
+.home .planet {
   background: url(/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
   animation: rotate 300s infinite;
@@ -255,9 +255,24 @@ pre {
   min-height: 140px;
   position: relative; }
 
+.site-title {
+  float: left; }
+
 .site-nav {
-  float: right;
-  line-height: 56px; }
+  float: right; }
+  .site-nav .trigger {
+    display: flex;
+    height: 114px;
+    align-items: center; }
+    .site-nav .trigger a {
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 50px 30px; }
+    .site-nav .trigger a.active {
+      background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
+      background-size: cover; }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
@@ -416,7 +431,8 @@ pre {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: -1; }
+  z-index: -1;
+  overflow: hidden; }
 
 @keyframes rotate {
   0% {
@@ -454,7 +470,11 @@ pre {
 
 .beer-content {
   flex: 1;
-  padding: 0 0 0 50px; }
+  padding: 0 0 0 50px;
+  font-weight: bold; }
+
+.beer-figures td {
+  padding-right: 25px; }
 
 /**
  * Syntax highlighting styles
@@ -603,10 +623,17 @@ body.x-pa {
 
 .x-pa .planet-container {
   position: absolute;
-  left: -277px;
+  left: -390px;
   top: 50%;
-  bottom: 50%;
-  margin-top: -107px; }
+  height: 779px;
+  width: 779px;
+  margin-top: -300px; }
+
+.x-pa .planet {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
+  height: 779px;
+  width: 779px;
+  animation: rotate 500s infinite; }
 
 .x-pa .stars1 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);

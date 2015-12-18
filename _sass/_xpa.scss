@@ -5,10 +5,18 @@ body.x-pa {
 
 .x-pa .planet-container {
   position: absolute;
-  left: -277px;
+  left: -390px;
   top: 50%;
-  bottom: 50%;
-  margin-top: -107px;
+  height: 779px;
+  width: 779px;
+  margin-top: -300px;
+}
+
+.x-pa .planet {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
+  height: 779px;
+  width: 779px;
+  animation: rotate 500s infinite;
 }
 
 .x-pa .stars1 {
