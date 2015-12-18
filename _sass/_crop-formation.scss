@@ -1,0 +1,86 @@
+body.crop-formation {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
+  background-size: cover;
+}
+
+.crop-formation .planet-container {
+  position: absolute;
+  left: -384px;
+  top: 50%;
+  height: 302px;
+  width: 768px;
+  margin-top: 0px;
+}
+
+.crop-formation .planet {
+  height: 302px;
+  width: 768px;
+  animation: cropFormation 10s, rotateCrop 50s infinite 10s;
+  background-repeat: no-repeat;
+}
+
+@keyframes cropFormation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
+    opacity: 1;
+  }
+  100% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png);
+  }
+}
+
+@keyframes rotateCrop {
+  0% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png);
+  }
+  50% {
+    transform: rotate(10deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png);
+  }
+  100% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png);
+  }
+}
+
+
+
+.crop-formation .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite;
+}
+
+.crop-formation .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite;
+}
+
+.crop-formation .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite;
+}
+
+.crop-formation .beer-can {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png);
+}
+
+.crop-formation .beer-footer-icons {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px;
+}
+
+.crop-formation .site-header {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png);
+}
+
+.post-title {
+  color: $yellow;
+}
