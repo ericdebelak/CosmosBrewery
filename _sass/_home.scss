@@ -3,12 +3,17 @@ html.home {
 }
 
 body.home {
-  background: url(/images/1-AreYou21/desktop/background21.png);
+  background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
+  @include media-query($on-laptop) {
+    background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .home img {
@@ -25,6 +30,9 @@ body.home {
   width: 100%;
   top: 0;
   left: 0;
+  @include media-query($on-laptop) {
+    background: url(/images/1-AreYou21/tablet/planet.png);
+  }
 }
 .planet-container {
   position: relative;
@@ -32,6 +40,10 @@ body.home {
   width: 555px;
   display: block;
   margin: 0 auto;
+  @include media-query($on-laptop) {
+    height: 435px;
+    width: 435px;
+  }
 }
 
 .planet-text-container {
@@ -50,18 +62,30 @@ body.home {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/1-AreYou21/tablet/background-21-stars1.png);
+    background-size: cover;
+  }
 }
 
 .home .stars2 {
   background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
   background-size: cover;
   animation: rotate 200s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
+    background-size: cover;
+  }
 }
 
 .home .stars3 {
   background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
+    background-size: cover;
+  }
 }
 
 .home h1 {
@@ -86,8 +110,14 @@ body.home {
 .planet-text h2 {
   font-size: 3em;
   font-weight: 900;
+  @include media-query($on-laptop) {
+    font-size: 2em;
+  }
 }
 .planet-text p {
   font-size: 3em;
   font-weight: 900;
+  @include media-query($on-laptop) {
+    font-size: 2em;
+  }
 }
