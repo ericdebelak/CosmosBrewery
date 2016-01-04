@@ -1,25 +1,43 @@
 body.contact {
-  background: url(/images/12-MakeContact/desktop/background-makecontact.png);
+  background: url(/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
   background-size: cover;
   height: 100%;
+  @include media-query($on-laptop) {
+    background: url(/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
 }
 
 .contact .stars1 {
   background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
   background-size: cover;
   animation: rotate 250s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
+    background-size: cover
+  }
 }
 
 .contact .stars2 {
   background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
   background-size: cover;
   animation: rotate 300s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
+    background-size: cover
+  }
 }
 
 .contact .stars3 {
   background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
   background-size: cover;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);
+    background-size: cover
+  }
 }
 
 .contact .post-title {

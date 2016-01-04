@@ -1,30 +1,48 @@
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png);
+  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png) no-repeat;
   background-size: cover;
   height: 100%;
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 .events .stars1 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
   background-size: cover;
   animation: rotate 250s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png);
+  }
 }
 
 .events .stars2 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents2.png);
   background-size: cover;
   animation: rotate 300s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png);
+  }
 }
 
 .events .stars3 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents3.png);
   background-size: cover;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png);
+  }
 }
 
 .events .post-title {
   color: #fff;
-  text-align: center;
+  margin-left: 33%;
+  text-align: left;
+  @include media-query($on-laptop) {
+    margin-left: 20%;
+  }
 }
 
 .events-content {
@@ -32,6 +50,9 @@ body.events {
   width: 100%;
   .events-copy {
     margin-left: 33%;
+    @include media-query($on-laptop) {
+      margin-left: 20%;
+    }
   }
 }
 .events .planet-container {
@@ -52,10 +73,34 @@ body.events {
   background-size: cover;
   animation: moons 20s infinite;
   animation-timing-function: linear;
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/tablet/moon.png);
+    height: 397px;
+    width: 396px;
+    animation: moonsTablet 20s infinite;
+  }
 }
 
 @keyframes moons {
-  0%    { background: url(/images/11-CosmicEvents/desktop/moon.png); }
-  25%  { background: url(/images/11-CosmicEvents/desktop/moon-withshadow.png); }
-  75%    { background: url(/images/11-CosmicEvents/desktop/moon.png); }
+  0%    {
+    background: url(/images/11-CosmicEvents/desktop/moon.png);
+  }
+  25%  {
+    background: url(/images/11-CosmicEvents/desktop/moon-withshadow.png);
+  }
+  75%    {
+    background: url(/images/11-CosmicEvents/desktop/moon.png);
+  }
+}
+
+@keyframes moonsTablet {
+  0%    {
+    background: url(/images/11-CosmicEvents/tablet/moon.png);
+  }
+  25%  {
+    background: url(/images/11-CosmicEvents/tablet/moon-withshadow.png);
+  }
+  75%    {
+    background: url(/images/11-CosmicEvents/tablet/moon.png);
+  }
 }
