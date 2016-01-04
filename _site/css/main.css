@@ -1091,3 +1091,43 @@ body.light-source {
 
 .light-source .post-title {
   color: #fff; }
+
+body.creators {
+  background: url(/images/9-TheCreators/desktop/background-thecreators.png);
+  background-size: cover;
+  height: 100%; }
+
+.creators .stars1 {
+  background: url(/images/9-TheCreators/desktop/background-creators-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.creators .stars2 {
+  background: url(/images/9-TheCreators/desktop/background-creators-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.creators .stars3 {
+  background: url(/images/9-TheCreators/desktop/background-creators-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.creators .post-title {
+  color: #fff;
+  text-align: center; }
+
+.creator-content {
+  display: flex;
+  justify-content: center; }
+
+.creator {
+  flex: 1;
+  padding: 25px; }
+
+.creator-name {
+  color: #84ad40;
+  min-height: 100px; }
+
+.creator-name .name {
+  font-size: 1.5em;
+  font-weight: bold; }
