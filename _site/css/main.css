@@ -1005,9 +1005,16 @@ body.crop-formation {
 body.habitable-saizon {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
   background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.habitable-saizon {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
+      background-size: cover; } }
 
 .habitable-saizon .header-logo {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png); }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .header-logo {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-logo-habitablesaizone.png); } }
 
 .habitable-saizon .planet-container {
   position: absolute;
@@ -1018,6 +1025,12 @@ body.habitable-saizon {
   width: 800px;
   margin-top: -150px;
   animation: rotate 500s infinite; }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .planet-container {
+      left: -175px;
+      height: 325px;
+      width: 350px;
+      margin-top: -200px; } }
 
 .habitable-saizon .planet {
   height: 743px;
@@ -1025,6 +1038,12 @@ body.habitable-saizon {
   animation: habitableSaizon 10s infinite;
   background-repeat: no-repeat;
   background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .planet {
+      background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png);
+      height: 325px;
+      width: 350px;
+      animation: habitableSaizonTablet 10s infinite; } }
 
 @keyframes habitableSaizon {
   0% {
@@ -1033,31 +1052,62 @@ body.habitable-saizon {
     background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun2.png); }
   100% {
     background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); } }
+@keyframes habitableSaizonTablet {
+  0% {
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); }
+  50% {
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun2.png); }
+  100% {
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); } }
 .habitable-saizon .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
 
 .habitable-saizon .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
 
 .habitable-saizon .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background-size: cover; } }
 
 .habitable-saizon .beer-can {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/can-habitablesaizone.png); }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .beer-can {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png); } }
 
 .habitable-saizon .beer-footer-icons {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
   height: 32px;
   width: 138px; }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .beer-footer-icons {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/bottomicon-habitablesaizone.png);
+      height: 32px;
+      width: 138px; } }
 
 .habitable-saizon .site-header {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png); }
+  @media screen and (max-width: 1200px) {
+    .habitable-saizon .site-header {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png);
+      background-size: cover; } }
 
 .habitable-saizon .post-title {
   color: #f2624d; }
