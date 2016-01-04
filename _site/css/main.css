@@ -735,29 +735,39 @@ body.crop-formation {
   color: #f2c13b; }
 
 .beer-bar {
-  width: 134px;
   margin-left: 50px;
   text-align: center;
   text-transform: uppercase;
   display: inline-block;
   float: left; }
-  .beer-bar div {
-    display: block;
-    margin-bottom: 15px;
-    border: 1px solid transparent;
-    -webkit-transition: all 1s;
-    transition: all 1s; }
-  .beer-bar div:hover {
-    border: 1px solid #fff;
-    margin-left: -50px; }
-  .beer-bar .active {
-    margin-left: -50px;
-    border: 1px solid #fff; }
+  .beer-bar p {
+    margin-left: 50px; }
+  .beer-bar .scroll {
+    font-size: .8em; }
+  .beer-bar .beers {
+    width: 184px;
+    height: 680px;
+    overflow: scroll; }
+    .beer-bar .beers div {
+      display: block;
+      margin-bottom: 15px;
+      margin-left: 50px;
+      border: 1px solid transparent;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
+    .beer-bar .beers div:hover {
+      border: 1px solid #fff;
+      margin-left: 0px; }
+    .beer-bar .beers .active {
+      margin-left: 0px;
+      border: 1px solid #fff; }
 
 .beer-bar:hover .active {
-  margin-left: 0; }
+  margin-left: 50px;
+  border: 0; }
 .beer-bar:hover .active:hover {
-  margin-left: -50px; }
+  margin-left: 0px;
+  border: 1px solid #fff; }
 
 .planet-xpa-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
@@ -1221,3 +1231,48 @@ body.events {
     background: url(/images/11-CosmicEvents/desktop/moon-withshadow.png); }
   75% {
     background: url(/images/11-CosmicEvents/desktop/moon.png); } }
+body.contact {
+  background: url(/images/12-MakeContact/desktop/background-makecontact.png);
+  background-size: cover;
+  height: 100%; }
+
+.contact .stars1 {
+  background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.contact .stars2 {
+  background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.contact .stars3 {
+  background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.contact .post-title {
+  color: #fff;
+  text-align: center; }
+
+.contact .post-content {
+  display: block;
+  font-weight: bold; }
+  .contact .post-content table {
+    margin: 0 auto; }
+  .contact .post-content tr > td:first-child {
+    text-align: right;
+    padding-right: 15px;
+    vertical-align: top; }
+  .contact .post-content input, .contact .post-content textarea {
+    padding: 5px;
+    width: 300px; }
+  .contact .post-content input[type=checkbox] {
+    padding: 0;
+    width: auto; }
+  .contact .post-content input[name=submit] {
+    width: auto; }
+  .contact .post-content .address {
+    text-align: center; }
+    .contact .post-content .address a {
+      color: #fff; }

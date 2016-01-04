@@ -1,0 +1,58 @@
+body.contact {
+  background: url(/images/12-MakeContact/desktop/background-makecontact.png);
+  background-size: cover;
+  height: 100%;
+}
+
+.contact .stars1 {
+  background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
+  background-size: cover;
+  animation: rotate 250s infinite;
+}
+
+.contact .stars2 {
+  background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
+  background-size: cover;
+  animation: rotate 300s infinite;
+}
+
+.contact .stars3 {
+  background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
+  background-size: cover;
+  animation: rotate 500s infinite;
+}
+
+.contact .post-title {
+  color: #fff;
+  text-align: center;
+}
+
+.contact .post-content {
+  display: block;
+  font-weight: bold;
+  table {
+    margin: 0 auto;
+  }
+  tr > td:first-child {
+    text-align: right;
+    padding-right: 15px;
+    vertical-align: top;
+  }
+  input, textarea {
+    padding: 5px;
+    width: 300px;
+  }
+  input[type=checkbox] {
+    padding: 0;
+    width: auto;
+  }
+  input[name=submit] {
+    width: auto;
+  }
+  .address {
+    text-align: center;
+    a {
+      color: #fff;
+    }
+  }
+}
