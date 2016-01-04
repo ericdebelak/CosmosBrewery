@@ -22,6 +22,7 @@ $red:              #f2624d;
 $nut:              #c78032;
 $martian-red:      #f58e86;
 $painted-red:      #ff5d5d;
+$light-source:     #fff;
 
 $grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
@@ -83,5 +84,6 @@ $on-laptop:        1200px;
         "habitable-saizon",
         "cosmonut",
         "martian",
-        "paint-planet-red"
+        "paint-planet-red",
+        "light-source"
 ;
