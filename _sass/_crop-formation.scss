@@ -1,10 +1,19 @@
 body.crop-formation {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png) no-repeat;
+  height: 100%;
   background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
 }
 
 .crop-formation .header-logo {
     background: url(/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png);
+    @include media-query($on-laptop) {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-logo-cropformation.png);
+    }
 }
 
 .crop-formation .planet-container {
@@ -15,6 +24,12 @@ body.crop-formation {
   height: 302px;
   width: 768px;
   margin-top: 0px;
+  @include media-query($on-laptop) {
+    left: -150px;
+    height: 119px;
+    width: 300px;
+    margin-top: -100px;
+  }
 }
 
 .crop-formation .planet {
@@ -22,6 +37,11 @@ body.crop-formation {
   width: 768px;
   animation: cropFormation 10s, rotateCrop 50s infinite 10s;
   background-repeat: no-repeat;
+  @include media-query($on-laptop) {
+    animation: cropFormationTablet 10s, rotateCropTablet 50s infinite 10s;
+    height: 119px;
+    width: 300px;
+  }
 }
 
 @keyframes cropFormation {
@@ -52,38 +72,88 @@ body.crop-formation {
   }
 }
 
+@keyframes cropFormationTablet {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle-part.png);
+    opacity: 1;
+  }
+  100% {
+    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png);
+  }
+}
 
+@keyframes rotateCropTablet {
+  0% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png);
+  }
+  50% {
+    transform: rotate(10deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png);
+  }
+  100% {
+    transform: rotate(0deg);
+    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png);
+  }
+}
 
 .crop-formation .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background-size: cover;
+  }
 }
 
 .crop-formation .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
 }
 
 .crop-formation .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+    background-size: cover;
+  }
 }
 
 .crop-formation .beer-can {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png);
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png);
+  }
 }
 
 .crop-formation .beer-footer-icons {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
   height: 94px;
   width: 199px;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/bottomicons-cropcircle.png);
+    height: 47px;
+    width: 140px;
+  }
 }
 
 .crop-formation .site-header {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png);
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png);
+    background-size: cover;
+  }
 }
 
 .crop-formation .post-title {
