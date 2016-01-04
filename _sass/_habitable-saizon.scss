@@ -9,6 +9,7 @@ body.habitable-saizon {
 
 .habitable-saizon .planet-container {
   position: absolute;
+  z-index: -1;
   left: -400px;
   top: 50%;
   height: 743px;

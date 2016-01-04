@@ -5,6 +5,7 @@ body.x-pa {
 
 .x-pa .planet-container {
   position: absolute;
+  z-index: -1;
   left: -390px;
   top: 50%;
   height: 779px;

@@ -12,6 +12,9 @@
 .red {
   color: $red;
 }
+.nut {
+  color: $nut;
+}
 
 /**
  * Site header
@@ -280,8 +283,8 @@
 }
 // GENERAL REUSEABLE ANIMATIONS
 @keyframes rotate {
-  0%    { transform: rotate(0deg); }
-  100%  { transform: rotate(360deg); }
+  from    { transform: rotate(0deg); }
+  to  { transform: rotate(360deg); }
 }
 
 // Beer can

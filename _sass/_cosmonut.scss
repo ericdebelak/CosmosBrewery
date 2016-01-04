@@ -1,0 +1,90 @@
+body.cosmonut {
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png);
+  background-size: cover;
+}
+
+.cosmonut .header-logo {
+    background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-logo-cosmonut.png);
+}
+
+.cosmonut .planet-container {
+  position: absolute;
+  z-index: -1;
+  left: -100px;
+  top: 50%;
+  height: 654px;
+  width: 424px;
+  margin-top: -150px;
+  animation: rotate 500s infinite;
+}
+
+.cosmonut .squirrel {
+  height: 654px;
+  width: 424px;
+  background-repeat: no-repeat;
+  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/squirrel.png);
+}
+
+.cosmonut .cashew {
+  height: 196px;
+  width: 144px;
+  animation: cashew 50s, rotate 10s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  left: 400px;
+  top: 40%;
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/cashew.png);
+  z-index: -1;
+}
+
+@keyframes cashew {
+  0% {
+    left: 400px;
+    top: 40%;
+    opacity: 1;
+  }
+  100% {
+    left: 110%;
+    top: 80%;
+    opacity: 1;
+  }
+}
+
+
+.cosmonut .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite;
+}
+
+.cosmonut .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite;
+}
+
+.cosmonut .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite;
+}
+
+.cosmonut .beer-can {
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png);
+}
+
+.cosmonut .beer-footer-icons {
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);
+  height: 103px;
+  width: 507px;
+}
+
+.cosmonut .site-header {
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png);
+}
+
+.cosmonut .post-title {
+  color: $nut;
+}

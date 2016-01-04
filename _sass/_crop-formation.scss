@@ -9,6 +9,7 @@ body.crop-formation {
 
 .crop-formation .planet-container {
   position: absolute;
+  z-index: -1;
   left: -384px;
   top: 50%;
   height: 302px;
