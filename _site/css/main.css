@@ -250,6 +250,9 @@ pre {
 .yellow {
   color: #f2c13b; }
 
+.red {
+  color: #f2624d; }
+
 /**
  * Site header
  */
@@ -257,6 +260,11 @@ pre {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
   min-height: 140px;
   position: relative; }
+
+.header-logo {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
+  height: 94px;
+  width: 246px; }
 
 .site-title {
   float: left; }
@@ -648,6 +656,9 @@ body.crop-formation {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
   background-size: cover; }
 
+.crop-formation .header-logo {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png); }
+
 .crop-formation .planet-container {
   position: absolute;
   left: -384px;
@@ -770,41 +781,35 @@ body.crop-formation {
   width: 137px; }
 
 body.habitable-saizon {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png);
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png);
   background-size: cover; }
+
+.habitable-saizon .header-logo {
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png); }
 
 .habitable-saizon .planet-container {
   position: absolute;
-  left: -384px;
+  left: -400px;
   top: 50%;
-  height: 302px;
-  width: 768px;
-  margin-top: 0px; }
+  height: 743px;
+  width: 800px;
+  margin-top: -150px;
+  animation: rotate 500s infinite; }
 
 .habitable-saizon .planet {
-  height: 302px;
-  width: 768px;
-  animation: cropFormation 10s, rotateCrop 50s infinite 10s;
-  background-repeat: no-repeat; }
+  height: 743px;
+  width: 800px;
+  animation: habitableSaizon 10s infinite;
+  background-repeat: no-repeat;
+  background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
 
-@keyframes cropFormation {
+@keyframes habitableSaizon {
   0% {
-    opacity: 0; }
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
   50% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
-    opacity: 1; }
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun2.png); }
   100% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
-@keyframes rotateCrop {
-  0% {
-    transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
-  50% {
-    transform: rotate(10deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
-  100% {
-    transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); } }
 .habitable-saizon .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
@@ -821,15 +826,15 @@ body.habitable-saizon {
   animation: rotate 500s infinite; }
 
 .habitable-saizon .beer-can {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png); }
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/can-habitablesaizone.png); }
 
 .habitable-saizon .beer-footer-icons {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
-  height: 94px;
-  width: 199px; }
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
+  height: 32px;
+  width: 138px; }
 
 .habitable-saizon .site-header {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png); }
 
 .habitable-saizon .post-title {
-  color: #f2c13b; }
+  color: #f2624d; }
