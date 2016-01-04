@@ -1118,7 +1118,8 @@ body.creators {
 
 .creator-content {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-weight: bold; }
 
 .creator {
   flex: 1;
@@ -1131,3 +1132,36 @@ body.creators {
 .creator-name .name {
   font-size: 1.5em;
   font-weight: bold; }
+
+body.our-craft {
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png);
+  background-size: cover;
+  height: 100%; }
+
+.our-craft .stars1 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.our-craft .stars2 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.our-craft .stars3 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.our-craft .post-title {
+  color: #fff;
+  text-align: center; }
+
+.craft-content {
+  display: flex;
+  justify-content: center;
+  font-weight: bold; }
+  .craft-content .ufos {
+    flex: 1; }
+  .craft-content .craft-copy {
+    flex: 1; }
