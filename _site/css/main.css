@@ -259,6 +259,9 @@ pre {
 .martian-red {
   color: #f58e86; }
 
+.painted-red {
+  color: #ff5d5d; }
+
 /**
  * Site header
  */
@@ -973,3 +976,63 @@ body.dark-martian {
 
 .dark-martian .post-title {
   color: #f58e86; }
+
+body.paint-planet-red {
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png);
+  background-size: cover; }
+
+.paint-planet-red .header-logo {
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png); }
+
+.paint-planet-red .planet-container {
+  position: absolute;
+  z-index: -1;
+  left: -358px;
+  top: 50%;
+  height: 714px;
+  width: 716px;
+  margin-top: -150px;
+  animation: rotate 500s infinite; }
+
+.paint-planet-red .planet {
+  height: 714px;
+  width: 716px;
+  animation: paintPlanentRed 10s infinite;
+  background-repeat: no-repeat;
+  background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
+
+@keyframes paintPlanentRed {
+  0% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
+  50% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet2.png); }
+  100% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); } }
+.paint-planet-red .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  animation: rotate 250s infinite; }
+
+.paint-planet-red .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  animation: rotate 300s infinite; }
+
+.paint-planet-red .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  animation: rotate 500s infinite; }
+
+.paint-planet-red .beer-can {
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png); }
+
+.paint-planet-red .beer-footer-icons {
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
+  height: 103px;
+  width: 507px; }
+
+.paint-planet-red .site-header {
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png); }
+
+.paint-planet-red .post-title {
+  color: #ff5d5d; }
