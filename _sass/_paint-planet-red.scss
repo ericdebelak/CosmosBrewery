@@ -1,10 +1,17 @@
 body.paint-planet-red {
   background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
   background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .paint-planet-red .header-logo {
     background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png);
+    @include media-query($on-laptop) {
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png);
+    }
 }
 
 .paint-planet-red .planet-container {
@@ -16,6 +23,12 @@ body.paint-planet-red {
   width: 716px;
   margin-top: -150px;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    left: -150px;
+    height: 300px;
+    width: 301px;
+    margin-top: -200px;
+  }
 }
 
 .paint-planet-red .planet {
@@ -24,6 +37,12 @@ body.paint-planet-red {
   animation: paintPlanentRed 10s infinite;
   background-repeat: no-repeat;
   background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
+  @include media-query($on-laptop) {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+    height: 300px;
+    width: 301px;
+    animation: paintPlanentRedTablet 10s infinite;
+  }
 }
 
 @keyframes paintPlanentRed {
@@ -38,26 +57,53 @@ body.paint-planet-red {
   }
 }
 
+@keyframes paintPlanentRedTablet {
+  0% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+  }
+  50% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet2.png);
+  }
+  100% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+  }
+}
+
 .paint-planet-red .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background-size: cover;
+  }
 }
 
 .paint-planet-red .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
 }
 
 .paint-planet-red .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+    background-size: cover;
+  }
 }
 
 .paint-planet-red .beer-can {
   background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png);
+  @include media-query($on-laptop) {
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png);
+  }
 }
 
 .paint-planet-red .beer-footer-icons {
@@ -68,6 +114,10 @@ body.paint-planet-red {
 
 .paint-planet-red .site-header {
   background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png);
+  @include media-query($on-laptop) {
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
+    background-size: cover;
+  }
 }
 
 .paint-planet-red .post-title {
