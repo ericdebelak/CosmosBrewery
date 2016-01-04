@@ -1,6 +1,6 @@
 // GENERAL
 html {
-  height: 100%;
+  min-height: 100%;
 }
 
 .davida {
@@ -333,17 +333,15 @@ html {
   to  { transform: rotate(360deg); }
 }
 
-// Beer can
-.beer-can {
-  display: inline-block;
-  margin-left: 50px;
-}
-
 // Beer content
 .beer-content {
   flex: 1;
   padding: 0 0 0 50px;
   font-weight: bold;
+  position: relative;
+  @include media-query($on-laptop) {
+    padding: 0 0 0 25px;
+  }
 }
 
 // Beer rating table
@@ -356,6 +354,13 @@ html {
 .beer-can {
   width: 304px;
   height: 749px;
+  display: inline-block;
+  margin-left: 50px;
+  @include media-query($on-laptop) {
+    width: 199px;
+    height: 490px;
+    margin-left: 25px;
+  }
 }
 
 .beer-footer-icons {
@@ -363,4 +368,8 @@ html {
   width: 357px;
   position: absolute;
   bottom: 0;
+  @include media-query($on-laptop) {
+    height: 51px;
+    width: 209px;
+  }
 }
