@@ -344,6 +344,12 @@ pre {
 .site-footer {
   border-top: 1px solid white;
   padding: 30px 0; }
+  .site-footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .site-footer .wrapper div {
+      padding-right: 50px; }
 
 .footer-heading {
   font-size: 18px;
