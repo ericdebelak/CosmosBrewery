@@ -8,6 +8,12 @@ body.contact {
     background-position: center;
     height: 100%;
   }
+  @include media-query($on-laptop) {
+    background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
 }
 
 .contact .stars1 {
@@ -17,6 +23,9 @@ body.contact {
   @include media-query($on-laptop) {
     background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
     background-size: cover
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -28,6 +37,9 @@ body.contact {
     background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
     background-size: cover
   }
+  @include media-query($on-palm) {
+    background: none;
+  }
 }
 
 .contact .stars3 {
@@ -37,6 +49,9 @@ body.contact {
   @include media-query($on-laptop) {
     background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);
     background-size: cover
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -59,6 +74,9 @@ body.contact {
   input, textarea {
     padding: 5px;
     width: 300px;
+    @include media-query($on-palm) {
+      width: 100%;
+    }
   }
   input[type=checkbox] {
     padding: 0;
