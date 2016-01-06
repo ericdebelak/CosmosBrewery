@@ -7,17 +7,30 @@
   @include media-query($on-laptop) {
     margin-left: 100px;
   }
+  @include media-query($on-palm) {
+    display: block;
+    margin-left: 0;
+    z-index: 9;
+    float: none;
+    overflow: scroll;
+  }
   p {
     margin-left: 50px;
     @include media-query($on-laptop) {
       margin-left: 35px;
       font-size: .8em;
     }
+    @include media-query($on-palm) {
+      display: none;
+    }
   }
   .scroll {
     font-size: .8em;
     @include media-query($on-laptop) {
       font-size: .6em;
+    }
+    @include media-query($on-palm) {
+      display: none;
     }
   }
   .beers {
@@ -27,6 +40,12 @@
     @include media-query($on-laptop) {
       height: 455px;
       width: 141px;
+    }
+    @include media-query($on-palm) {
+      width: 1000px;
+      height: 20px;
+      overflow: visible;
+      margin-bottom: 40px;
     }
     div {
       display: block;
@@ -38,14 +57,25 @@
       @include media-query($on-laptop) {
         margin-left: 35px;
       }
+      @include media-query($on-palm) {
+        display: inline-block;
+        margin-left: 0;
+        border: none;
+      }
     }
     div:hover {
       border: 1px solid #fff;
       margin-left: 0px;
+      @include media-query($on-palm) {
+        border: none;
+      }
     }
     .active {
       margin-left: 0px;
       border: 1px solid #fff;
+      @include media-query($on-palm) {
+        border: none;
+      }
     }
   }
 }
@@ -57,10 +87,16 @@
     @include media-query($on-laptop) {
       margin-left: 35px;
     }
+    @include media-query($on-palm) {
+      margin-left: 0;
+    }
   }
   .active:hover {
     margin-left: 0px;
     border: 1px solid #fff;
+    @include media-query($on-palm) {
+      border: none;
+    }
   }
 }
 
@@ -74,6 +110,11 @@
     height: 75px;
     width: 106px;
   }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-XPA.png);
+    height: 20px;
+    width: 136px;
+  }
 }
 
 .crop-formation-link {
@@ -84,6 +125,11 @@
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
     height: 75px;
     width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cropformation.png);
+    height: 20px;
+    width: 136px;
   }
 }
 
@@ -96,6 +142,11 @@
     height: 75px;
     width: 106px;
   }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-habitablesaizone.png);
+    height: 20px;
+    width: 136px;
+  }
 }
 
 .cosmonut-link {
@@ -106,6 +157,11 @@
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
     height: 75px;
     width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cosmonut.png);
+    height: 20px;
+    width: 136px;
   }
 }
 
@@ -118,6 +174,11 @@
     height: 75px;
     width: 106px;
   }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-darkmartian.png);
+    height: 20px;
+    width: 136px;
+  }
 }
 
 .paint-planet-red-link {
@@ -129,6 +190,11 @@
     height: 75px;
     width: 106px;
   }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-paintplanetred.png);
+    height: 20px;
+    width: 136px;
+  }
 }
 
 .light-source-link {
@@ -139,5 +205,10 @@
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
     height: 75px;
     width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
+    height: 20px;
+    width: 136px;
   }
 }

@@ -1,6 +1,7 @@
 // GENERAL
 html {
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 .davida {
@@ -63,6 +64,7 @@ html {
 
 .site-nav {
   float: right;
+  z-index: 9;
 
   .trigger {
     display: flex;
@@ -73,6 +75,9 @@ html {
       height: 79px;
       align-items: auto;
     }
+    @include media-query($on-palm) {
+      height: auto;
+    }
     a {
       color: #fff;
       text-align: center;
@@ -82,7 +87,18 @@ html {
       @include media-query($on-laptop) {
         padding: 5px 20px;
         font-size: .9em;
+        display: block;
       }
+      @include media-query($on-palm) {
+        text-align: right;
+        br {
+          content: " ";
+        }
+        br:after {
+          content: " ";
+        }
+      }
+
     }
     a.active {
       background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
@@ -90,6 +106,9 @@ html {
       @include media-query($on-laptop) {
         background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
         background-size: cover;
+      }
+      @include media-query($on-palm) {
+        background: none;
       }
     }
   }
@@ -170,8 +189,23 @@ html {
       display: flex;
       justify-content: center;
       align-items: center;
+      @include media-query($on-palm) {
+        display: block;
+        text-align: center;
+      }
       div {
         padding-right: 50px;
+      }
+      @include media-query($on-laptop) {
+          div {
+            padding-right: 15px;
+          }
+      }
+      @include media-query($on-palm) {
+        .inline {
+            display: inline-block;
+            padding: 15px;
+        }
       }
     }
 }
@@ -371,5 +405,45 @@ html {
   @include media-query($on-laptop) {
     height: 51px;
     width: 209px;
+  }
+}
+
+.beer-text-mobile {
+  display: none;
+  font-weight: bold;
+}
+
+.only-mobile {
+  display: none;
+}
+
+@include media-query($on-palm) {
+  .no-mobile {
+    display: none;
+  }
+  .only-mobile {
+    display: block;
+  }
+  .post-header {
+    text-align: left;
+  }
+  .beer-text-mobile {
+    display: block;
+    clear: both;
+    padding-top: 15px;
+  }
+  .post-content {
+    display: block;
+  }
+  .beer-can {
+    float:left;
+    margin-right: 15px;
+  }
+  .beer-footer-icons {
+    position: relative !important;
+    float: left;
+  }
+  .beer-bar {
+    display: block !important;
   }
 }

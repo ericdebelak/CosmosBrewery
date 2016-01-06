@@ -12,9 +12,6 @@
 @font-face {
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
-html.home {
-  height: 100%; }
-
 body.home {
   background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
   background-size: cover;
@@ -271,7 +268,8 @@ pre {
     fill: #fff; }
 
 html {
-  min-height: 100%; }
+  min-height: 100%;
+  overflow-x: hidden; }
 
 .davida {
   font-family: Davida;
@@ -327,7 +325,8 @@ html {
   float: left; }
 
 .site-nav {
-  float: right; }
+  float: right;
+  z-index: 9; }
   .site-nav .trigger {
     display: flex;
     height: 114px;
@@ -337,6 +336,9 @@ html {
         display: flex;
         height: 79px;
         align-items: auto; } }
+    @media screen and (max-width: 600px) {
+      .site-nav .trigger {
+        height: auto; } }
     .site-nav .trigger a {
       color: #fff;
       text-align: center;
@@ -346,7 +348,15 @@ html {
       @media screen and (max-width: 1200px) {
         .site-nav .trigger a {
           padding: 5px 20px;
-          font-size: .9em; } }
+          font-size: .9em;
+          display: block; } }
+      @media screen and (max-width: 600px) {
+        .site-nav .trigger a {
+          text-align: right; }
+          .site-nav .trigger a br {
+            content: " "; }
+          .site-nav .trigger a br:after {
+            content: " "; } }
     .site-nav .trigger a.active {
       background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
       background-size: cover; }
@@ -354,6 +364,9 @@ html {
         .site-nav .trigger a.active {
           background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
           background-size: cover; } }
+      @media screen and (max-width: 600px) {
+        .site-nav .trigger a.active {
+          background: none; } }
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
@@ -406,8 +419,19 @@ html {
     display: flex;
     justify-content: center;
     align-items: center; }
+    @media screen and (max-width: 600px) {
+      .site-footer .wrapper {
+        display: block;
+        text-align: center; } }
     .site-footer .wrapper div {
       padding-right: 50px; }
+    @media screen and (max-width: 1200px) {
+      .site-footer .wrapper div {
+        padding-right: 15px; } }
+    @media screen and (max-width: 600px) {
+      .site-footer .wrapper .inline {
+        display: inline-block;
+        padding: 15px; } }
 
 .footer-heading {
   font-size: 18px;
@@ -559,6 +583,41 @@ html {
       height: 51px;
       width: 209px; } }
 
+.beer-text-mobile {
+  display: none;
+  font-weight: bold; }
+
+.only-mobile {
+  display: none; }
+
+@media screen and (max-width: 600px) {
+  .no-mobile {
+    display: none; }
+
+  .only-mobile {
+    display: block; }
+
+  .post-header {
+    text-align: left; }
+
+  .beer-text-mobile {
+    display: block;
+    clear: both;
+    padding-top: 15px; }
+
+  .post-content {
+    display: block; }
+
+  .beer-can {
+    float: left;
+    margin-right: 15px; }
+
+  .beer-footer-icons {
+    position: relative !important;
+    float: left; }
+
+  .beer-bar {
+    display: block !important; } }
 /**
  * Syntax highlighting styles
  */
@@ -916,17 +975,30 @@ body.crop-formation {
   @media screen and (max-width: 1200px) {
     .beer-bar {
       margin-left: 100px; } }
+  @media screen and (max-width: 600px) {
+    .beer-bar {
+      display: block;
+      margin-left: 0;
+      z-index: 9;
+      float: none;
+      overflow: scroll; } }
   .beer-bar p {
     margin-left: 50px; }
     @media screen and (max-width: 1200px) {
       .beer-bar p {
         margin-left: 35px;
         font-size: .8em; } }
+    @media screen and (max-width: 600px) {
+      .beer-bar p {
+        display: none; } }
   .beer-bar .scroll {
     font-size: .8em; }
     @media screen and (max-width: 1200px) {
       .beer-bar .scroll {
         font-size: .6em; } }
+    @media screen and (max-width: 600px) {
+      .beer-bar .scroll {
+        display: none; } }
   .beer-bar .beers {
     width: 184px;
     height: 680px;
@@ -935,6 +1007,12 @@ body.crop-formation {
       .beer-bar .beers {
         height: 455px;
         width: 141px; } }
+    @media screen and (max-width: 600px) {
+      .beer-bar .beers {
+        width: 1000px;
+        height: 20px;
+        overflow: visible;
+        margin-bottom: 40px; } }
     .beer-bar .beers div {
       display: block;
       margin-bottom: 15px;
@@ -945,12 +1023,23 @@ body.crop-formation {
       @media screen and (max-width: 1200px) {
         .beer-bar .beers div {
           margin-left: 35px; } }
+      @media screen and (max-width: 600px) {
+        .beer-bar .beers div {
+          display: inline-block;
+          margin-left: 0;
+          border: none; } }
     .beer-bar .beers div:hover {
       border: 1px solid #fff;
       margin-left: 0px; }
+      @media screen and (max-width: 600px) {
+        .beer-bar .beers div:hover {
+          border: none; } }
     .beer-bar .beers .active {
       margin-left: 0px;
       border: 1px solid #fff; }
+      @media screen and (max-width: 600px) {
+        .beer-bar .beers .active {
+          border: none; } }
 
 .beer-bar:hover .active {
   margin-left: 50px;
@@ -958,9 +1047,15 @@ body.crop-formation {
   @media screen and (max-width: 1200px) {
     .beer-bar:hover .active {
       margin-left: 35px; } }
+  @media screen and (max-width: 600px) {
+    .beer-bar:hover .active {
+      margin-left: 0; } }
 .beer-bar:hover .active:hover {
   margin-left: 0px;
   border: 1px solid #fff; }
+  @media screen and (max-width: 600px) {
+    .beer-bar:hover .active:hover {
+      border: none; } }
 
 .planet-xpa-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
@@ -971,6 +1066,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .planet-xpa-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-XPA.png);
+      height: 20px;
+      width: 136px; } }
 
 .crop-formation-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
@@ -981,6 +1081,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .crop-formation-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cropformation.png);
+      height: 20px;
+      width: 136px; } }
 
 .habitable-saizon-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
@@ -991,6 +1096,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .habitable-saizon-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-habitablesaizone.png);
+      height: 20px;
+      width: 136px; } }
 
 .cosmonut-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
@@ -1001,6 +1111,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .cosmonut-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cosmonut.png);
+      height: 20px;
+      width: 136px; } }
 
 .dark-martian-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
@@ -1011,6 +1126,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .dark-martian-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-darkmartian.png);
+      height: 20px;
+      width: 136px; } }
 
 .paint-planet-red-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
@@ -1021,6 +1141,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .paint-planet-red-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-paintplanetred.png);
+      height: 20px;
+      width: 136px; } }
 
 .light-source-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
@@ -1031,6 +1156,11 @@ body.crop-formation {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
       height: 75px;
       width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .light-source-link {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
+      height: 20px;
+      width: 136px; } }
 
 body.habitable-saizon {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
