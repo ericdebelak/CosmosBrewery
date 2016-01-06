@@ -7,7 +7,7 @@ body.our-craft {
     background-size: cover;
     height: 100%;
   }
-  @include media-query($on-laptop) {
+  @include media-query($on-palm) {
     background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
     background-size: cover;
     height: 100%;

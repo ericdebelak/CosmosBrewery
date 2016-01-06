@@ -7,6 +7,11 @@ body.x-pa {
     height: 100%;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
 }
 
 .x-pa .planet-container {
@@ -72,6 +77,9 @@ body.x-pa {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png);
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png);
   }
 }
 

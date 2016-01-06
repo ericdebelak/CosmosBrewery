@@ -431,7 +431,8 @@ html {
     @media screen and (max-width: 600px) {
       .site-footer .wrapper .inline {
         display: inline-block;
-        padding: 15px; } }
+        padding: 15px 5px;
+        font-size: .7em; } }
 
 .footer-heading {
   font-size: 18px;
@@ -572,6 +573,12 @@ html {
       width: 199px;
       height: 490px;
       margin-left: 25px; } }
+  @media screen and (max-width: 600px) {
+    .beer-can {
+      height: 343px;
+      width: 140px;
+      margin: 0;
+      max-width: 50%; } }
 
 .beer-footer-icons {
   height: 83px;
@@ -617,7 +624,27 @@ html {
     float: left; }
 
   .beer-bar {
-    display: block !important; } }
+    display: block !important; }
+
+  .stars {
+    display: none; }
+
+  .planet-container {
+    display: none; }
+
+  .mobile-container {
+    display: flex; }
+
+  .beer-footer-icons {
+    max-width: 100% !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important; }
+
+  .beer-content .post-title {
+    font-size: 26px; }
+
+  .beer-figures td {
+    padding-right: 5px; } }
 /**
  * Syntax highlighting styles
  */
@@ -768,6 +795,11 @@ body.x-pa {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
       height: 100%;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.x-pa {
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
 
 .x-pa .planet-container {
   position: absolute;
@@ -828,6 +860,9 @@ body.x-pa {
   @media screen and (max-width: 1200px) {
     .x-pa .beer-can {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png); } }
+  @media screen and (max-width: 600px) {
+    .x-pa .beer-can {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png); } }
 
 .x-pa .beer-footer-icons {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png); }
@@ -1670,6 +1705,11 @@ body.creators {
       background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
       background-size: cover;
       height: 100%; } }
+  @media screen and (max-width: 600px) {
+    body.creators {
+      background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
+      background-size: cover;
+      height: 100%; } }
 
 .creators .stars1 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars1.png);
@@ -1678,6 +1718,9 @@ body.creators {
   @media screen and (max-width: 1200px) {
     .creators .stars1 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars1.png); } }
+  @media screen and (max-width: 600px) {
+    .creators .stars1 {
+      background: none; } }
 
 .creators .stars2 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars2.png);
@@ -1686,6 +1729,9 @@ body.creators {
   @media screen and (max-width: 1200px) {
     .creators .stars2 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars2.png); } }
+  @media screen and (max-width: 600px) {
+    .creators .stars2 {
+      background: none; } }
 
 .creators .stars3 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars3.png);
@@ -1694,6 +1740,9 @@ body.creators {
   @media screen and (max-width: 1200px) {
     .creators .stars3 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars3.png); } }
+  @media screen and (max-width: 600px) {
+    .creators .stars3 {
+      background: none; } }
 
 .creators .post-title {
   color: #fff;
@@ -1703,14 +1752,27 @@ body.creators {
   display: flex;
   justify-content: center;
   font-weight: bold; }
+  @media screen and (max-width: 600px) {
+    .creator-content {
+      display: block; } }
 
 .creator {
   flex: 1;
   padding: 25px; }
+  @media screen and (max-width: 600px) {
+    .creator {
+      margin: 0 auto; } }
+
+.creator-image img {
+  display: block;
+  margin: 0 auto; }
 
 .creator-name {
   color: #84ad40;
   min-height: 100px; }
+  @media screen and (max-width: 600px) {
+    .creator-name {
+      min-height: 0; } }
 
 .creator-name .name {
   font-size: 1.5em;
@@ -1725,6 +1787,11 @@ body.our-craft {
       background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
+  @media screen and (max-width: 600px) {
+    body.our-craft {
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
+      background-size: cover;
+      height: 100%; } }
 
 .our-craft .stars1 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
@@ -1733,6 +1800,9 @@ body.our-craft {
   @media screen and (max-width: 1200px) {
     .our-craft .stars1 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png); } }
+  @media screen and (max-width: 600px) {
+    .our-craft .stars1 {
+      background: none; } }
 
 .our-craft .stars2 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
@@ -1741,6 +1811,9 @@ body.our-craft {
   @media screen and (max-width: 1200px) {
     .our-craft .stars2 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png); } }
+  @media screen and (max-width: 600px) {
+    .our-craft .stars2 {
+      background: none; } }
 
 .our-craft .stars3 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
@@ -1749,6 +1822,9 @@ body.our-craft {
   @media screen and (max-width: 1200px) {
     .our-craft .stars3 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png); } }
+  @media screen and (max-width: 600px) {
+    .our-craft .stars3 {
+      background: none; } }
 
 .our-craft .post-title {
   color: #fff;
@@ -1758,6 +1834,9 @@ body.our-craft {
   display: flex;
   justify-content: center;
   font-weight: bold; }
+  @media screen and (max-width: 600px) {
+    .craft-content {
+      display: block; } }
   .craft-content .ufos {
     flex: 1; }
   .craft-content .craft-copy {
@@ -1772,6 +1851,11 @@ body.events {
       background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
       background-size: cover;
       height: 100%; } }
+  @media screen and (max-width: 1200px) {
+    body.events {
+      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
+      background-size: cover;
+      height: 100%; } }
 
 .events .stars1 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
@@ -1780,6 +1864,9 @@ body.events {
   @media screen and (max-width: 1200px) {
     .events .stars1 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png); } }
+  @media screen and (max-width: 600px) {
+    .events .stars1 {
+      background: none; } }
 
 .events .stars2 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents2.png);
@@ -1788,6 +1875,9 @@ body.events {
   @media screen and (max-width: 1200px) {
     .events .stars2 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png); } }
+  @media screen and (max-width: 600px) {
+    .events .stars2 {
+      background: none; } }
 
 .events .stars3 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents3.png);
@@ -1796,6 +1886,9 @@ body.events {
   @media screen and (max-width: 1200px) {
     .events .stars3 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png); } }
+  @media screen and (max-width: 600px) {
+    .events .stars3 {
+      background: none; } }
 
 .events .post-title {
   color: #fff;
@@ -1804,6 +1897,9 @@ body.events {
   @media screen and (max-width: 1200px) {
     .events .post-title {
       margin-left: 20%; } }
+  @media screen and (max-width: 600px) {
+    .events .post-title {
+      margin-left: 0; } }
 
 .events-content {
   font-weight: bold;
@@ -1813,6 +1909,9 @@ body.events {
     @media screen and (max-width: 1200px) {
       .events-content .events-copy {
         margin-left: 20%; } }
+    @media screen and (max-width: 600px) {
+      .events-content .events-copy {
+        margin-left: 0; } }
 
 .events .planet-container {
   position: absolute;
@@ -1822,6 +1921,9 @@ body.events {
   height: 704px;
   width: 705px;
   margin-top: -270px; }
+  @media screen and (max-width: 600px) {
+    .events .planet-container {
+      display: none; } }
 
 .events .planet {
   background-repeat: no-repeat;
@@ -1838,6 +1940,9 @@ body.events {
       width: 396px;
       animation: moonsTablet 20s infinite; } }
 
+@media screen and (max-width: 600px) {
+  .event-date {
+    display: block; } }
 @keyframes moons {
   0% {
     background: url(/images/11-CosmicEvents/desktop/moon.png); }
@@ -1862,6 +1967,12 @@ body.contact {
       background-size: cover;
       background-position: center;
       height: 100%; } }
+  @media screen and (max-width: 600px) {
+    body.contact {
+      background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%; } }
 
 .contact .stars1 {
   background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
@@ -1871,6 +1982,9 @@ body.contact {
     .contact .stars1 {
       background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    .contact .stars1 {
+      background: none; } }
 
 .contact .stars2 {
   background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
@@ -1880,6 +1994,9 @@ body.contact {
     .contact .stars2 {
       background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    .contact .stars2 {
+      background: none; } }
 
 .contact .stars3 {
   background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
@@ -1889,6 +2006,9 @@ body.contact {
     .contact .stars3 {
       background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    .contact .stars3 {
+      background: none; } }
 
 .contact .post-title {
   color: #fff;
@@ -1906,6 +2026,9 @@ body.contact {
   .contact .post-content input, .contact .post-content textarea {
     padding: 5px;
     width: 300px; }
+    @media screen and (max-width: 600px) {
+      .contact .post-content input, .contact .post-content textarea {
+        width: 100%; } }
   .contact .post-content input[type=checkbox] {
     padding: 0;
     width: auto; }

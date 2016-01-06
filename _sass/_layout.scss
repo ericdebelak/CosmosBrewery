@@ -204,7 +204,8 @@ html {
       @include media-query($on-palm) {
         .inline {
             display: inline-block;
-            padding: 15px;
+            padding: 15px 5px;
+            font-size: .7em;
         }
       }
     }
@@ -395,6 +396,12 @@ html {
     height: 490px;
     margin-left: 25px;
   }
+  @include media-query($on-palm) {
+    height: 343px;
+    width: 140px;
+    margin: 0;
+    max-width: 50%;
+  }
 }
 
 .beer-footer-icons {
@@ -445,5 +452,25 @@ html {
   }
   .beer-bar {
     display: block !important;
+  }
+  .stars {
+    display: none;
+  }
+  .planet-container {
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+  }
+  .beer-footer-icons {
+    max-width: 100% !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+  }
+  .beer-content .post-title {
+    font-size: 26px;
+  }
+  .beer-figures td {
+    padding-right: 5px;
   }
 }

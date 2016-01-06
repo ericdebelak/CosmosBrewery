@@ -8,7 +8,7 @@ body.contact {
     background-position: center;
     height: 100%;
   }
-  @include media-query($on-laptop) {
+  @include media-query($on-palm) {
     background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
     background-size: cover;
     background-position: center;
