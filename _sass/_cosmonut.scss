@@ -5,6 +5,10 @@ body.cosmonut {
     background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .cosmonut .header-logo {
@@ -41,6 +45,9 @@ body.cosmonut {
     background-repeat: no-repeat;
     background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png);
   }
+  @include media-query($on-palm) {
+    background: none;
+  }
 }
 
 .cosmonut .cashew {
@@ -61,6 +68,9 @@ body.cosmonut {
     width: 72px;
     left: 170px;
     animation: cashewTablet 50s, rotate 10s infinite;
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -124,6 +134,9 @@ body.cosmonut {
   background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png);
   @include media-query($on-laptop) {
     background: url(/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png);
   }
 }
 

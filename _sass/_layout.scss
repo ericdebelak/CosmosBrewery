@@ -459,18 +459,26 @@ html {
   .planet-container {
     display: none;
   }
-  .mobile-container {
-    display: flex;
-  }
   .beer-footer-icons {
-    max-width: 100% !important;
+    max-width: 50% !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
   }
   .beer-content .post-title {
-    font-size: 26px;
+    font-size: 24px;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
   .beer-figures td {
     padding-right: 5px;
+  }
+}
+
+@include media-query(320px) {
+  .beer-content .post-title {
+    font-size: 16px;
   }
 }

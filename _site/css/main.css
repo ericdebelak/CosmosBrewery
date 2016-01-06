@@ -632,19 +632,24 @@ html {
   .planet-container {
     display: none; }
 
-  .mobile-container {
-    display: flex; }
-
   .beer-footer-icons {
-    max-width: 100% !important;
+    max-width: 50% !important;
     background-size: contain !important;
     background-repeat: no-repeat !important; }
 
   .beer-content .post-title {
-    font-size: 26px; }
+    font-size: 24px;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto; }
 
   .beer-figures td {
     padding-right: 5px; } }
+@media screen and (max-width: 320px) {
+  .beer-content .post-title {
+    font-size: 16px; } }
 /**
  * Syntax highlighting styles
  */
@@ -879,6 +884,11 @@ body.crop-formation {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
       height: 100%;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.crop-formation {
+      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
 
 .crop-formation .header-logo {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png); }
@@ -980,6 +990,9 @@ body.crop-formation {
   @media screen and (max-width: 1200px) {
     .crop-formation .beer-can {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png); } }
+  @media screen and (max-width: 600px) {
+    .crop-formation .beer-can {
+      background: url(/images/3-TryOurBeer-CropFormation/-mobile/can-cropformation.png); } }
 
 .crop-formation .beer-footer-icons {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
@@ -1204,6 +1217,10 @@ body.habitable-saizon {
     body.habitable-saizon {
       background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.habitable-saizon {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
+      background-size: cover; } }
 
 .habitable-saizon .header-logo {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png); }
@@ -1286,6 +1303,9 @@ body.habitable-saizon {
   @media screen and (max-width: 1200px) {
     .habitable-saizon .beer-can {
       background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png); } }
+  @media screen and (max-width: 600px) {
+    .habitable-saizon .beer-can {
+      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/can-habitablesaizone.png); } }
 
 .habitable-saizon .beer-footer-icons {
   background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
@@ -1313,6 +1333,10 @@ body.cosmonut {
   @media screen and (max-width: 1200px) {
     body.cosmonut {
       background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.cosmonut {
+      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
       background-size: cover; } }
 
 .cosmonut .header-logo {
@@ -1347,6 +1371,9 @@ body.cosmonut {
       width: 212px;
       background-repeat: no-repeat;
       background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png); } }
+  @media screen and (max-width: 600px) {
+    .cosmonut .squirrel {
+      background: none; } }
 
 .cosmonut .cashew {
   height: 196px;
@@ -1367,6 +1394,9 @@ body.cosmonut {
       width: 72px;
       left: 170px;
       animation: cashewTablet 50s, rotate 10s infinite; } }
+  @media screen and (max-width: 600px) {
+    .cosmonut .cashew {
+      background: none; } }
 
 @keyframes cashew {
   0% {
@@ -1418,6 +1448,9 @@ body.cosmonut {
   @media screen and (max-width: 1200px) {
     .cosmonut .beer-can {
       background: url(/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png); } }
+  @media screen and (max-width: 600px) {
+    .cosmonut .beer-can {
+      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png); } }
 
 .cosmonut .beer-footer-icons {
   background: url(/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);

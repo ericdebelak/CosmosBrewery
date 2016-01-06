@@ -7,6 +7,11 @@ body.crop-formation {
     height: 100%;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
 }
 
 .crop-formation .header-logo {
@@ -134,6 +139,9 @@ body.crop-formation {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png);
   @include media-query($on-laptop) {
     background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/3-TryOurBeer-CropFormation/-mobile/can-cropformation.png);
   }
 }
 
