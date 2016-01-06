@@ -7,6 +7,11 @@ body.our-craft {
     background-size: cover;
     height: 100%;
   }
+  @include media-query($on-laptop) {
+    background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 .our-craft .stars1 {
@@ -15,6 +20,9 @@ body.our-craft {
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
     background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png);
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -25,6 +33,9 @@ body.our-craft {
   @include media-query($on-laptop) {
     background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png);
   }
+  @include media-query($on-palm) {
+    background: none;
+  }
 }
 
 .our-craft .stars3 {
@@ -33,6 +44,9 @@ body.our-craft {
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
     background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png);
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -45,6 +59,9 @@ body.our-craft {
   display: flex;
   justify-content: center;
   font-weight: bold;
+  @include media-query($on-palm) {
+    display: block;
+  }
   .ufos {
     flex: 1;
   }
