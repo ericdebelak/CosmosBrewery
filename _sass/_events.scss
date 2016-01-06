@@ -7,6 +7,11 @@ body.events {
     background-size: cover;
     height: 100%;
   }
+  @include media-query($on-laptop) {
+    background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
 }
 
 .events .stars1 {
@@ -15,6 +20,9 @@ body.events {
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
     background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png);
+  }
+  @include media-query($on-palm) {
+    background: none;
   }
 }
 
@@ -25,6 +33,9 @@ body.events {
   @include media-query($on-laptop) {
     background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png);
   }
+  @include media-query($on-palm) {
+    background: none;
+  }
 }
 
 .events .stars3 {
@@ -34,6 +45,9 @@ body.events {
   @include media-query($on-laptop) {
     background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png);
   }
+  @include media-query($on-palm) {
+    background: none;
+  }
 }
 
 .events .post-title {
@@ -42,6 +56,9 @@ body.events {
   text-align: left;
   @include media-query($on-laptop) {
     margin-left: 20%;
+  }
+  @include media-query($on-palm) {
+    margin-left: 0;;
   }
 }
 
@@ -53,6 +70,9 @@ body.events {
     @include media-query($on-laptop) {
       margin-left: 20%;
     }
+    @include media-query($on-palm) {
+      margin-left: 0;
+    }
   }
 }
 .events .planet-container {
@@ -63,6 +83,9 @@ body.events {
   height: 704px;
   width: 705px;
   margin-top: -270px;
+  @include media-query($on-palm) {
+    display: none;
+  }
 }
 
 .events .planet {
@@ -78,6 +101,12 @@ body.events {
     height: 397px;
     width: 396px;
     animation: moonsTablet 20s infinite;
+  }
+}
+
+@include media-query($on-palm) {
+  .event-date {
+    display: block;
   }
 }
 
