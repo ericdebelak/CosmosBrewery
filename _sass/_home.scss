@@ -10,6 +10,10 @@ body.home {
     background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .home img {
@@ -28,6 +32,11 @@ body.home {
   left: 0;
   @include media-query($on-laptop) {
     background: url(/images/1-AreYou21/tablet/planet.png);
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/1-AreYou21/-mobile/planet.png) no-repeat;
+    background-size: contain;
   }
 }
 .planet-container {
@@ -39,6 +48,11 @@ body.home {
   @include media-query($on-laptop) {
     height: 435px;
     width: 435px;
+  }
+  @include media-query($on-palm) {
+    height: 319px;
+    width: 320px;
+    max-width: 100%;
   }
 }
 
@@ -89,6 +103,11 @@ body.home {
   letter-spacing: 35px;
   margin: 0 -35px -15px 0;
   text-transform: uppercase;
+  @include media-query($on-palm) {
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin: 15px -5px 15px 0;
+  }
 }
 
 .home h4 {

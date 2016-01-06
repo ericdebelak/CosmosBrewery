@@ -24,6 +24,10 @@ body.home {
     body.home {
       background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.home {
+      background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
+      background-size: cover; } }
 
 .home img {
   display: block;
@@ -40,7 +44,12 @@ body.home {
   left: 0; }
   @media screen and (max-width: 1200px) {
     .home .planet {
-      background: url(/images/1-AreYou21/tablet/planet.png); } }
+      background: url(/images/1-AreYou21/tablet/planet.png);
+      background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    .home .planet {
+      background: url(/images/1-AreYou21/-mobile/planet.png) no-repeat;
+      background-size: contain; } }
 
 .planet-container {
   position: relative;
@@ -52,6 +61,11 @@ body.home {
     .planet-container {
       height: 435px;
       width: 435px; } }
+  @media screen and (max-width: 600px) {
+    .planet-container {
+      height: 319px;
+      width: 320px;
+      max-width: 100%; } }
 
 .planet-text-container {
   display: flex;
@@ -96,6 +110,11 @@ body.home {
   letter-spacing: 35px;
   margin: 0 -35px -15px 0;
   text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    .home h1 {
+      font-size: 2em;
+      letter-spacing: 5px;
+      margin: 15px -5px 15px 0; } }
 
 .home h4 {
   font-size: 1.5em;
@@ -631,6 +650,9 @@ html {
 
   .planet-container {
     display: none; }
+
+  .home .planet-container {
+    display: block; }
 
   .beer-footer-icons {
     max-width: 50% !important;

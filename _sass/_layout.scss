@@ -459,6 +459,9 @@ html {
   .planet-container {
     display: none;
   }
+  .home .planet-container {
+    display: block;
+  }
   .beer-footer-icons {
     max-width: 50% !important;
     background-size: contain !important;
