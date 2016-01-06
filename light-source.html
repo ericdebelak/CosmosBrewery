@@ -8,8 +8,13 @@ try-our-beer: active
 ---
 <div class='beer-can'></div>
 <div class='beer-content'>
-  <p class='light-source-text'>"Are we alone in the universe?"</p>
-  <p>Description coming soon.<span class='light-source-text'>SAVE SPACE FOR BEER!</span></p>
+  <div class="beer-text no-mobile">
+    <p class='light-source-text'>"Are we alone in the universe?"</p>
+    <p>Description coming soon.<span class='light-source-text'>SAVE SPACE FOR BEER!</span></p>
+  </div>
+  <div class="post-header only-mobile">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </div>
   <table class='beer-figures'>
     <tbody>
       <tr>
@@ -23,6 +28,10 @@ try-our-beer: active
     </tbody>
   </table>
   <div class='beer-footer-icons'></div>
+</div>
+<div class="beer-text-mobile">
+  <p class='light-source-text'>"Are we alone in the universe?"</p>
+  <p>Description coming soon.<span class='light-source-text'>SAVE SPACE FOR BEER!</span></p>
 </div>
 <div class='stars stars1'></div>
 <div class='stars stars2'></div>

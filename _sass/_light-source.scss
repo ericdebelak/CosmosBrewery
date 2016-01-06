@@ -5,6 +5,10 @@ body.light-source {
     background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .light-source .header-logo {
@@ -48,6 +52,9 @@ body.light-source {
   background: url(/images/8-TryOurBeerLightSource/desktop/can-generic.png);
   @include media-query($on-laptop) {
     background: url(/images/8-TryOurBeerLightSource/tablet/can-generic.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/8-TryOurBeerLightSource/-mobile/can-generic.png);
   }
 }
 

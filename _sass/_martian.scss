@@ -5,6 +5,10 @@ body.dark-martian {
     background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
     background-size: cover;
   }
+  @include media-query($on-palm) {
+    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 .dark-martian .header-logo {
@@ -78,6 +82,9 @@ body.dark-martian {
   background: url(/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png);
   @include media-query($on-laptop) {
     background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png);
   }
 }
 

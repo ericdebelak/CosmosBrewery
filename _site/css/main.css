@@ -1479,6 +1479,10 @@ body.dark-martian {
     body.dark-martian {
       background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
       background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.dark-martian {
+      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+      background-size: cover; } }
 
 .dark-martian .header-logo {
   background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png); }
@@ -1546,6 +1550,9 @@ body.dark-martian {
   @media screen and (max-width: 1200px) {
     .dark-martian .beer-can {
       background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png); } }
+  @media screen and (max-width: 600px) {
+    .dark-martian .beer-can {
+      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png); } }
 
 .dark-martian .beer-footer-icons {
   background: url(/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
@@ -1573,6 +1580,10 @@ body.paint-planet-red {
   @media screen and (max-width: 1200px) {
     body.paint-planet-red {
       background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.paint-planet-red {
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
       background-size: cover; } }
 
 .paint-planet-red .header-logo {
@@ -1656,6 +1667,9 @@ body.paint-planet-red {
   @media screen and (max-width: 1200px) {
     .paint-planet-red .beer-can {
       background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png); } }
+  @media screen and (max-width: 600px) {
+    .paint-planet-red .beer-can {
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/can-paintplanetred.png); } }
 
 .paint-planet-red .beer-footer-icons {
   background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
@@ -1678,6 +1692,10 @@ body.light-source {
   @media screen and (max-width: 1200px) {
     body.light-source {
       background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
+      background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.light-source {
+      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
       background-size: cover; } }
 
 .light-source .header-logo {
@@ -1718,6 +1736,9 @@ body.light-source {
   @media screen and (max-width: 1200px) {
     .light-source .beer-can {
       background: url(/images/8-TryOurBeerLightSource/tablet/can-generic.png); } }
+  @media screen and (max-width: 600px) {
+    .light-source .beer-can {
+      background: url(/images/8-TryOurBeerLightSource/-mobile/can-generic.png); } }
 
 .light-source .site-header {
   background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png); }
