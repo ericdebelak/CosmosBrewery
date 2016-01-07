@@ -576,10 +576,10 @@ html {
     transform: rotate(0deg); }
   35% {
     opacity: .5;
-    transform: rotate(1deg); }
+    transform: rotate(0.1deg); }
   60% {
     opacity: 1;
-    transform: rotate(1deg); }
+    transform: rotate(0.1deg); }
   70% {
     opacity: .5;
     transform: rotate(0deg); }
