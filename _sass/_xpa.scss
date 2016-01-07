@@ -46,7 +46,6 @@ body.x-pa {
 .x-pa .stars1 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
   background-size: cover;
-  animation: rotate 250s infinite;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
     background-size: cover;
@@ -56,7 +55,6 @@ body.x-pa {
 .x-pa .stars2 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
   background-size: cover;
-  animation: rotate 300s infinite;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
     background-size: cover;
@@ -66,7 +64,6 @@ body.x-pa {
 .x-pa .stars3 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
   background-size: cover;
-  animation: rotate 500s infinite;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
     background-size: cover;

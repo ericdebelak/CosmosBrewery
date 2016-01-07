@@ -80,8 +80,7 @@ body.home {
 
 .home .stars1 {
   background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .home .stars1 {
       background: url(/images/1-AreYou21/tablet/background-21-stars1.png);
@@ -89,8 +88,7 @@ body.home {
 
 .home .stars2 {
   background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
-  background-size: cover;
-  animation: rotate 200s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .home .stars2 {
       background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
@@ -98,8 +96,7 @@ body.home {
 
 .home .stars3 {
   background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .home .stars3 {
       background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
@@ -570,6 +567,40 @@ html {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+@keyframes twinkle {
+  0% {
+    opacity: .5;
+    transform: rotate(0deg); }
+  25% {
+    opacity: 1;
+    transform: rotate(0deg); }
+  35% {
+    opacity: .5;
+    transform: rotate(1deg); }
+  60% {
+    opacity: 1;
+    transform: rotate(1deg); }
+  70% {
+    opacity: .5;
+    transform: rotate(0deg); }
+  90% {
+    opacity: 1;
+    transform: rotate(0deg); }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg); } }
+.stars1 {
+  animation: twinkle 27s infinite;
+  animation-timing-function: linear; }
+
+.stars2 {
+  animation: twinkle 22s infinite;
+  animation-timing-function: linear; }
+
+.stars3 {
+  animation: twinkle 25s infinite;
+  animation-timing-function: linear; }
+
 .beer-content {
   flex: 1;
   padding: 0 0 0 50px;
@@ -857,8 +888,7 @@ body.x-pa {
 
 .x-pa .stars1 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars1 {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
@@ -866,8 +896,7 @@ body.x-pa {
 
 .x-pa .stars2 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars2 {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
@@ -875,8 +904,7 @@ body.x-pa {
 
 .x-pa .stars3 {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars3 {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
@@ -982,8 +1010,7 @@ body.crop-formation {
     background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); } }
 .crop-formation .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -991,8 +1018,7 @@ body.crop-formation {
 
 .crop-formation .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1000,8 +1026,7 @@ body.crop-formation {
 
 .crop-formation .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
@@ -1130,7 +1155,7 @@ body.crop-formation {
 .planet-xpa-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .planet-xpa-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
@@ -1145,7 +1170,7 @@ body.crop-formation {
 .crop-formation-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .crop-formation-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
@@ -1160,7 +1185,7 @@ body.crop-formation {
 .habitable-saizon-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
@@ -1175,7 +1200,7 @@ body.crop-formation {
 .cosmonut-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .cosmonut-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
@@ -1190,7 +1215,7 @@ body.crop-formation {
 .dark-martian-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .dark-martian-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
@@ -1205,7 +1230,7 @@ body.crop-formation {
 .paint-planet-red-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
@@ -1220,7 +1245,7 @@ body.crop-formation {
 .light-source-link {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
   height: 97px;
-  width: 137px; }
+  width: 134px; }
   @media screen and (max-width: 1200px) {
     .light-source-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
@@ -1295,8 +1320,7 @@ body.habitable-saizon {
     background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); } }
 .habitable-saizon .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -1304,8 +1328,7 @@ body.habitable-saizon {
 
 .habitable-saizon .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1313,8 +1336,7 @@ body.habitable-saizon {
 
 .habitable-saizon .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
@@ -1440,8 +1462,7 @@ body.cosmonut {
     opacity: 1; } }
 .cosmonut .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -1449,8 +1470,7 @@ body.cosmonut {
 
 .cosmonut .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1458,8 +1478,7 @@ body.cosmonut {
 
 .cosmonut .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1542,8 +1561,7 @@ body.dark-martian {
 
 .dark-martian .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -1551,8 +1569,7 @@ body.dark-martian {
 
 .dark-martian .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1560,8 +1577,7 @@ body.dark-martian {
 
 .dark-martian .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
@@ -1659,8 +1675,7 @@ body.paint-planet-red {
     background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png); } }
 .paint-planet-red .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -1668,8 +1683,7 @@ body.paint-planet-red {
 
 .paint-planet-red .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1677,8 +1691,7 @@ body.paint-planet-red {
 
 .paint-planet-red .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
@@ -1728,8 +1741,7 @@ body.light-source {
 
 .light-source .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .light-source .stars1 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
@@ -1737,8 +1749,7 @@ body.light-source {
 
 .light-source .stars2 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .light-source .stars2 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
@@ -1746,8 +1757,7 @@ body.light-source {
 
 .light-source .stars3 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .light-source .stars3 {
       background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
@@ -1789,8 +1799,7 @@ body.creators {
 
 .creators .stars1 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .creators .stars1 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars1.png); } }
@@ -1800,8 +1809,7 @@ body.creators {
 
 .creators .stars2 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .creators .stars2 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars2.png); } }
@@ -1811,8 +1819,7 @@ body.creators {
 
 .creators .stars3 {
   background: url(/images/9-TheCreators/desktop/background-creators-stars3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .creators .stars3 {
       background: url(/images/9-TheCreators/tablet/background-creators-stars3.png); } }
@@ -1871,8 +1878,7 @@ body.our-craft {
 
 .our-craft .stars1 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars1 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png); } }
@@ -1882,8 +1888,7 @@ body.our-craft {
 
 .our-craft .stars2 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars2 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png); } }
@@ -1893,8 +1898,7 @@ body.our-craft {
 
 .our-craft .stars3 {
   background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars3 {
       background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png); } }
@@ -1935,8 +1939,7 @@ body.events {
 
 .events .stars1 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
-  background-size: cover;
-  animation: rotate 250s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .events .stars1 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png); } }
@@ -1946,8 +1949,7 @@ body.events {
 
 .events .stars2 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents2.png);
-  background-size: cover;
-  animation: rotate 300s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .events .stars2 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png); } }
@@ -1957,8 +1959,7 @@ body.events {
 
 .events .stars3 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents3.png);
-  background-size: cover;
-  animation: rotate 500s infinite; }
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     .events .stars3 {
       background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png); } }
@@ -2053,7 +2054,8 @@ body.contact {
 .contact .stars1 {
   background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
   background-size: cover;
-  animation: rotate 250s infinite; }
+  animation: twinkle 25s infinite;
+  animation-timing-function: linear; }
   @media screen and (max-width: 1200px) {
     .contact .stars1 {
       background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
@@ -2065,7 +2067,8 @@ body.contact {
 .contact .stars2 {
   background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
   background-size: cover;
-  animation: rotate 300s infinite; }
+  animation: twinkle 27s infinite;
+  animation-timing-function: linear; }
   @media screen and (max-width: 1200px) {
     .contact .stars2 {
       background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
@@ -2077,7 +2080,8 @@ body.contact {
 .contact .stars3 {
   background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
   background-size: cover;
-  animation: rotate 500s infinite; }
+  animation: twinkle 22s infinite;
+  animation-timing-function: linear; }
   @media screen and (max-width: 1200px) {
     .contact .stars3 {
       background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);

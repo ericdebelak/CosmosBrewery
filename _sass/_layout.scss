@@ -367,6 +367,51 @@ html {
   from    { transform: rotate(0deg); }
   to  { transform: rotate(360deg); }
 }
+@keyframes twinkle {
+  0%   {
+    opacity: .5;
+    transform: rotate(0deg);
+  }
+  25%  {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  35%  {
+    opacity: .5;
+    transform: rotate(1deg);
+  }
+  60%  {
+    opacity: 1;
+    transform: rotate(1deg);
+  }
+  70%  {
+    opacity: .5;
+    transform: rotate(0deg);
+  }
+  90%  {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  100%  {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+
+.stars1 {
+  animation: twinkle 27s infinite;
+  animation-timing-function: linear;
+}
+
+.stars2 {
+  animation: twinkle 22s infinite;
+  animation-timing-function: linear;
+}
+
+.stars3 {
+  animation: twinkle 25s infinite;
+  animation-timing-function: linear;
+}
 
 // Beer content
 .beer-content {

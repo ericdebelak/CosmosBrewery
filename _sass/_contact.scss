@@ -19,7 +19,8 @@ body.contact {
 .contact .stars1 {
   background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
   background-size: cover;
-  animation: rotate 250s infinite;
+  animation: twinkle 25s infinite;
+  animation-timing-function: linear;
   @include media-query($on-laptop) {
     background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
     background-size: cover
@@ -32,7 +33,8 @@ body.contact {
 .contact .stars2 {
   background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
   background-size: cover;
-  animation: rotate 300s infinite;
+  animation: twinkle 27s infinite;
+  animation-timing-function: linear;
   @include media-query($on-laptop) {
     background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
     background-size: cover
@@ -45,7 +47,8 @@ body.contact {
 .contact .stars3 {
   background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
   background-size: cover;
-  animation: rotate 500s infinite;
+  animation: twinkle 22s infinite;
+  animation-timing-function: linear;
   @include media-query($on-laptop) {
     background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);
     background-size: cover
