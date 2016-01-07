@@ -34,12 +34,12 @@ html {
  * Site header
  */
 .site-header {
-    background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
     min-height: 140px;
     // Positioning context for the mobile navigation icon
     position: relative;
     @include media-query($on-laptop) {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png);
       background-size: cover;
       min-height: 79px;
       height: 79px;
@@ -47,11 +47,11 @@ html {
 }
 
 .header-logo {
-    background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
     height: 94px;
     width: 246px;
     @include media-query($on-laptop) {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-logo.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-logo.png);
       background-position: center -5px;
       height: 63px;
       width: 164px;
@@ -101,10 +101,10 @@ html {
 
     }
     a.active {
-      background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
       background-size: cover;
       @include media-query($on-laptop) {
-        background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
+        background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
         background-size: cover;
       }
       @include media-query($on-palm) {

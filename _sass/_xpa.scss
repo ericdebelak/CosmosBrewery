@@ -1,14 +1,14 @@
 body.x-pa {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
   height: 100%;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
     height: 100%;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
     height: 100%;
     background-size: cover;
   }
@@ -32,60 +32,60 @@ body.x-pa {
 }
 
 .x-pa .planet {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
   height: 779px;
   width: 779px;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/planet.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/planet.png);
     height: 352px;
     width: 351px;
   }
 }
 
 .x-pa .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
     background-size: cover;
   }
 }
 
 .x-pa .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
     background-size: cover;
   }
 }
 
 .x-pa .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
     background-size: cover;
   }
 }
 
 .x-pa .beer-can {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png);
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png);
   }
   @include media-query($on-palm) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png);
   }
 }
 
 .x-pa .beer-footer-icons {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png);
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png);
+    background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png);
   }
 }

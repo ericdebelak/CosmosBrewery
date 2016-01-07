@@ -13,7 +13,7 @@
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
 body.home {
-  background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
+  background: url(/CosmosBrewery/images/1-AreYou21/desktop/background21.png) no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -22,11 +22,11 @@ body.home {
   color: #fff; }
   @media screen and (max-width: 1200px) {
     body.home {
-      background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
+      background: url(/CosmosBrewery/images/1-AreYou21/tablet/background21.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.home {
-      background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
+      background: url(/CosmosBrewery/images/1-AreYou21/-mobile/background.png) no-repeat;
       background-size: cover; } }
 
 .home img {
@@ -34,7 +34,7 @@ body.home {
   margin: 0 auto; }
 
 .home .planet {
-  background: url(/images/1-AreYou21/desktop/planet.png);
+  background: url(/CosmosBrewery/images/1-AreYou21/desktop/planet.png);
   background-size: cover;
   animation: rotate 300s infinite;
   position: absolute;
@@ -44,11 +44,11 @@ body.home {
   left: 0; }
   @media screen and (max-width: 1200px) {
     .home .planet {
-      background: url(/images/1-AreYou21/tablet/planet.png);
+      background: url(/CosmosBrewery/images/1-AreYou21/tablet/planet.png);
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     .home .planet {
-      background: url(/images/1-AreYou21/-mobile/planet.png) no-repeat;
+      background: url(/CosmosBrewery/images/1-AreYou21/-mobile/planet.png) no-repeat;
       background-size: contain; } }
 
 .planet-container {
@@ -79,30 +79,30 @@ body.home {
   left: 0; }
 
 .home .stars1 {
-  background: url(/images/1-AreYou21/desktop/background-21-stars1.png);
+  background: url(/CosmosBrewery/images/1-AreYou21/desktop/background-21-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .home .stars1 {
-      background: url(/images/1-AreYou21/tablet/background-21-stars1.png);
+      background: url(/CosmosBrewery/images/1-AreYou21/tablet/background-21-stars1.png);
       background-size: cover; } }
 
 .home .stars2 {
-  background: url(/images/1-AreYou21/desktop/background-21-stars2.png);
+  background: url(/CosmosBrewery/images/1-AreYou21/desktop/background-21-stars2.png);
   background-size: cover;
   animation: rotate 200s infinite; }
   @media screen and (max-width: 1200px) {
     .home .stars2 {
-      background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
+      background: url(/CosmosBrewery/images/1-AreYou21/tablet/background-21-stars2.png);
       background-size: cover; } }
 
 .home .stars3 {
-  background: url(/images/1-AreYou21/desktop/background-21-stars3.png);
+  background: url(/CosmosBrewery/images/1-AreYou21/desktop/background-21-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .home .stars3 {
-      background: url(/images/1-AreYou21/tablet/background-21-stars2.png);
+      background: url(/CosmosBrewery/images/1-AreYou21/tablet/background-21-stars2.png);
       background-size: cover; } }
 
 .home h1 {
@@ -319,23 +319,23 @@ html {
  * Site header
  */
 .site-header {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
   min-height: 140px;
   position: relative; }
   @media screen and (max-width: 1200px) {
     .site-header {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png);
       background-size: cover;
       min-height: 79px;
       height: 79px; } }
 
 .header-logo {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
   height: 94px;
   width: 246px; }
   @media screen and (max-width: 1200px) {
     .header-logo {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-logo.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-logo.png);
       background-position: center -5px;
       height: 63px;
       width: 164px; } }
@@ -377,11 +377,11 @@ html {
           .site-nav .trigger a br:after {
             content: " "; } }
     .site-nav .trigger a.active {
-      background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
       background-size: cover; }
       @media screen and (max-width: 1200px) {
         .site-nav .trigger a.active {
-          background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
+          background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
           background-size: cover; } }
       @media screen and (max-width: 600px) {
         .site-nav .trigger a.active {
@@ -814,17 +814,17 @@ html {
     color: #099; }
 
 body.x-pa {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
   height: 100%;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -845,78 +845,78 @@ body.x-pa {
       margin-top: -250px; } }
 
 .x-pa .planet {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/planet.png);
   height: 779px;
   width: 779px;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .x-pa .planet {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/planet.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/planet.png);
       height: 352px;
       width: 351px; } }
 
 .x-pa .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars1 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
       background-size: cover; } }
 
 .x-pa .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars2 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
       background-size: cover; } }
 
 .x-pa .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .x-pa .stars3 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
       background-size: cover; } }
 
 .x-pa .beer-can {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png); }
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png); }
   @media screen and (max-width: 1200px) {
     .x-pa .beer-can {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png); } }
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png); } }
   @media screen and (max-width: 600px) {
     .x-pa .beer-can {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png); } }
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/can-planetxpa.png); } }
 
 .x-pa .beer-footer-icons {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png); }
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/bottomiconsXPA.png); }
   @media screen and (max-width: 1200px) {
     .x-pa .beer-footer-icons {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png); } }
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png); } }
 
 body.crop-formation {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png) no-repeat;
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png) no-repeat;
   height: 100%;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
       height: 100%;
       background-size: cover; } }
 
 .crop-formation .header-logo {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png); }
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png); }
   @media screen and (max-width: 1200px) {
     .crop-formation .header-logo {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-logo-cropformation.png); } }
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/header-logo-cropformation.png); } }
 
 .crop-formation .planet-container {
   position: absolute;
@@ -948,89 +948,89 @@ body.crop-formation {
   0% {
     opacity: 0; }
   50% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/cropcircle-part.png);
     opacity: 1; }
   100% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
 @keyframes rotateCrop {
   0% {
     transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
   50% {
     transform: rotate(10deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); }
   100% {
     transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/cropcircle.png); } }
 @keyframes cropFormationTablet {
   0% {
     opacity: 0; }
   50% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle-part.png);
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/cropcircle-part.png);
     opacity: 1; }
   100% {
-    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); } }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); } }
 @keyframes rotateCropTablet {
   0% {
     transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); }
   50% {
     transform: rotate(10deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); }
   100% {
     transform: rotate(0deg);
-    background-image: url(/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); } }
+    background-image: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/cropcircle.png); } }
 .crop-formation .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .crop-formation .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .crop-formation .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .crop-formation .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
       background-size: cover; } }
 
 .crop-formation .beer-can {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png); }
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png); }
   @media screen and (max-width: 1200px) {
     .crop-formation .beer-can {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png); } }
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png); } }
   @media screen and (max-width: 600px) {
     .crop-formation .beer-can {
-      background: url(/images/3-TryOurBeer-CropFormation/-mobile/can-cropformation.png); } }
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/-mobile/can-cropformation.png); } }
 
 .crop-formation .beer-footer-icons {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/bottomicons-cropcircle.png);
   height: 94px;
   width: 199px; }
   @media screen and (max-width: 1200px) {
     .crop-formation .beer-footer-icons {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/bottomicons-cropcircle.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/bottomicons-cropcircle.png);
       height: 47px;
       width: 140px; } }
 
 .crop-formation .site-header {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
   @media screen and (max-width: 1200px) {
     .crop-formation .site-header {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png);
       background-size: cover; } }
 
 .crop-formation .post-title {
@@ -1128,127 +1128,127 @@ body.crop-formation {
       border: none; } }
 
 .planet-xpa-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .planet-xpa-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .planet-xpa-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-XPA.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-XPA.png);
       height: 20px;
       width: 136px; } }
 
 .crop-formation-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .crop-formation-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .crop-formation-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cropformation.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-cropformation.png);
       height: 20px;
       width: 136px; } }
 
 .habitable-saizon-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .habitable-saizon-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-habitablesaizone.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-habitablesaizone.png);
       height: 20px;
       width: 136px; } }
 
 .cosmonut-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .cosmonut-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .cosmonut-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-cosmonut.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-cosmonut.png);
       height: 20px;
       width: 136px; } }
 
 .dark-martian-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .dark-martian-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .dark-martian-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-darkmartian.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-darkmartian.png);
       height: 20px;
       width: 136px; } }
 
 .paint-planet-red-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .paint-planet-red-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-paintplanetred.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-paintplanetred.png);
       height: 20px;
       width: 136px; } }
 
 .light-source-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
+  background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
   height: 97px;
   width: 137px; }
   @media screen and (max-width: 1200px) {
     .light-source-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
       height: 75px;
       width: 106px; } }
   @media screen and (max-width: 600px) {
     .light-source-link {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
+      background: url(/CosmosBrewery/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
       height: 20px;
       width: 136px; } }
 
 body.habitable-saizon {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
+  background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
       background-size: cover; } }
 
 .habitable-saizon .header-logo {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png); }
+  background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png); }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .header-logo {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-logo-habitablesaizone.png); } }
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/header-logo-habitablesaizone.png); } }
 
 .habitable-saizon .planet-container {
   position: absolute;
@@ -1271,101 +1271,101 @@ body.habitable-saizon {
   width: 800px;
   animation: habitableSaizon 10s infinite;
   background-repeat: no-repeat;
-  background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
+  background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .planet {
-      background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png);
+      background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png);
       height: 325px;
       width: 350px;
       animation: habitableSaizonTablet 10s infinite; } }
 
 @keyframes habitableSaizon {
   0% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); }
   50% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun2.png); }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/sun2.png); }
   100% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); } }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/sun.png); } }
 @keyframes habitableSaizonTablet {
   0% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); }
   50% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun2.png); }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/sun2.png); }
   100% {
-    background-image: url(/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); } }
+    background-image: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/sun.png); } }
 .habitable-saizon .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .habitable-saizon .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .habitable-saizon .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
       background-size: cover; } }
 
 .habitable-saizon .beer-can {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/can-habitablesaizone.png); }
+  background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/can-habitablesaizone.png); }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .beer-can {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png); } }
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png); } }
   @media screen and (max-width: 600px) {
     .habitable-saizon .beer-can {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/can-habitablesaizone.png); } }
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/-mobile/can-habitablesaizone.png); } }
 
 .habitable-saizon .beer-footer-icons {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
+  background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
   height: 32px;
   width: 138px; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .beer-footer-icons {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/bottomicon-habitablesaizone.png);
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/bottomicon-habitablesaizone.png);
       height: 32px;
       width: 138px; } }
 
 .habitable-saizon .site-header {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png); }
+  background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png); }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .site-header {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png);
+      background: url(/CosmosBrewery/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png);
       background-size: cover; } }
 
 .habitable-saizon .post-title {
   color: #f2624d; }
 
 body.cosmonut {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
+  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
       background-size: cover; } }
 
 .cosmonut .header-logo {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-logo-cosmonut.png); }
+  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/header-logo-cosmonut.png); }
   @media screen and (max-width: 1200px) {
     .cosmonut .header-logo {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-logo-cosmonut.png); } }
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/header-logo-cosmonut.png); } }
 
 .cosmonut .planet-container {
   position: absolute;
@@ -1386,13 +1386,13 @@ body.cosmonut {
   height: 654px;
   width: 424px;
   background-repeat: no-repeat;
-  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/squirrel.png); }
+  background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/squirrel.png); }
   @media screen and (max-width: 1200px) {
     .cosmonut .squirrel {
       height: 327px;
       width: 212px;
       background-repeat: no-repeat;
-      background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png); } }
+      background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png); } }
   @media screen and (max-width: 600px) {
     .cosmonut .squirrel {
       background: none; } }
@@ -1407,11 +1407,11 @@ body.cosmonut {
   top: 40%;
   opacity: 0;
   background-repeat: no-repeat;
-  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/cashew.png);
+  background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/cashew.png);
   z-index: -1; }
   @media screen and (max-width: 1200px) {
     .cosmonut .cashew {
-      background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
+      background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
       height: 98px;
       width: 72px;
       left: 170px;
@@ -1439,78 +1439,78 @@ body.cosmonut {
     top: 80%;
     opacity: 1; } }
 .cosmonut .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .cosmonut .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .cosmonut .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .cosmonut .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .cosmonut .beer-can {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png); }
+  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png); }
   @media screen and (max-width: 1200px) {
     .cosmonut .beer-can {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png); } }
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png); } }
   @media screen and (max-width: 600px) {
     .cosmonut .beer-can {
-      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png); } }
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png); } }
 
 .cosmonut .beer-footer-icons {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);
+  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);
   height: 103px;
   width: 507px; }
   @media screen and (max-width: 1200px) {
     .cosmonut .beer-footer-icons {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/bottomicons-cosmonut.png);
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/bottomicons-cosmonut.png);
       height: 47px;
       width: 231px; } }
 
 .cosmonut .site-header {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png); }
+  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png); }
   @media screen and (max-width: 1200px) {
     .cosmonut .site-header {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
+      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
       background-size: cover; } }
 
 .cosmonut .post-title {
   color: #c78032; }
 
 body.dark-martian {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
+  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
       background-size: cover; } }
 
 .dark-martian .header-logo {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png); }
+  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png); }
   @media screen and (max-width: 1200px) {
     .dark-martian .header-logo {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-logo-darkmartian.png); } }
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/header-logo-darkmartian.png); } }
 
 .dark-martian .planet-container {
   position: absolute;
@@ -1533,86 +1533,86 @@ body.dark-martian {
   height: 662px;
   width: 760px;
   background-repeat: no-repeat;
-  background-image: url(/images/6-TryOurBeer-DarkMartian/desktop/martian.png); }
+  background-image: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/martian.png); }
   @media screen and (max-width: 1200px) {
     .dark-martian .planet {
       height: 265px;
       width: 304px;
-      background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian.png); } }
+      background-image: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/martian.png); } }
 
 .dark-martian .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .dark-martian .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .dark-martian .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .dark-martian .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
       background-size: cover; } }
 
 .dark-martian .beer-can {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png); }
+  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png); }
   @media screen and (max-width: 1200px) {
     .dark-martian .beer-can {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png); } }
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png); } }
   @media screen and (max-width: 600px) {
     .dark-martian .beer-can {
-      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png); } }
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png); } }
 
 .dark-martian .beer-footer-icons {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
+  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
   height: 103px;
   width: 507px; }
   @media screen and (max-width: 1200px) {
     .dark-martian .beer-footer-icons {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
       height: 46px;
       width: 150px; } }
 
 .dark-martian .site-header {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png); }
+  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png); }
   @media screen and (max-width: 1200px) {
     .dark-martian .site-header {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
+      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
       background-size: cover; } }
 
 .dark-martian .post-title {
   color: #f58e86; }
 
 body.paint-planet-red {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
+  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
       background-size: cover; } }
 
 .paint-planet-red .header-logo {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png); }
+  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png); }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .header-logo {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png); } }
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png); } }
 
 .paint-planet-red .planet-container {
   position: absolute;
@@ -1635,187 +1635,187 @@ body.paint-planet-red {
   width: 716px;
   animation: paintPlanentRed 10s infinite;
   background-repeat: no-repeat;
-  background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
+  background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .planet {
-      background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+      background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
       height: 300px;
       width: 301px;
       animation: paintPlanentRedTablet 10s infinite; } }
 
 @keyframes paintPlanentRed {
   0% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
   50% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet2.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet2.png); }
   100% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); } }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); } }
 @keyframes paintPlanentRedTablet {
   0% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png); }
   50% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet2.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet2.png); }
   100% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png); } }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png); } }
 .paint-planet-red .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .paint-planet-red .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .paint-planet-red .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
       background-size: cover; } }
 
 .paint-planet-red .beer-can {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png); }
+  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png); }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .beer-can {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png); } }
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png); } }
   @media screen and (max-width: 600px) {
     .paint-planet-red .beer-can {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/can-paintplanetred.png); } }
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/-mobile/can-paintplanetred.png); } }
 
 .paint-planet-red .beer-footer-icons {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
+  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
   height: 103px;
   width: 507px; }
 
 .paint-planet-red .site-header {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png); }
+  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png); }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .site-header {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
+      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
       background-size: cover; } }
 
 .paint-planet-red .post-title {
   color: #ff5d5d; }
 
 body.light-source {
-  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.png) no-repeat;
+  background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/desktop/background-lightsource.png) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
       background-size: cover; } }
 
 .light-source .header-logo {
-  background: url(/images/8-TryOurBeerLightSource/desktop/header-logo-lightsource.png); }
+  background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/desktop/header-logo-lightsource.png); }
   @media screen and (max-width: 1200px) {
     .light-source .header-logo {
-      background: url(/images/8-TryOurBeerLightSource/tablet/header-logo-lightsource.png); } }
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/tablet/header-logo-lightsource.png); } }
 
 .light-source .stars1 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .light-source .stars1 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .light-source .stars2 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .light-source .stars2 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .light-source .stars3 {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .light-source .stars3 {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+      background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
       background-size: cover; } }
 
 .light-source .beer-can {
-  background: url(/images/8-TryOurBeerLightSource/desktop/can-generic.png); }
+  background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/desktop/can-generic.png); }
   @media screen and (max-width: 1200px) {
     .light-source .beer-can {
-      background: url(/images/8-TryOurBeerLightSource/tablet/can-generic.png); } }
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/tablet/can-generic.png); } }
   @media screen and (max-width: 600px) {
     .light-source .beer-can {
-      background: url(/images/8-TryOurBeerLightSource/-mobile/can-generic.png); } }
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/-mobile/can-generic.png); } }
 
 .light-source .site-header {
-  background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png); }
+  background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/desktop/header-lightsource.png); }
   @media screen and (max-width: 1200px) {
     .light-source .site-header {
-      background: url(/images/8-TryOurBeerLightSource/tablet/header-lightsource.png);
+      background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/tablet/header-lightsource.png);
       background-size: cover; } }
 
 .light-source .post-title {
   color: #fff; }
 
 body.creators {
-  background: url(/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
+  background: url(/CosmosBrewery/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.creators {
-      background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
+      background: url(/CosmosBrewery/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.creators {
-      background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
+      background: url(/CosmosBrewery/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
 .creators .stars1 {
-  background: url(/images/9-TheCreators/desktop/background-creators-stars1.png);
+  background: url(/CosmosBrewery/images/9-TheCreators/desktop/background-creators-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .creators .stars1 {
-      background: url(/images/9-TheCreators/tablet/background-creators-stars1.png); } }
+      background: url(/CosmosBrewery/images/9-TheCreators/tablet/background-creators-stars1.png); } }
   @media screen and (max-width: 600px) {
     .creators .stars1 {
       background: none; } }
 
 .creators .stars2 {
-  background: url(/images/9-TheCreators/desktop/background-creators-stars2.png);
+  background: url(/CosmosBrewery/images/9-TheCreators/desktop/background-creators-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .creators .stars2 {
-      background: url(/images/9-TheCreators/tablet/background-creators-stars2.png); } }
+      background: url(/CosmosBrewery/images/9-TheCreators/tablet/background-creators-stars2.png); } }
   @media screen and (max-width: 600px) {
     .creators .stars2 {
       background: none; } }
 
 .creators .stars3 {
-  background: url(/images/9-TheCreators/desktop/background-creators-stars3.png);
+  background: url(/CosmosBrewery/images/9-TheCreators/desktop/background-creators-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .creators .stars3 {
-      background: url(/images/9-TheCreators/tablet/background-creators-stars3.png); } }
+      background: url(/CosmosBrewery/images/9-TheCreators/tablet/background-creators-stars3.png); } }
   @media screen and (max-width: 600px) {
     .creators .stars3 {
       background: none; } }
@@ -1855,49 +1855,49 @@ body.creators {
   font-weight: bold; }
 
 body.our-craft {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
+      background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
+      background: url(/CosmosBrewery/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
 .our-craft .stars1 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars1 {
-      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png); } }
+      background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png); } }
   @media screen and (max-width: 600px) {
     .our-craft .stars1 {
       background: none; } }
 
 .our-craft .stars2 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars2 {
-      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png); } }
+      background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png); } }
   @media screen and (max-width: 600px) {
     .our-craft .stars2 {
       background: none; } }
 
 .our-craft .stars3 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .our-craft .stars3 {
-      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png); } }
+      background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png); } }
   @media screen and (max-width: 600px) {
     .our-craft .stars3 {
       background: none; } }
@@ -1919,49 +1919,49 @@ body.our-craft {
     flex: 1; }
 
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png) no-repeat;
+  background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/background-cosmicevents.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.events {
-      background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
+      background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 1200px) {
     body.events {
-      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
+      background: url(/CosmosBrewery/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
 .events .stars1 {
-  background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
+  background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .events .stars1 {
-      background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png); } }
+      background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/background-stars-cosmicevents1.png); } }
   @media screen and (max-width: 600px) {
     .events .stars1 {
       background: none; } }
 
 .events .stars2 {
-  background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents2.png);
+  background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/background-stars-cosmicevents2.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .events .stars2 {
-      background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png); } }
+      background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/background-stars-cosmicevents2.png); } }
   @media screen and (max-width: 600px) {
     .events .stars2 {
       background: none; } }
 
 .events .stars3 {
-  background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents3.png);
+  background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/background-stars-cosmicevents3.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .events .stars3 {
-      background: url(/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png); } }
+      background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/background-stars-cosmicevents3.png); } }
   @media screen and (max-width: 600px) {
     .events .stars3 {
       background: none; } }
@@ -2003,7 +2003,7 @@ body.events {
 
 .events .planet {
   background-repeat: no-repeat;
-  background: url(/images/11-CosmicEvents/desktop/moon.png);
+  background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/moon.png);
   width: 704px;
   height: 705px;
   background-size: cover;
@@ -2011,7 +2011,7 @@ body.events {
   animation-timing-function: linear; }
   @media screen and (max-width: 1200px) {
     .events .planet {
-      background: url(/images/11-CosmicEvents/tablet/moon.png);
+      background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/moon.png);
       height: 397px;
       width: 396px;
       animation: moonsTablet 20s infinite; } }
@@ -2021,66 +2021,66 @@ body.events {
     display: block; } }
 @keyframes moons {
   0% {
-    background: url(/images/11-CosmicEvents/desktop/moon.png); }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/moon.png); }
   25% {
-    background: url(/images/11-CosmicEvents/desktop/moon-withshadow.png); }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/moon-withshadow.png); }
   75% {
-    background: url(/images/11-CosmicEvents/desktop/moon.png); } }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/desktop/moon.png); } }
 @keyframes moonsTablet {
   0% {
-    background: url(/images/11-CosmicEvents/tablet/moon.png); }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/moon.png); }
   25% {
-    background: url(/images/11-CosmicEvents/tablet/moon-withshadow.png); }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/moon-withshadow.png); }
   75% {
-    background: url(/images/11-CosmicEvents/tablet/moon.png); } }
+    background: url(/CosmosBrewery/images/11-CosmicEvents/tablet/moon.png); } }
 body.contact {
-  background: url(/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
+  background: url(/CosmosBrewery/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.contact {
-      background: url(/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
+      background: url(/CosmosBrewery/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.contact {
-      background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
+      background: url(/CosmosBrewery/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }
 
 .contact .stars1 {
-  background: url(/images/12-MakeContact/desktop/background-stars1-makecontact.png);
+  background: url(/CosmosBrewery/images/12-MakeContact/desktop/background-stars1-makecontact.png);
   background-size: cover;
   animation: rotate 250s infinite; }
   @media screen and (max-width: 1200px) {
     .contact .stars1 {
-      background: url(/images/12-MakeContact/tablet/background-stars1-makecontact.png);
+      background: url(/CosmosBrewery/images/12-MakeContact/tablet/background-stars1-makecontact.png);
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     .contact .stars1 {
       background: none; } }
 
 .contact .stars2 {
-  background: url(/images/12-MakeContact/desktop/background-stars2-makecontact.png);
+  background: url(/CosmosBrewery/images/12-MakeContact/desktop/background-stars2-makecontact.png);
   background-size: cover;
   animation: rotate 300s infinite; }
   @media screen and (max-width: 1200px) {
     .contact .stars2 {
-      background: url(/images/12-MakeContact/tablet/background-stars2-makecontact.png);
+      background: url(/CosmosBrewery/images/12-MakeContact/tablet/background-stars2-makecontact.png);
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     .contact .stars2 {
       background: none; } }
 
 .contact .stars3 {
-  background: url(/images/12-MakeContact/desktop/background-stars3-makecontact.png);
+  background: url(/CosmosBrewery/images/12-MakeContact/desktop/background-stars3-makecontact.png);
   background-size: cover;
   animation: rotate 500s infinite; }
   @media screen and (max-width: 1200px) {
     .contact .stars3 {
-      background: url(/images/12-MakeContact/tablet/background-stars3-makecontact.png);
+      background: url(/CosmosBrewery/images/12-MakeContact/tablet/background-stars3-makecontact.png);
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     .contact .stars3 {
