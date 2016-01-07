@@ -1070,7 +1070,7 @@ body.crop-formation {
       .beer-bar .scroll {
         display: none; } }
   .beer-bar .beers {
-    width: 184px;
+    width: 189px;
     height: 680px;
     overflow: scroll; }
     @media screen and (max-width: 1200px) {
