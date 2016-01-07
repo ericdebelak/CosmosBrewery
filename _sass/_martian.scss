@@ -1,20 +1,20 @@
 body.dark-martian {
-  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
     background-size: cover;
   }
 }
 
 .dark-martian .header-logo {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png);
     @include media-query($on-laptop) {
-      background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/header-logo-darkmartian.png);
+      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-logo-darkmartian.png);
     }
 }
 
@@ -40,69 +40,69 @@ body.dark-martian {
   height: 662px;
   width: 760px;
   background-repeat: no-repeat;
-  background-image: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/martian.png);
+  background-image: url(/images/6-TryOurBeer-DarkMartian/desktop/martian.png);
   @include media-query($on-laptop) {
     height: 265px;
     width: 304px;
-    background-image: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/martian.png);
+    background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian.png);
   }
 }
 
 .dark-martian .stars1 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
   }
 }
 
 .dark-martian .stars2 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .dark-martian .stars3 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
     background-size: cover;
   }
 }
 
 .dark-martian .beer-can {
-  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png);
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png);
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/can-darkmartian.png);
   }
 }
 
 .dark-martian .beer-footer-icons {
-  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
   height: 103px;
   width: 507px;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
     height: 46px;
     width: 150px;
   }
 }
 
 .dark-martian .site-header {
-  background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png);
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
     background-size: cover;
   }
 }

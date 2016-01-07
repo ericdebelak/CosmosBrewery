@@ -1,20 +1,20 @@
 body.cosmonut {
-  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
+    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
     background-size: cover;
   }
 }
 
 .cosmonut .header-logo {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/header-logo-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-logo-cosmonut.png);
     @include media-query($on-laptop) {
-      background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/header-logo-cosmonut.png);
+      background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-logo-cosmonut.png);
     }
 }
 
@@ -38,12 +38,12 @@ body.cosmonut {
   height: 654px;
   width: 424px;
   background-repeat: no-repeat;
-  background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/squirrel.png);
+  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/squirrel.png);
   @include media-query($on-laptop) {
     height: 327px;
     width: 212px;
     background-repeat: no-repeat;
-    background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png);
+    background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/squirrel.png);
   }
   @include media-query($on-palm) {
     background: none;
@@ -60,10 +60,10 @@ body.cosmonut {
   top: 40%;
   opacity: 0;
   background-repeat: no-repeat;
-  background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/cashew.png);
+  background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/cashew.png);
   z-index: -1;
   @include media-query($on-laptop) {
-    background-image: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
+    background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
     height: 98px;
     width: 72px;
     left: 170px;
@@ -101,60 +101,60 @@ body.cosmonut {
 }
 
 .cosmonut .stars1 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
   }
 }
 
 .cosmonut .stars2 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .cosmonut .stars3 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .cosmonut .beer-can {
-  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png);
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png);
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/can-cosmonut.png);
   }
 }
 
 .cosmonut .beer-footer-icons {
-  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/bottomicons-cosmonut.png);
   height: 103px;
   width: 507px;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/bottomicons-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/bottomicons-cosmonut.png);
     height: 47px;
     width: 231px;
   }
 }
 
 .cosmonut .site-header {
-  background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png);
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
     background-size: cover;
   }
 }

@@ -1,20 +1,20 @@
 body.paint-planet-red {
-  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
     background-size: cover;
   }
 }
 
 .paint-planet-red .header-logo {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png);
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png);
     @include media-query($on-laptop) {
-      background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png);
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png);
     }
 }
 
@@ -40,9 +40,9 @@ body.paint-planet-red {
   width: 716px;
   animation: paintPlanentRed 10s infinite;
   background-repeat: no-repeat;
-  background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
+  background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
   @include media-query($on-laptop) {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
     height: 300px;
     width: 301px;
     animation: paintPlanentRedTablet 10s infinite;
@@ -51,78 +51,78 @@ body.paint-planet-red {
 
 @keyframes paintPlanentRed {
   0% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
   }
   50% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet2.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet2.png);
   }
   100% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
   }
 }
 
 @keyframes paintPlanentRedTablet {
   0% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
   }
   50% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet2.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet2.png);
   }
   100% {
-    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/paintedplanet1.png);
   }
 }
 
 .paint-planet-red .stars1 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
   }
 }
 
 .paint-planet-red .stars2 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   animation: rotate 300s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .paint-planet-red .stars3 {
-  background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars3.png);
     background-size: cover;
   }
 }
 
 .paint-planet-red .beer-can {
-  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png);
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png);
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png);
   }
   @include media-query($on-palm) {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/-mobile/can-paintplanetred.png);
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/can-paintplanetred.png);
   }
 }
 
 .paint-planet-red .beer-footer-icons {
-  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/bottomicons-darkmartian.png);
   height: 103px;
   width: 507px;
 }
 
 .paint-planet-red .site-header {
-  background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png);
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png);
   @include media-query($on-laptop) {
-    background: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
     background-size: cover;
   }
 }
