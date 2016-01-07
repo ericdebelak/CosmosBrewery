@@ -103,7 +103,6 @@ body.cosmonut {
 .cosmonut .stars1 {
   background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
-  animation: rotate 250s infinite;
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
@@ -113,7 +112,6 @@ body.cosmonut {
 .cosmonut .stars2 {
   background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
-  animation: rotate 300s infinite;
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
@@ -123,7 +121,6 @@ body.cosmonut {
 .cosmonut .stars3 {
   background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
-  animation: rotate 500s infinite;
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
