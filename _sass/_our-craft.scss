@@ -1,25 +1,25 @@
 body.our-craft {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
+    background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include media-query($on-palm) {
-    background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
+    background: url(/CosmosBrewery/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
 }
 
 .our-craft .stars1 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
   background-size: cover;
   animation: rotate 250s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png);
+    background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png);
   }
   @include media-query($on-palm) {
     background: none;
@@ -27,11 +27,11 @@ body.our-craft {
 }
 
 .our-craft .stars2 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
   background-size: cover;
   animation: rotate 300s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png);
+    background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png);
   }
   @include media-query($on-palm) {
     background: none;
@@ -39,11 +39,11 @@ body.our-craft {
 }
 
 .our-craft .stars3 {
-  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
+  background: url(/CosmosBrewery/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
   background-size: cover;
   animation: rotate 500s infinite;
   @include media-query($on-laptop) {
-    background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png);
+    background: url(/CosmosBrewery/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png);
   }
   @include media-query($on-palm) {
     background: none;
