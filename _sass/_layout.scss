@@ -183,7 +183,6 @@ html {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     .wrapper {
       display: flex;
@@ -432,8 +431,8 @@ html {
 }
 
 .beer-can {
-  width: 304px;
-  height: 749px;
+  width: 254px;
+  height: 626px;
   display: inline-block;
   margin-left: 50px;
   @include media-query($on-laptop) {

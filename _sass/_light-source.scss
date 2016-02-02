@@ -46,7 +46,11 @@ body.light-source {
 }
 
 .light-source .beer-can {
+<<<<<<< HEAD
   background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/desktop/can-generic.png);
+=======
+  background: url(/images/8-TryOurBeerLightSource/desktop/can-light-source.png);
+>>>>>>> master
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/8-TryOurBeerLightSource/tablet/can-generic.png);
   }

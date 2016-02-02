@@ -21,12 +21,12 @@ body.paint-planet-red {
 .paint-planet-red .planet-container {
   position: absolute;
   z-index: -1;
-  left: -358px;
+  left: -558px;
   top: 50%;
   height: 714px;
-  width: 716px;
-  margin-top: -150px;
-  animation: rotate 500s infinite;
+  width: 1300px;
+  margin-top: -250px;
+  transform: rotate(-25deg);
   @include media-query($on-laptop) {
     left: -150px;
     height: 300px;
@@ -38,6 +38,7 @@ body.paint-planet-red {
 .paint-planet-red .planet {
   height: 714px;
   width: 716px;
+  float: left;
   animation: paintPlanentRed 10s infinite;
   background-repeat: no-repeat;
   background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png);
@@ -46,6 +47,29 @@ body.paint-planet-red {
     height: 300px;
     width: 301px;
     animation: paintPlanentRedTablet 10s infinite;
+  }
+}
+
+.paint-planet-red .ship-container {
+  height: 244px;
+  width: 582px;
+  animation: shipSpray 10s infinite;
+  float: left;
+  margin-top: 200px;
+  margin-left: -175px;
+  background-repeat: no-repeat;
+  background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png);
+}
+
+@keyframes shipSpray {
+  0% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png);
+  }
+  50% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship-paint.png);
+  }
+  100% {
+    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png);
   }
 }
 

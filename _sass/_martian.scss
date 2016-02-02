@@ -26,7 +26,7 @@ body.dark-martian {
   height: 662px;
   width: 760px;
   margin-top: -150px;
-  animation: rotate 500s infinite;
+  animation: martian 50s infinite;
   @include media-query($on-laptop) {
     left: -152px;
     top: 50%;
@@ -34,6 +34,12 @@ body.dark-martian {
     width: 304px;
     margin-top: -170px;
   }
+}
+
+@keyframes martian {
+  0%    { transform: rotate(0deg); }
+  25%  { transform: rotate(15deg); }
+  100%    { transform: rotate(0deg); }
 }
 
 .dark-martian .planet {
@@ -86,9 +92,15 @@ body.dark-martian {
 }
 
 .dark-martian .beer-footer-icons {
+<<<<<<< HEAD
   background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
   height: 103px;
   width: 507px;
+=======
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
+  height: 97px;
+  width: 319px;
+>>>>>>> master
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
     height: 46px;
