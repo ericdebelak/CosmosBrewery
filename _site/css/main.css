@@ -1684,15 +1684,15 @@ body.paint-planet-red {
   margin-top: 200px;
   margin-left: -175px;
   background-repeat: no-repeat;
-  background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); }
+  background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); }
 
 @keyframes shipSpray {
   0% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); }
   50% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship-paint.png); }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship-paint.png); }
   100% {
-    background-image: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); } }
+    background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paint-ship.png); } }
 @keyframes paintPlanentRed {
   0% {
     background-image: url(/CosmosBrewery/images/7-TryOurBeer-PaintPlanetRed/desktop/paintedplanet1.png); }
