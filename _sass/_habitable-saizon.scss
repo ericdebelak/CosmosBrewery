@@ -111,13 +111,13 @@ body.habitable-saizon {
 }
 
 .habitable-saizon .beer-footer-icons {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/bottomicon-habitablesaizone.png);
-  height: 32px;
-  width: 138px;
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/icons-habitablesaizone.png);
+  height: 94px;
+  width: 236px;
   @include media-query($on-laptop) {
-    background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/bottomicon-habitablesaizone.png);
-    height: 32px;
-    width: 138px;
+    background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/icons-habitablesaizone.png);
+    height: 94px;
+    width: 236px;
   }
 }
 
