@@ -92,15 +92,9 @@ body.dark-martian {
 }
 
 .dark-martian .beer-footer-icons {
-<<<<<<< HEAD
   background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
-  height: 103px;
-  width: 507px;
-=======
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/bottomicons-darkmartian.png);
   height: 97px;
   width: 319px;
->>>>>>> master
   @include media-query($on-laptop) {
     background: url(/CosmosBrewery/images/6-TryOurBeer-DarkMartian/tablet/bottomicons-darkmartian.png);
     height: 46px;
