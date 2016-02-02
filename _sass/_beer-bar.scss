@@ -15,9 +15,12 @@
     overflow: scroll;
   }
   p {
-    margin-left: 50px;
+    margin-left: 40px;
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0;
     @include media-query($on-laptop) {
-      margin-left: 35px;
+      margin-left: 25px;
       font-size: .8em;
     }
     @include media-query($on-palm) {
@@ -26,6 +29,9 @@
   }
   .scroll {
     font-size: .8em;
+    border-top: 1px solid #fff;
+    padding: 10px 10px 0;
+    border-bottom: none;
     @include media-query($on-laptop) {
       font-size: .6em;
     }
@@ -37,6 +43,7 @@
     width: 189px;
     height: 680px;
     overflow: scroll;
+    padding-top: 10px;
     @include media-query($on-laptop) {
       height: 455px;
       width: 141px;
@@ -78,6 +85,10 @@
       }
     }
   }
+}
+
+.beers::-webkit-scrollbar {
+    display: none;
 }
 
 .beer-bar:hover {

@@ -429,7 +429,6 @@ html {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid white;
   padding: 30px 0; }
   .site-footer .wrapper {
     display: flex;
@@ -1078,16 +1077,22 @@ body.crop-formation {
       float: none;
       overflow: scroll; } }
   .beer-bar p {
-    margin-left: 50px; }
+    margin-left: 40px;
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 0; }
     @media screen and (max-width: 1200px) {
       .beer-bar p {
-        margin-left: 35px;
+        margin-left: 25px;
         font-size: .8em; } }
     @media screen and (max-width: 600px) {
       .beer-bar p {
         display: none; } }
   .beer-bar .scroll {
-    font-size: .8em; }
+    font-size: .8em;
+    border-top: 1px solid #fff;
+    padding: 10px 10px 0;
+    border-bottom: none; }
     @media screen and (max-width: 1200px) {
       .beer-bar .scroll {
         font-size: .6em; } }
@@ -1097,7 +1102,8 @@ body.crop-formation {
   .beer-bar .beers {
     width: 189px;
     height: 680px;
-    overflow: scroll; }
+    overflow: scroll;
+    padding-top: 10px; }
     @media screen and (max-width: 1200px) {
       .beer-bar .beers {
         height: 455px;
@@ -1135,6 +1141,9 @@ body.crop-formation {
       @media screen and (max-width: 600px) {
         .beer-bar .beers .active {
           border: none; } }
+
+.beers::-webkit-scrollbar {
+  display: none; }
 
 .beer-bar:hover .active {
   margin-left: 50px;
