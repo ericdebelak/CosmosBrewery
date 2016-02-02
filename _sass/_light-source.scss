@@ -46,7 +46,7 @@ body.light-source {
 }
 
 .light-source .beer-can {
-  background: url(/images/8-TryOurBeerLightSource/desktop/can-generic.png);
+  background: url(/images/8-TryOurBeerLightSource/desktop/can-light-source.png);
   @include media-query($on-laptop) {
     background: url(/images/8-TryOurBeerLightSource/tablet/can-generic.png);
   }
