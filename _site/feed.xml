@@ -4,11 +4,11 @@
     <title>Cosmos Brewery</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Feb 2016 16:35:49 -0700</pubDate>
-    <lastBuildDate>Tue, 02 Feb 2016 16:35:49 -0700</lastBuildDate>
-    <generator>Jekyll v3.0.2</generator>
+    <link>http://cosmosbrewery.elevenonline.us/</link>
+    <atom:link href="http://cosmosbrewery.elevenonline.us/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 06 Apr 2016 16:14:56 -0600</pubDate>
+    <lastBuildDate>Wed, 06 Apr 2016 16:14:56 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
     
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 body.home {
-  background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
+  background: url(/images/1-AreYou21/desktop/background21.jpg) no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -7,11 +7,11 @@ body.home {
   text-align: center;
   color: #fff;
   @include media-query($on-laptop) {
-    background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
+    background: url(/images/1-AreYou21/tablet/background21.jpg) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
+    background: url(/images/1-AreYou21/-mobile/background.jpg) no-repeat;
     background-size: cover;
   }
 }

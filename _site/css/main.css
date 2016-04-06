@@ -13,7 +13,7 @@
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
 body.home {
-  background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
+  background: url(/images/1-AreYou21/desktop/background21.jpg) no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -22,11 +22,11 @@ body.home {
   color: #fff; }
   @media screen and (max-width: 1200px) {
     body.home {
-      background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
+      background: url(/images/1-AreYou21/tablet/background21.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.home {
-      background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
+      background: url(/images/1-AreYou21/-mobile/background.jpg) no-repeat;
       background-size: cover; } }
 
 .home img {
@@ -152,7 +152,6 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 20px/1.5 Bitstream;
   color: #fff;
-  background-color: #000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -844,17 +843,17 @@ html {
     color: #099; }
 
 body.x-pa {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.jpg) no-repeat;
   height: 100%;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -925,17 +924,17 @@ body.x-pa {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png); } }
 
 body.crop-formation {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png) no-repeat;
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.jpg) no-repeat;
   height: 100%;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.jpg) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
+      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.jpg) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -1267,15 +1266,15 @@ body.crop-formation {
       width: 136px; } }
 
 body.habitable-saizon {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.jpg) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
+      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.jpg) no-repeat;
       background-size: cover; } }
 
 .habitable-saizon .header-logo {
