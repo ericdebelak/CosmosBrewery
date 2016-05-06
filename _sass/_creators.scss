@@ -1,14 +1,14 @@
 body.creators {
-  background: url(/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
+  background: url(/images/9-TheCreators/desktop/background-thecreators.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
+    background: url(/images/9-TheCreators/tablet/background-thecreators.jpg) no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include media-query($on-palm) {
-    background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
+    background: url(/images/9-TheCreators/-mobile/background-thecreators.jpg) no-repeat;
     background-size: cover;
     height: 100%;
   }

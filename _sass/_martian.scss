@@ -1,12 +1,12 @@
 body.dark-martian {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.jpg) no-repeat;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.jpg) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+    background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.jpg) no-repeat;
     background-size: cover;
   }
 }

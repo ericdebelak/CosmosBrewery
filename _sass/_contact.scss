@@ -1,15 +1,15 @@
 body.contact {
-  background: url(/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
+  background: url(/images/12-MakeContact/desktop/background-makecontact.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
+    background: url(/images/12-MakeContact/tablet/background-makecontact.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
   }
   @include media-query($on-palm) {
-    background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
+    background: url(/images/12-MakeContact/-mobile/background-makecontact.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;

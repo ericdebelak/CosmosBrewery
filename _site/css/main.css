@@ -853,7 +853,7 @@ body.x-pa {
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/backgroud-xpa.jpg) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -1380,15 +1380,15 @@ body.habitable-saizon {
   color: #f2624d; }
 
 body.cosmonut {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.jpg) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
+      background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
+      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.jpg) no-repeat;
       background-size: cover; } }
 
 .cosmonut .header-logo {
@@ -1522,15 +1522,15 @@ body.cosmonut {
   color: #c78032; }
 
 body.dark-martian {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.jpg) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
+      background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
+      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.jpg) no-repeat;
       background-size: cover; } }
 
 .dark-martian .header-logo {
@@ -1628,15 +1628,15 @@ body.dark-martian {
   color: #f58e86; }
 
 body.paint-planet-red {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.jpg) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.jpg) no-repeat;
       background-size: cover; } }
 
 .paint-planet-red .header-logo {
@@ -1755,15 +1755,15 @@ body.paint-planet-red {
   color: #ff5d5d; }
 
 body.light-source {
-  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.png) no-repeat;
+  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.jpg) no-repeat;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
+      background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.jpg) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 600px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
+      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.jpg) no-repeat;
       background-size: cover; } }
 
 .light-source .header-logo {
@@ -1816,17 +1816,17 @@ body.light-source {
   color: #fff; }
 
 body.creators {
-  background: url(/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
+  background: url(/images/9-TheCreators/desktop/background-thecreators.jpg) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.creators {
-      background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
+      background: url(/images/9-TheCreators/tablet/background-thecreators.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.creators {
-      background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
+      background: url(/images/9-TheCreators/-mobile/background-thecreators.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -1895,17 +1895,17 @@ body.creators {
   font-weight: bold; }
 
 body.our-craft {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
+      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -1956,17 +1956,17 @@ body.our-craft {
     flex: 1; }
 
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png) no-repeat;
+  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.jpg) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.events {
-      background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
+      background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 1200px) {
     body.events {
-      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
+      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.jpg) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -2074,18 +2074,18 @@ body.events {
   75% {
     background: url(/images/11-CosmicEvents/tablet/moon.png); } }
 body.contact {
-  background: url(/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
+  background: url(/images/12-MakeContact/desktop/background-makecontact.jpg) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.contact {
-      background: url(/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
+      background: url(/images/12-MakeContact/tablet/background-makecontact.jpg) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }
   @media screen and (max-width: 600px) {
     body.contact {
-      background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
+      background: url(/images/12-MakeContact/-mobile/background-makecontact.jpg) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }

@@ -1,14 +1,14 @@
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png) no-repeat;
+  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
+    background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.jpg) no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include media-query($on-laptop) {
-    background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
+    background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.jpg) no-repeat;
     background-size: cover;
     height: 100%;
   }

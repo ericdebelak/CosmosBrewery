@@ -1,12 +1,12 @@
 body.paint-planet-red {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.jpg) no-repeat;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.jpg) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.jpg) no-repeat;
     background-size: cover;
   }
 }
