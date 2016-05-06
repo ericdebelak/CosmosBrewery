@@ -4,13 +4,13 @@
   text-transform: uppercase;
   display: inline-block;
   float: left;
+  z-index: 9;
   @include media-query($on-laptop) {
     margin-left: 100px;
   }
   @include media-query($on-palm) {
     display: block;
     margin-left: 0;
-    z-index: 9;
     float: none;
     overflow: scroll;
   }

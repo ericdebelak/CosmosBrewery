@@ -284,7 +284,8 @@ pre {
 
 html {
   min-height: 100%;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #000; }
 
 .davida {
   font-family: Davida;
@@ -522,7 +523,9 @@ html {
 .post-header {
   margin-bottom: 30px;
   text-align: right;
-  color: #84ad40; }
+  color: #84ad40;
+  position: relative;
+  z-index: 1; }
 
 .post-title {
   font-size: 3em;
@@ -560,6 +563,14 @@ html {
   z-index: -1;
   overflow: hidden; }
 
+body {
+  animation: bodyFadeIn 1s; }
+
+@keyframes bodyFadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 @keyframes rotate {
   from {
     transform: rotate(0deg); }
@@ -859,7 +870,7 @@ body.x-pa {
 
 .x-pa .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -390px;
   top: 50%;
   height: 779px;
@@ -946,7 +957,7 @@ body.crop-formation {
 
 .crop-formation .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -384px;
   top: 50%;
   height: 302px;
@@ -1064,7 +1075,8 @@ body.crop-formation {
   text-align: center;
   text-transform: uppercase;
   display: inline-block;
-  float: left; }
+  float: left;
+  z-index: 9; }
   @media screen and (max-width: 1200px) {
     .beer-bar {
       margin-left: 100px; } }
@@ -1072,7 +1084,6 @@ body.crop-formation {
     .beer-bar {
       display: block;
       margin-left: 0;
-      z-index: 9;
       float: none;
       overflow: scroll; } }
   .beer-bar p {
@@ -1285,7 +1296,7 @@ body.habitable-saizon {
 
 .habitable-saizon .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -400px;
   top: 50%;
   height: 743px;
@@ -1399,7 +1410,7 @@ body.cosmonut {
 
 .cosmonut .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -100px;
   top: 50%;
   height: 654px;
@@ -1438,7 +1449,7 @@ body.cosmonut {
   opacity: 0;
   background-repeat: no-repeat;
   background-image: url(/images/5-TryOurBeer-Cosmonut/desktop/almond.png);
-  z-index: -1; }
+  z-index: 0; }
   @media screen and (max-width: 1200px) {
     .cosmonut .cashew {
       background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
@@ -1493,7 +1504,8 @@ body.cosmonut {
       background-size: cover; } }
 
 .cosmonut .beer-can {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png); }
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/can-cosmonut.png);
+  z-index: 1; }
   @media screen and (max-width: 1200px) {
     .cosmonut .beer-can {
       background: url(/images/5-TryOurBeer-Cosmonut/tablet/can-cosmonut.png); } }
@@ -1541,7 +1553,7 @@ body.dark-martian {
 
 .dark-martian .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -380px;
   top: 50%;
   height: 662px;
@@ -1647,7 +1659,7 @@ body.paint-planet-red {
 
 .paint-planet-red .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -558px;
   top: 50%;
   height: 714px;

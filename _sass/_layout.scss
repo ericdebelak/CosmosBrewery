@@ -2,6 +2,7 @@
 html {
   min-height: 100%;
   overflow-x: hidden;
+  background-color: #000;
 }
 
 .davida {
@@ -311,6 +312,8 @@ html {
     margin-bottom: $spacing-unit;
     text-align: right;
     color: $brand-color;
+    position: relative;
+    z-index: 1;
 }
 
 .post-title {
@@ -360,6 +363,15 @@ html {
   left: 0;
   z-index: -1;
   overflow: hidden;
+}
+
+body {
+  animation: bodyFadeIn 1s;
+}
+
+@keyframes bodyFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 // GENERAL REUSEABLE ANIMATIONS
 @keyframes rotate {
