@@ -185,6 +185,8 @@ html {
  */
 .site-footer {
     padding: $spacing-unit 0;
+    position: relative;
+    z-index: 1;
     .wrapper {
       display: flex;
       justify-content: center;
@@ -407,6 +409,16 @@ body {
     opacity: .3;
     transform: rotate(0deg);
   }
+}
+
+.moveLeft {
+  animation: moveLeft 3s ease-in-out;
+  margin-left: -200%;
+}
+
+@keyframes moveLeft {
+  from { margin-left: 0; }
+  to { margin-left: -200%; }
 }
 
 .stars1 {

@@ -74,7 +74,7 @@ body.events {
 }
 .events .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -200px;
   top: 50%;
   height: 704px;

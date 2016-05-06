@@ -429,7 +429,9 @@ html {
  * Site footer
  */
 .site-footer {
-  padding: 30px 0; }
+  padding: 30px 0;
+  position: relative;
+  z-index: 1; }
   .site-footer .wrapper {
     display: flex;
     justify-content: center;
@@ -598,6 +600,15 @@ body {
   100% {
     opacity: .3;
     transform: rotate(0deg); } }
+.moveLeft {
+  animation: moveLeft 3s ease-in-out;
+  margin-left: -200%; }
+
+@keyframes moveLeft {
+  from {
+    margin-left: 0; }
+  to {
+    margin-left: -200%; } }
 .stars1 {
   animation: twinkle 27s infinite;
   animation-timing-function: linear; }
@@ -2037,7 +2048,7 @@ body.events {
 
 .events .planet-container {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   left: -200px;
   top: 50%;
   height: 704px;
