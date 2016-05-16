@@ -3,6 +3,7 @@ html {
   min-height: 100%;
   overflow-x: hidden;
   background-color: #000;
+  position: relative;
 }
 
 .davida {
@@ -74,7 +75,7 @@ html {
     @include media-query($on-laptop) {
       display: flex;
       height: 79px;
-      align-items: auto;
+      align-items: flex-start;
     }
     @include media-query($on-palm) {
       height: auto;
@@ -86,7 +87,7 @@ html {
       font-weight: bold;
       padding: 50px 30px;
       @include media-query($on-laptop) {
-        padding: 5px 20px;
+        padding: 5px 20px 10px;
         font-size: .9em;
         display: block;
       }
@@ -458,6 +459,7 @@ body {
   height: 749px;
   display: inline-block;
   margin-left: 50px;
+  z-index: 1;
   @include media-query($on-laptop) {
     width: 199px;
     height: 490px;

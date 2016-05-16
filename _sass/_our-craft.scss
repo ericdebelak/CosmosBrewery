@@ -61,6 +61,23 @@ body.our-craft {
   }
   .ufos {
     flex: 1;
+    background-image: url(/images/10-InsideOurCraft/desktop/ufopic.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 565px;
+    min-height: 565px;
+    background-size: contain;
+    @include media-query($on-laptop) {
+      background-image: url(/images/10-InsideOurCraft/tablet/ufopic.png);
+      max-width: 396px;
+      min-height: 396px;
+    }
+    @include media-query($on-palm) {
+      background-image: url(/images/10-InsideOurCraft/-mobile/ufopic.png);
+      max-width: 100%;
+      min-height: 317px;
+    }
   }
   .craft-copy {
     flex: 1;

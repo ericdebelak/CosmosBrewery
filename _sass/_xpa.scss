@@ -8,7 +8,7 @@ body.x-pa {
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/backgroud-xpa.jpg) no-repeat;
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.jpg) no-repeat;
     height: 100%;
     background-size: cover;
   }
@@ -18,7 +18,7 @@ body.x-pa {
   position: absolute;
   z-index: 0;
   left: -390px;
-  top: 50%;
+  top: 40%;
   height: 779px;
   width: 779px;
   margin-top: -300px;

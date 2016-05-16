@@ -1,7 +1,9 @@
 body.events {
   background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.jpg) no-repeat;
   background-size: cover;
+  position: absolute;
   height: 100%;
+  width: 100%;
   @include media-query($on-laptop) {
     background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.jpg) no-repeat;
     background-size: cover;
@@ -62,6 +64,7 @@ body.events {
 .events-content {
   font-weight: bold;
   width: 100%;
+  z-index: 1;
   .events-copy {
     margin-left: 33%;
     @include media-query($on-laptop) {
@@ -76,7 +79,7 @@ body.events {
   position: absolute;
   z-index: 0;
   left: -200px;
-  top: 50%;
+  top: 45%;
   height: 704px;
   width: 705px;
   margin-top: -270px;
@@ -91,7 +94,7 @@ body.events {
   width: 704px;
   height: 705px;
   background-size: cover;
-  animation: moveIn 10s, moons 20s infinite 10s;
+  animation: moons 20s infinite 10s;
   animation-timing-function: linear;
   z-index: 9;
   @include media-query($on-laptop) {
@@ -118,11 +121,6 @@ body.events {
   75%    {
     background: url(/images/11-CosmicEvents/desktop/moon.png);
   }
-}
-
-@keyframes moveIn {
-  from    { margin-left: -80%; }
-  to  { margin-left: 0px; }
 }
 
 @keyframes moonsTablet {
