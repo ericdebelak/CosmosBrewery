@@ -524,7 +524,6 @@ html {
  */
 .post-header {
   margin-bottom: 30px;
-  text-align: right;
   color: #84ad40;
   position: relative;
   z-index: 1; }
@@ -634,8 +633,8 @@ body {
   padding-right: 25px; }
 
 .beer-can {
-  width: 254px;
-  height: 626px;
+  width: 304px;
+  height: 749px;
   display: inline-block;
   margin-left: 50px; }
   @media screen and (max-width: 1200px) {
@@ -712,11 +711,11 @@ body {
 
   .beer-content .post-title {
     font-size: 24px;
-    word-wrap: break-word;
+    /*word-wrap: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto; }
+    hyphens: auto;*/ }
 
   .beer-figures td {
     padding-right: 5px; } }
@@ -1131,7 +1130,7 @@ body.crop-formation {
         width: 141px; } }
     @media screen and (max-width: 600px) {
       .beer-bar .beers {
-        width: 1000px;
+        width: 1200px;
         height: 20px;
         overflow: visible;
         margin-bottom: 40px; } }
@@ -1162,6 +1161,8 @@ body.crop-formation {
       @media screen and (max-width: 600px) {
         .beer-bar .beers .active {
           border: none; } }
+    .beer-bar .beers a:hover {
+      text-decoration: none; }
 
 .beers::-webkit-scrollbar {
   display: none; }
@@ -1284,6 +1285,21 @@ body.crop-formation {
   @media screen and (max-width: 600px) {
     .light-source-link {
       background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
+      height: 20px;
+      width: 136px; } }
+
+.puppy-chow-link {
+  background: url(/images/PuppyChowPorter/link-desktop-puppychowporter.png);
+  height: 97px;
+  width: 134px; }
+  @media screen and (max-width: 1200px) {
+    .puppy-chow-link {
+      background: url(/images/PuppyChowPorter/link-tablet-puppychowporter.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 600px) {
+    .puppy-chow-link {
+      background: url(/images/PuppyChowPorter/link-puppychowporter.png);
       height: 20px;
       width: 136px; } }
 
@@ -1463,7 +1479,7 @@ body.cosmonut {
   z-index: 0; }
   @media screen and (max-width: 1200px) {
     .cosmonut .cashew {
-      background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/cashew.png);
+      background-image: url(/images/5-TryOurBeer-Cosmonut/tablet/almond.png);
       height: 98px;
       width: 72px;
       left: 170px;
@@ -1823,10 +1839,10 @@ body.light-source {
   background: url(/images/8-TryOurBeerLightSource/desktop/can-light-source.png); }
   @media screen and (max-width: 1200px) {
     .light-source .beer-can {
-      background: url(/images/8-TryOurBeerLightSource/tablet/can-generic.png); } }
+      background: url(/images/8-TryOurBeerLightSource/tablet/can-light-source.png); } }
   @media screen and (max-width: 600px) {
     .light-source .beer-can {
-      background: url(/images/8-TryOurBeerLightSource/-mobile/can-generic.png); } }
+      background: url(/images/8-TryOurBeerLightSource/-mobile/can-light-source.png); } }
 
 .light-source .site-header {
   background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png); }
@@ -2180,3 +2196,51 @@ body.contact {
     text-align: center; }
     .contact .post-content .address a {
       color: #fff; }
+
+body.puppy-chow {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.jpg) no-repeat;
+  height: 100%;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.puppy-chow {
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 600px) {
+    body.puppy-chow {
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.jpg) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.puppy-chow .stars1 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .puppy-chow .stars1 {
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+      background-size: cover; } }
+
+.puppy-chow .stars2 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .puppy-chow .stars2 {
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+      background-size: cover; } }
+
+.puppy-chow .stars3 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .puppy-chow .stars3 {
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+      background-size: cover; } }
+
+.puppy-chow .beer-can {
+  background: url(/images/PuppyChowPorter/can-desktopsize.png); }
+  @media screen and (max-width: 1200px) {
+    .puppy-chow .beer-can {
+      background: url(/images/PuppyChowPorter/can-tabletsize.png); } }
+  @media screen and (max-width: 600px) {
+    .puppy-chow .beer-can {
+      background: url(/images/PuppyChowPorter/can-mobilesize.png); } }

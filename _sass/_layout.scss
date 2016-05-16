@@ -312,7 +312,6 @@ html {
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    text-align: right;
     color: $brand-color;
     position: relative;
     z-index: 1;
@@ -455,8 +454,8 @@ body {
 }
 
 .beer-can {
-  width: 254px;
-  height: 626px;
+  width: 304px;
+  height: 749px;
   display: inline-block;
   margin-left: 50px;
   @include media-query($on-laptop) {
@@ -537,11 +536,11 @@ body {
   }
   .beer-content .post-title {
     font-size: 24px;
-    word-wrap: break-word;
+    /*word-wrap: break-word;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
-    hyphens: auto;
+    hyphens: auto;*/
   }
   .beer-figures td {
     padding-right: 5px;

@@ -49,7 +49,7 @@
       width: 141px;
     }
     @include media-query($on-palm) {
-      width: 1000px;
+      width: 1200px;
       height: 20px;
       overflow: visible;
       margin-bottom: 40px;
@@ -83,6 +83,9 @@
       @include media-query($on-palm) {
         border: none;
       }
+    }
+    a:hover {
+      text-decoration: none;
     }
   }
 }
@@ -219,6 +222,22 @@
   }
   @include media-query($on-palm) {
     background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/link-lightsource.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.puppy-chow-link {
+  background: url(/images/PuppyChowPorter/link-desktop-puppychowporter.png);
+  height: 97px;
+  width: 134px;
+  @include media-query($on-laptop) {
+    background: url(/images/PuppyChowPorter/link-tablet-puppychowporter.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/PuppyChowPorter/link-puppychowporter.png);
     height: 20px;
     width: 136px;
   }
