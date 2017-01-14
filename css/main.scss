@@ -23,6 +23,10 @@ $nut:              #c78032;
 $martian-red:      #f58e86;
 $painted-red:      #ff5d5d;
 $light-source:     #fff;
+$muttnik:          #9e76b2;
+$three-d:          #6d6d83;
+$martian-rambler:  #ee9c4d;
+$buzzed-aldrin:    #fed206;
 
 $grey-color:       #fff;
 $grey-color-light: lighten($grey-color, 40%);
@@ -72,8 +76,6 @@ $phone-width:      100%;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "home",
@@ -92,5 +94,9 @@ $phone-width:      100%;
         "our-craft",
         "events",
         "contact",
-        "puppy-chow"
+        "muttnik",
+        "3d",
+        "martian-rambler",
+        "buzzed-aldrin",
+        "double-black-hole"
 ;
