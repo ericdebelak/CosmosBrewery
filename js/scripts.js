@@ -48,4 +48,12 @@ $(document).ready(function() {
     }
     return "";
   }
+
+  // scroll to active beer
+  var elem = $('.beers .active');
+  if(elem) {
+    var main = $(".beers");
+    var t = main.offset().top;
+    main.scrollTop(elem.position().top - t - 5);
+  }
 });
