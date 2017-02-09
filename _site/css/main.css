@@ -2652,3 +2652,52 @@ body.mediapage {
 
 .craft-pics {
   margin: auto; }
+
+body.find-us {
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
+  background-size: cover;
+  height: 100%; }
+  @media screen and (max-width: 1200px) {
+    body.find-us {
+      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
+      background-size: cover;
+      height: 100%; } }
+  @media screen and (max-width: 880px) {
+    body.find-us {
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
+      background-size: cover;
+      height: 100%; } }
+
+.find-us .stars1 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .find-us .stars1 {
+      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft1.png); } }
+  @media screen and (max-width: 880px) {
+    .find-us .stars1 {
+      background: none; } }
+
+.find-us .stars2 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .find-us .stars2 {
+      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft2.png); } }
+  @media screen and (max-width: 880px) {
+    .find-us .stars2 {
+      background: none; } }
+
+.find-us .stars3 {
+  background: url(/images/10-InsideOurCraft/desktop/background-stars-insidecraft3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .find-us .stars3 {
+      background: url(/images/10-InsideOurCraft/tablet/background-stars-insidecraft3.png); } }
+  @media screen and (max-width: 880px) {
+    .find-us .stars3 {
+      background: none; } }
+
+.find-us .post-title {
+  color: #fff;
+  text-align: center; }
