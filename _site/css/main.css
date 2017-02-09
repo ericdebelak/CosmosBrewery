@@ -334,27 +334,22 @@ html {
  * Site header
  */
 .site-header {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png);
-  min-height: 140px;
-  position: relative; }
+  position: relative;
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 79px;
+  height: 79px; }
   @media screen and (max-width: 1200px) {
     .site-header {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png);
-      background-size: cover;
-      min-height: 79px;
-      height: 79px; } }
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png) no-repeat;
+      background-position: center; } }
 
 .header-logo {
-  background: url(/images/header-logo.png);
-  height: 79px;
-  background-position: center;
+  background: url(/images/header-tablet-logo.png);
+  background-position: center -5px;
+  height: 63px;
   width: 164px; }
-  @media screen and (max-width: 1200px) {
-    .header-logo {
-      background: url(/images/header-tablet-logo.png);
-      background-position: center -5px;
-      height: 63px;
-      width: 164px; } }
 
 .site-title {
   float: left; }
@@ -364,13 +359,8 @@ html {
   z-index: 9; }
   .site-nav .trigger {
     display: flex;
-    height: 114px;
-    align-items: center; }
-    @media screen and (max-width: 1200px) {
-      .site-nav .trigger {
-        display: flex;
-        height: 79px;
-        align-items: flex-start; } }
+    height: 79px;
+    align-items: flex-start; }
     @media screen and (max-width: 880px) {
       .site-nav .trigger {
         height: auto; } }
@@ -379,12 +369,13 @@ html {
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
-      padding: 50px 30px; }
+      padding: 5px 20px 10px;
+      font-size: .9em;
+      display: block; }
       @media screen and (max-width: 1200px) {
         .site-nav .trigger a {
-          padding: 5px 20px 10px;
-          font-size: .9em;
-          display: block; } }
+          padding: 5px 12px 10px;
+          font-size: .8em; } }
       @media screen and (max-width: 880px) {
         .site-nav .trigger a {
           text-align: right; }
@@ -393,12 +384,8 @@ html {
           .site-nav .trigger a br:after {
             content: " "; } }
     .site-nav .trigger a.active {
-      background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-link-selected.png);
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
       background-size: cover; }
-      @media screen and (max-width: 1200px) {
-        .site-nav .trigger a.active {
-          background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-link-selected.png);
-          background-size: cover; } }
       @media screen and (max-width: 880px) {
         .site-nav .trigger a.active {
           background: none; } }
