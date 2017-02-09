@@ -51,7 +51,7 @@ $(document).ready(function() {
 
   // scroll to active beer
   var elem = $('.beers .active');
-  if(elem && $(window).width() > 880px) {
+  if(elem && $(window).width() > 880) {
     var main = $(".beers");
     var t = main.offset().top;
     main.scrollTop(elem.position().top - t - 5);
