@@ -51,9 +51,11 @@ $(document).ready(function() {
 
   // scroll to active beer
   var elem = $('.beers .active');
-  if(elem) {
+  if(elem && $(window).width() > 880px) {
     var main = $(".beers");
     var t = main.offset().top;
     main.scrollTop(elem.position().top - t - 5);
+  } else if (elem) {
+    $('.beer-bar').scrollLeft($('.beers .active').position().left - 15);
   }
 });
