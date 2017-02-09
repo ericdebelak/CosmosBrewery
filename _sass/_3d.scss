@@ -62,10 +62,12 @@ body.three-d {
 }
 
 .three-d .site-header {
-  background: url(/images/3d/desktop/header-3d.png);
+  background: url(/images/3d/desktop/header-3d.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/3d/tablet/header-3d.png);
+    background: url(/images/3d/tablet/header-3d.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

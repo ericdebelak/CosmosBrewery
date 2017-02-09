@@ -104,10 +104,12 @@ body.dark-martian {
 }
 
 .dark-martian .site-header {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png);
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
+    background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

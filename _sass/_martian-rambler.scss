@@ -63,10 +63,12 @@ body.martian-rambler {
 }
 
 .martian-rambler .site-header {
-  background: url(/images/martian-rambler/banner.png);
+  background: url(/images/martian-rambler/banner.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/martian-rambler/banner-tablet.png);
+    background: url(/images/martian-rambler/banner-tablet.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

@@ -369,12 +369,12 @@ html {
       text-align: center;
       text-transform: uppercase;
       font-weight: bold;
-      padding: 5px 20px 10px;
+      padding: 10px 20px 15px;
       font-size: .9em;
       display: block; }
       @media screen and (max-width: 1200px) {
         .site-nav .trigger a {
-          padding: 5px 12px 10px;
+          padding: 10px 12px 25px;
           font-size: .8em; } }
       @media screen and (max-width: 880px) {
         .site-nav .trigger a {
@@ -1082,11 +1082,13 @@ body.crop-formation {
       width: 140px; } }
 
 .crop-formation .site-header {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png); }
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .crop-formation .site-header {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png);
-      background-size: cover; } }
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .crop-formation .post-title {
   color: #f2c13b; }
@@ -1473,11 +1475,13 @@ body.habitable-saizon {
       width: 236px; } }
 
 .habitable-saizon .site-header {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png); }
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .habitable-saizon .site-header {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png);
-      background-size: cover; } }
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .habitable-saizon .post-title {
   color: #f2624d; }
@@ -1610,11 +1614,13 @@ body.cosmonut {
       width: 231px; } }
 
 .cosmonut .site-header {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png); }
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .cosmonut .site-header {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
-      background-size: cover; } }
+      background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .cosmonut .post-title {
   color: #c78032; }
@@ -1718,11 +1724,13 @@ body.dark-martian {
       width: 150px; } }
 
 .dark-martian .site-header {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png); }
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-darkmartian.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .dark-martian .site-header {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png);
-      background-size: cover; } }
+      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-darkmartian.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .dark-martian .post-title {
   color: #f58e86; }
@@ -1839,11 +1847,13 @@ body.paint-planet-red {
   width: 507px; }
 
 .paint-planet-red .site-header {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png); }
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .paint-planet-red .site-header {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
-      background-size: cover; } }
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .paint-planet-red .post-title {
   color: #ff5d5d; }
@@ -1894,11 +1904,13 @@ body.light-source {
       background: url(/images/8-TryOurBeerLightSource/-mobile/can-light-source.png); } }
 
 .light-source .site-header {
-  background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png); }
+  background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .light-source .site-header {
-      background: url(/images/8-TryOurBeerLightSource/tablet/header-lightsource.png);
-      background-size: cover; } }
+      background: url(/images/8-TryOurBeerLightSource/tablet/header-lightsource.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .light-source .post-title {
   color: #fff; }
@@ -2316,11 +2328,13 @@ body.muttnik {
       background: url(/images/muttnik/can-mobilesize.png); } }
 
 .muttnik .site-header {
-  background: url(/images/muttnik/desktop-muttnik.png); }
+  background: url(/images/muttnik/desktop-muttnik.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .muttnik .site-header {
-      background: url(/images/muttnik/tablet-muttnik.png);
-      background-size: cover; } }
+      background: url(/images/muttnik/tablet-muttnik.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .muttnik .post-title {
   color: #9e76b2; }
@@ -2382,11 +2396,13 @@ body.three-d {
       width: 231px; } }
 
 .three-d .site-header {
-  background: url(/images/3d/desktop/header-3d.png); }
+  background: url(/images/3d/desktop/header-3d.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .three-d .site-header {
-      background: url(/images/3d/tablet/header-3d.png);
-      background-size: cover; } }
+      background: url(/images/3d/tablet/header-3d.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .three-d .post-title {
   color: #6d6d83; }
@@ -2450,11 +2466,13 @@ body.martian-rambler {
       width: 140px; } }
 
 .martian-rambler .site-header {
-  background: url(/images/martian-rambler/banner.png); }
+  background: url(/images/martian-rambler/banner.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .martian-rambler .site-header {
-      background: url(/images/martian-rambler/banner-tablet.png);
-      background-size: cover; } }
+      background: url(/images/martian-rambler/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .martian-rambler .post-title {
   color: #ee9c4d; }
@@ -2508,11 +2526,13 @@ body.buzzed-aldrin {
       background: url(/images/buzzed-aldrin/can-mobilesize.png); } }
 
 .buzzed-aldrin .site-header {
-  background: url(/images/buzzed-aldrin/banner.png); }
+  background: url(/images/buzzed-aldrin/banner.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .buzzed-aldrin .site-header {
-      background: url(/images/buzzed-aldrin/banner-tablet.png);
-      background-size: cover; } }
+      background: url(/images/buzzed-aldrin/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .buzzed-aldrin .post-title {
   color: #d8b309; }
@@ -2566,11 +2586,13 @@ body.double-black-hole {
       background: url(/images/double-black-hole/can-mobilesize.png); } }
 
 .double-black-hole .site-header {
-  background: url(/images/double-black-hole/banner.png); }
+  background: url(/images/double-black-hole/banner.png) no-repeat;
+  background-position: bottom; }
   @media screen and (max-width: 1200px) {
     .double-black-hole .site-header {
-      background: url(/images/double-black-hole/banner-tablet.png);
-      background-size: cover; } }
+      background: url(/images/double-black-hole/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
 
 .double-black-hole .post-title {
   color: #7b92ff; }

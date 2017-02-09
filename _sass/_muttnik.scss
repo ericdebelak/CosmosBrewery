@@ -52,10 +52,12 @@ body.muttnik {
 }
 
 .muttnik .site-header {
-  background: url(/images/muttnik/desktop-muttnik.png);
+  background: url(/images/muttnik/desktop-muttnik.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/muttnik/tablet-muttnik.png);
+    background: url(/images/muttnik/tablet-muttnik.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

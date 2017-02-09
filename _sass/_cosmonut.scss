@@ -144,10 +144,12 @@ body.cosmonut {
 }
 
 .cosmonut .site-header {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png);
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/header-cosmonut.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png);
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/header-cosmonut.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

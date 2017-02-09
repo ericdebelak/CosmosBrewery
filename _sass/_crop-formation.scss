@@ -147,10 +147,12 @@ body.crop-formation {
 }
 
 .crop-formation .site-header {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/header-cropformation.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/header-cropformation.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

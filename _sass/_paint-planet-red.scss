@@ -135,10 +135,12 @@ body.paint-planet-red {
 }
 
 .paint-planet-red .site-header {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png);
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-paintplanetred.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png);
+    background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-paintplanetred.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

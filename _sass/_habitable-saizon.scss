@@ -115,10 +115,12 @@ body.habitable-saizon {
 }
 
 .habitable-saizon .site-header {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png);
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-habitablesaizone.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png);
+    background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-habitablesaizone.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

@@ -52,10 +52,12 @@ body.buzzed-aldrin {
 }
 
 .buzzed-aldrin .site-header {
-  background: url(/images/buzzed-aldrin/banner.png);
+  background: url(/images/buzzed-aldrin/banner.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/buzzed-aldrin/banner-tablet.png);
+    background: url(/images/buzzed-aldrin/banner-tablet.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

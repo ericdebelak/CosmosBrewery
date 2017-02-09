@@ -50,10 +50,12 @@ body.light-source {
 }
 
 .light-source .site-header {
-  background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png);
+  background: url(/images/8-TryOurBeerLightSource/desktop/header-lightsource.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/8-TryOurBeerLightSource/tablet/header-lightsource.png);
+    background: url(/images/8-TryOurBeerLightSource/tablet/header-lightsource.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 

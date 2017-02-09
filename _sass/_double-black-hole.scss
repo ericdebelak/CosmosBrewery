@@ -52,10 +52,12 @@ body.double-black-hole {
 }
 
 .double-black-hole .site-header {
-  background: url(/images/double-black-hole/banner.png);
+  background: url(/images/double-black-hole/banner.png) no-repeat;
+  background-position: bottom;
   @include media-query($on-laptop) {
-    background: url(/images/double-black-hole/banner-tablet.png);
+    background: url(/images/double-black-hole/banner-tablet.png) no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
 
