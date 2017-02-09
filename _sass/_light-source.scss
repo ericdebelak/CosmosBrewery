@@ -11,12 +11,6 @@ body.light-source {
   }
 }
 
-.light-source .header-logo {
-    background: url(/images/8-TryOurBeerLightSource/desktop/header-logo-lightsource.png);
-    @include media-query($on-laptop) {
-      background: url(/images/8-TryOurBeerLightSource/tablet/header-logo-lightsource.png);
-    }
-}
 
 .light-source .stars1 {
   background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
@@ -46,7 +40,7 @@ body.light-source {
 }
 
 .light-source .beer-can {
-  background: url(/images/8-TryOurBeerLightSource/desktop/can-light-source.png);
+  background: url(/images/8-TryOurBeerLightSource/tablet/can-light-source.png);
   @include media-query($on-laptop) {
     background: url(/images/8-TryOurBeerLightSource/tablet/can-light-source.png);
   }

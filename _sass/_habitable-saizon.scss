@@ -11,13 +11,6 @@ body.habitable-saizon {
   }
 }
 
-.habitable-saizon .header-logo {
-    background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/header-logo-habitablesaizone.png);
-    @include media-query($on-laptop) {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/header-logo-habitablesaizone.png);
-    }
-}
-
 .habitable-saizon .planet-container {
   position: absolute;
   z-index: 0;
@@ -101,7 +94,7 @@ body.habitable-saizon {
 }
 
 .habitable-saizon .beer-can {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/can-habitablesaizone.png);
+  background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png);
   @include media-query($on-laptop) {
     background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/can-habitablesaizone.png);
   }

@@ -96,7 +96,7 @@ body.home {
 }
 
 .home h1 {
-  font-size: 5em;
+  font-size: 3em;
   letter-spacing: 35px;
   margin: 0 -35px -15px 0;
   text-transform: uppercase;
@@ -108,12 +108,14 @@ body.home {
 }
 
 .home h4 {
-  font-size: 1.5em;
-  font-weight: 900;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .home h3 {
-  font-size: 2em;
+  font-size: 1.5em;
+  letter-spacing: 10px;
   color: $brand-color;
   font-weight: 900;
   text-transform: uppercase;

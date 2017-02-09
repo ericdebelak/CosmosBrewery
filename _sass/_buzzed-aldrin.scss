@@ -1,0 +1,64 @@
+body.buzzed-aldrin {
+  background: url(/images/buzzed-aldrin/background.png) no-repeat;
+  height: 100%;
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/buzzed-aldrin/background-tablet.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/buzzed-aldrin/background-mobile.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+.buzzed-aldrin .stars1 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+    background-size: cover;
+  }
+}
+
+.buzzed-aldrin .stars2 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+    background-size: cover;
+  }
+}
+
+.buzzed-aldrin .stars3 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+    background-size: cover;
+  }
+}
+
+.buzzed-aldrin .beer-can {
+  background: url(/images/buzzed-aldrin/can-tabletsize.png);
+  @include media-query($on-laptop) {
+    background: url(/images/buzzed-aldrin/can-tabletsize.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/buzzed-aldrin/can-mobilesize.png);
+  }
+}
+
+.buzzed-aldrin .site-header {
+  background: url(/images/buzzed-aldrin/banner.png);
+  @include media-query($on-laptop) {
+    background: url(/images/buzzed-aldrin/banner-tablet.png);
+    background-size: cover;
+  }
+}
+
+.buzzed-aldrin .post-title {
+  color: $buzzed-aldrin;
+}

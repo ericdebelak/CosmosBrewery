@@ -41,7 +41,7 @@
   }
   .beers {
     width: 189px;
-    height: 540px;
+    height: 450px;
     overflow: scroll;
     padding-top: 10px;
     @include media-query($on-laptop) {
@@ -49,7 +49,7 @@
       width: 141px;
     }
     @include media-query($on-palm) {
-      width: 1200px;
+      width: 1750px;
       height: 20px;
       overflow: visible;
       margin-bottom: 40px;
@@ -116,9 +116,9 @@
 
 // IMAGES
 .planet-xpa-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-planetXPA.png);
-  height: 97px;
-  width: 134px;
+  background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
+  height: 75px;
+  width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-planetXPA.png);
     height: 75px;
@@ -132,9 +132,9 @@
 }
 
 .crop-formation-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cropformation.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cropformation.png);
     height: 75px;
@@ -148,9 +148,9 @@
 }
 
 .habitable-saizon-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-habitablesaizone.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-habitablesaizone.png);
     height: 75px;
@@ -164,9 +164,9 @@
 }
 
 .cosmonut-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-cosmonut.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-cosmonut.png);
     height: 75px;
@@ -180,9 +180,9 @@
 }
 
 .dark-martian-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-darkmartian.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-darkmartian.png);
     height: 75px;
@@ -196,9 +196,9 @@
 }
 
 .paint-planet-red-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-paintplanetred.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-paintplanetred.png);
     height: 75px;
@@ -212,9 +212,9 @@
 }
 
 .light-source-link {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/link-lightsource.png);
-  height: 97px;
-  width: 134px;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/link-lightsource.png);
     height: 75px;
@@ -227,17 +227,81 @@
   }
 }
 
-.puppy-chow-link {
-  background: url(/images/PuppyChowPorter/link-desktop-puppychowporter.png);
-  height: 97px;
-  width: 134px;
+.muttnik-link {
+    background: url(/images/muttnik/link-tablet-muttnik.png);
+    height: 75px;
+    width: 106px;
   @include media-query($on-laptop) {
-    background: url(/images/PuppyChowPorter/link-tablet-puppychowporter.png);
+    background: url(/images/muttnik/link-tablet-muttnik.png);
     height: 75px;
     width: 106px;
   }
   @include media-query($on-palm) {
-    background: url(/images/PuppyChowPorter/link-puppychowporter.png);
+    background: url(/images/muttnik/link-muttnik.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.three-d-link {
+    background: url(/images/3d/link-tablet-3d.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/3d/link-tablet-3d.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/3d/link-3d.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.martian-rambler-link {
+    background: url(/images/martian-rambler/link-tablet.png);
+    height: 75px;
+    width: 106px;
+    @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/martian-rambler/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.buzzed-aldrin-link {
+    background: url(/images/buzzed-aldrin/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/buzzed-aldrin/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/buzzed-aldrin/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.double-black-hole-link {
+    background: url(/images/double-black-hole/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/double-black-hole/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/double-black-hole/link-mobile.png);
     height: 20px;
     width: 136px;
   }

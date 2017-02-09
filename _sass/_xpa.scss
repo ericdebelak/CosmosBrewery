@@ -71,7 +71,7 @@ body.x-pa {
 }
 
 .x-pa .beer-can {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/can-planetxpa.png);
+  background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png);
   @include media-query($on-laptop) {
     background: url(/images/2-TryOurBeer-PlanerXPA/tablet/can-planetxpa.png);
   }

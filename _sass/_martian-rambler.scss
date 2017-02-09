@@ -1,0 +1,75 @@
+body.martian-rambler {
+  background: url(/images/martian-rambler/background.png) no-repeat;
+  height: 100%;
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/background-tablet.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/martian-rambler/background-mobile.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+.martian-rambler .stars1 {
+  background: url(/images/martian-rambler/desktop/background-stars1.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/tablet/background-stars1.png);
+    background-size: cover;
+  }
+}
+
+.martian-rambler .stars2 {
+  background: url(/images/martian-rambler/desktop/background-stars2.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/tablet/background-stars2.png);
+    background-size: cover;
+  }
+}
+
+.martian-rambler .stars3 {
+  background: url(/images/martian-rambler/desktop/background-stars3.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/tablet/background-stars3.png);
+    background-size: cover;
+  }
+}
+
+.martian-rambler .beer-can {
+  background: url(/images/martian-rambler/can-tabletsize.png);
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/can-tabletsize.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/martian-rambler/can-mobilesize.png);
+  }
+}
+
+.martian-rambler .beer-footer-icons {
+  background: url(/images/martian-rambler/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px;
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/tablet/bottomicons-cropcircle.png);
+    height: 47px;
+    width: 140px;
+  }
+}
+
+.martian-rambler .site-header {
+  background: url(/images/martian-rambler/banner.png);
+  @include media-query($on-laptop) {
+    background: url(/images/martian-rambler/banner-tablet.png);
+    background-size: cover;
+  }
+}
+
+.martian-rambler .post-title {
+  color: $martian-rambler;
+}

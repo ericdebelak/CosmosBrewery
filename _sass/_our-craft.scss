@@ -59,14 +59,16 @@ body.our-craft {
   @include media-query($on-palm) {
     display: block;
   }
+
+
   .ufos {
     flex: 1;
     background-image: url(/images/10-InsideOurCraft/desktop/ufopic.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    max-width: 565px;
-    min-height: 565px;
+    max-width: 360px;
+    min-height: 336px;
     background-size: contain;
     @include media-query($on-laptop) {
       background-image: url(/images/10-InsideOurCraft/tablet/ufopic.png);
@@ -84,3 +86,11 @@ body.our-craft {
   }
 
 }
+.our-craft .post-content {
+  flex-wrap: wrap;
+  }
+
+.craft-pics {
+  margin:auto;
+  
+  }

@@ -1,0 +1,74 @@
+body.three-d {
+  background: url(/images/3d/desktop/backgroud-3d.jpg) no-repeat;
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3d/tablet/background-3d.jpg) no-repeat;
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/3d/mobile/background-3d.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+
+.three-d .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background-size: cover;
+  }
+}
+
+.three-d .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
+}
+
+.three-d .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
+}
+
+.three-d .beer-can {
+  background: url(/images/3d/tablet/can-3d.png);
+  z-index: 1;
+  @include media-query($on-laptop) {
+    background: url(/images/3d/tablet/can-3d.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/3d/mobile/can-3d.png);
+  }
+}
+
+.three-d .beer-footer-icons {
+  background: url(/images/3d/desktop/bottomicons-3d.png);
+  height: 103px;
+  width: 507px;
+  @include media-query($on-laptop) {
+    background: url(/images/3d/tablet/bottomicons-3d.png);
+    height: 47px;
+    width: 231px;
+  }
+}
+
+.three-d .site-header {
+  background: url(/images/3d/desktop/header-3d.png);
+  @include media-query($on-laptop) {
+    background: url(/images/3d/tablet/header-3d.png);
+    background-size: cover;
+  }
+}
+
+.three-d .post-title {
+  color: $three-d;
+}

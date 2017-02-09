@@ -11,12 +11,6 @@ body.paint-planet-red {
   }
 }
 
-.paint-planet-red .header-logo {
-    background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/header-logo-paintplanetred.png);
-    @include media-query($on-laptop) {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/header-logo-paintplanetred.png);
-    }
-}
 
 .paint-planet-red .planet-container {
   position: absolute;
@@ -125,7 +119,7 @@ body.paint-planet-red {
 }
 
 .paint-planet-red .beer-can {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/can-paintplanetred.png);
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png);
   @include media-query($on-laptop) {
     background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/can-paintplanetred.png);
   }

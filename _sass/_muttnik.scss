@@ -1,0 +1,64 @@
+body.muttnik {
+  background: url(/images/muttnik/backgroud-muttnik.png) no-repeat;
+  height: 100%;
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/muttnik/backgroud-tablet-muttnik.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/muttnik/background-mobile-muttnik.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+.muttnik .stars1 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+    background-size: cover;
+  }
+}
+
+.muttnik .stars2 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+    background-size: cover;
+  }
+}
+
+.muttnik .stars3 {
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+    background-size: cover;
+  }
+}
+
+.muttnik .beer-can {
+  background: url(/images/muttnik/can-tabletsize.png);
+  @include media-query($on-laptop) {
+    background: url(/images/muttnik/can-tabletsize.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/muttnik/can-mobilesize.png);
+  }
+}
+
+.muttnik .site-header {
+  background: url(/images/muttnik/desktop-muttnik.png);
+  @include media-query($on-laptop) {
+    background: url(/images/muttnik/tablet-muttnik.png);
+    background-size: cover;
+  }
+}
+
+.muttnik .post-title {
+  color: $muttnik;
+}

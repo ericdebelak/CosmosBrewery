@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <dirinfo>
 <files>
-<item key='background-cropformation.png20151205120521' />
-<item key='header-cropformation.png20151205122636' />
-<item key='can-cropformation.png20151205115024' />
+<item key='background-cropformation.jpg20160406164221' />
+<item key='background-cropformation.png20151205121344' />
 <item key='footerlogo-cropformation.png20151205124744' />
-<item key='headerlogo-cropformation.png20151205123901' />
+<item key='can-cropformation.png20160509121748' />
+<item key='header-cropformation.png20151205122636' />
+<item key='headerlogo-cropformation.png20151205123900' />
 <item key='icons-cropformation.png20151205121742' />
 </files>
 </dirinfo>

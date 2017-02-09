@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cosmos Brewery</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
+    <description>Local brewery to Hugo, MN, Cosmos Brewing</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jan 2017 16:53:12 -0700</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2017 16:53:12 -0700</lastBuildDate>
+    <pubDate>Sun, 05 Feb 2017 14:35:12 -0600</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2017 14:35:12 -0600</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>

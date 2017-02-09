@@ -11,12 +11,6 @@ body.dark-martian {
   }
 }
 
-.dark-martian .header-logo {
-    background: url(/images/6-TryOurBeer-DarkMartian/desktop/header-logo-darkmartian.png);
-    @include media-query($on-laptop) {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/header-logo-darkmartian.png);
-    }
-}
 
 .dark-martian .planet-container {
   position: absolute;
@@ -27,7 +21,7 @@ body.dark-martian {
   width: 760px;
   margin-top: -150px;
   @include media-query($on-laptop) {
-    left: -152px;
+    left: -100px;
     top: 50%;
     height: 265px;
     width: 304px;
@@ -42,9 +36,9 @@ body.dark-martian {
 }
 
 @keyframes martianTablet {
-  0%    { background-image: url(/images/6-TryOurBeer-DarkMartian/table/martian.png); }
-  25%  { background-image: url(/images/6-TryOurBeer-DarkMartian/table/martian-dark.png); }
-  100%    { background-image: url(/images/6-TryOurBeer-DarkMartian/table/martian.png); }
+  0%    { background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian.png); }
+  25%  { background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian-dark.png); }
+  100%    { background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian.png); }
 }
 
 .dark-martian .planet {
@@ -56,7 +50,7 @@ body.dark-martian {
   @include media-query($on-laptop) {
     height: 265px;
     width: 304px;
-    animation: martianTable 50s infinite;
+    animation: martianTablet 50s infinite;
     background-image: url(/images/6-TryOurBeer-DarkMartian/tablet/martian.png);
   }
 }
@@ -89,7 +83,7 @@ body.dark-martian {
 }
 
 .dark-martian .beer-can {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/can-darkmartian.png);
+  background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png);
   @include media-query($on-laptop) {
     background: url(/images/6-TryOurBeer-DarkMartian/tablet/can-darkmartian.png);
   }

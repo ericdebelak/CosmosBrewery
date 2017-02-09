@@ -14,13 +14,6 @@ body.crop-formation {
   }
 }
 
-.crop-formation .header-logo {
-    background: url(/images/3-TryOurBeer-CropFormation/desktop/header-logo-cropformation.png);
-    @include media-query($on-laptop) {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/header-logo-cropformation.png);
-    }
-}
-
 .crop-formation .planet-container {
   position: absolute;
   z-index: 0;
@@ -133,7 +126,7 @@ body.crop-formation {
 }
 
 .crop-formation .beer-can {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/can-cropformation.png);
+  background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png);
   @include media-query($on-laptop) {
     background: url(/images/3-TryOurBeer-CropFormation/tablet/can-cropformation.png);
   }

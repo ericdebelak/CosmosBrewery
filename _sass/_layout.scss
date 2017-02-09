@@ -31,7 +31,21 @@ html {
 .light-source-text {
   color: $light-source;
 }
-
+.three-d-text {
+  color: $three-d;
+}
+.muttnik-text {
+  color: $muttnik;
+}
+.martian-rambler-text {
+  color: $martian-rambler;
+}
+.buzzed-aldrin-text {
+  color: $buzzed-aldrin;
+}
+.double-black-hole-text {
+  color: $double-black-hole;
+}
 /**
  * Site header
  */
@@ -49,11 +63,12 @@ html {
 }
 
 .header-logo {
-    background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-logo.png);
-    height: 94px;
-    width: 246px;
+    background: url(/images/header-logo.png);
+    height: 79px;
+    background-position: center;
+    width: 164px;
     @include media-query($on-laptop) {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-logo.png);
+      background: url(/images/header-tablet-logo.png);
       background-position: center -5px;
       height: 63px;
       width: 164px;
@@ -447,6 +462,10 @@ body {
   }
 }
 
+.text-center {
+  text-align:center;
+}
+
 // Beer rating table
 .beer-figures {
   td {
@@ -455,8 +474,8 @@ body {
 }
 
 .beer-can {
-  width: 304px;
-  height: 749px;
+  width: 199px;
+  height: 490px;
   display: inline-block;
   margin-left: 50px;
   z-index: 1;
@@ -466,8 +485,8 @@ body {
     margin-left: 25px;
   }
   @include media-query($on-palm) {
-    height: 343px;
-    width: 140px;
+    height: 200px;
+    width: 82px;
     margin: 0;
     max-width: 50%;
   }
@@ -476,7 +495,7 @@ body {
 .beer-footer-icons {
   height: 83px;
   width: 357px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   @include media-query($on-laptop) {
     height: 51px;
@@ -498,7 +517,7 @@ body {
     display: none;
   }
   .only-mobile {
-    display: block;
+    display: block !important;
   }
   .post-header {
     text-align: left;
