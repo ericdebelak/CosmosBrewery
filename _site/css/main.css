@@ -1164,7 +1164,7 @@ body.crop-formation {
         width: 141px; } }
     @media screen and (max-width: 880px) {
       .beer-bar .beers {
-        width: 2500px;
+        width: 2545px;
         height: 20px;
         overflow: visible;
         margin-bottom: 40px; } }
@@ -1198,7 +1198,7 @@ body.crop-formation {
     .beer-bar .beers a:hover {
       text-decoration: none; }
 
-.beers::-webkit-scrollbar {
+.beers::-webkit-scrollbar, .beer-bar::-webkit-scrollbar {
   display: none; }
 
 .beer-bar:hover .active {
@@ -1469,6 +1469,21 @@ body.crop-formation {
   @media screen and (max-width: 880px) {
     .apollo-smash-link {
       background: url(/images/apollo-smash/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
+.limited-releases-link {
+  background: url(/images/limited-releases/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .limited-releases-link {
+      background: url(/images/limited-releases/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .limited-releases-link {
+      background: url(/images/limited-releases/link-mobile.png);
       height: 20px;
       width: 136px; } }
 
@@ -3217,3 +3232,58 @@ body.find-us {
 body.welcome {
   background: url(/images/landing-page/large-background-web.jpg);
   background-size: 125%; }
+
+body.limited-releases {
+  background: url(/images/limited-releases/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+
+.limited-releases .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .limited-releases .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.limited-releases .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .limited-releases .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.limited-releases .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .limited-releases .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.limited-releases .beer-can {
+  display: none; }
+
+.limited-release-beer {
+  float: left;
+  width: 100%;
+  margin-bottom: 25px; }
+  .limited-release-beer img {
+    float: left;
+    max-width: 20%;
+    margin-right: 5%; }
+  .limited-release-beer .limited-release-text {
+    max-width: 75%;
+    float: left; }
+
+@media (max-width: 880px) {
+  .limited-release-beer img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+  .limited-release-beer .limited-release-text {
+    max-width: 100%;
+    float: none; } }
