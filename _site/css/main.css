@@ -3201,3 +3201,19 @@ body.find-us {
   @media screen and (max-width: 880px) {
     .find-us-content {
       display: block; } }
+
+.welcome .post-title {
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em; }
+
+.welcome .post-content {
+  display: block; }
+
+#menu-container {
+  width: 100%; }
+
+body.welcome {
+  background: url(/images/landing-page/large-background-web.jpg);
+  background-size: 125%; }
