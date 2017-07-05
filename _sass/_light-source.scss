@@ -1,12 +1,13 @@
 body.light-source {
-  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.jpg) no-repeat;
+  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.png) no-repeat;
+  min-height: 100vh;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.jpg) no-repeat;
+    background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.jpg) no-repeat;
+    background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
     background-size: cover;
   }
 }

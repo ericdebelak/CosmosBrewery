@@ -1,12 +1,13 @@
 body.cosmonut {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.jpg) no-repeat;
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
+  min-height: 100vh;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.jpg) no-repeat;
+    background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.jpg) no-repeat;
+    background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
     background-size: cover;
   }
 }

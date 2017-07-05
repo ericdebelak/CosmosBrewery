@@ -1,0 +1,78 @@
+body.pillars-of-creation {
+  background: url(/images/pillars-of-creation/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/pillars-of-creation/background-tablet.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/pillars-of-creation/background-mobile.png) no-repeat;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+.pillars-of-creation .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+    background-size: cover;
+  }
+}
+
+.pillars-of-creation .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
+}
+
+.pillars-of-creation .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover;
+  @include media-query($on-laptop) {
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+    background-size: cover;
+  }
+}
+
+.pillars-of-creation .beer-can {
+  background: url(/images/pillars-of-creation/can-tabletsize.png);
+  @include media-query($on-laptop) {
+    background: url(/images/pillars-of-creation/can-tabletsize.png);
+  }
+  @include media-query($on-palm) {
+    background: url(/images/pillars-of-creation/can-mobilesize.png);
+  }
+}
+
+.pillars-of-creation .beer-footer-icons {
+  background: url(/images/pillars-of-creation/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px;
+  @include media-query($on-laptop) {
+    background: url(/images/pillars-of-creation/tablet/bottomicons-cropcircle.png);
+    height: 47px;
+    width: 140px;
+  }
+}
+
+.pillars-of-creation .site-header {
+  background: url(/images/pillars-of-creation/banner.png) no-repeat;
+  background-position: bottom;
+  @include media-query($on-laptop) {
+    background: url(/images/pillars-of-creation/banner-tablet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.pillars-of-creation .post-title {
+  color: $pillars-of-creation;
+}

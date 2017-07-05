@@ -1,12 +1,13 @@
 body.habitable-saizon {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.jpg) no-repeat;
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
+  min-height: 100vh;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.jpg) no-repeat;
+    background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.jpg) no-repeat;
+    background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
     background-size: cover;
   }
 }

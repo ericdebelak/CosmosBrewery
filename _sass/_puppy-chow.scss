@@ -1,42 +1,43 @@
 body.puppy-chow {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.jpg) no-repeat;
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
+    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
     height: 100%;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.jpg) no-repeat;
+    background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.png) no-repeat;
     height: 100%;
     background-size: cover;
   }
 }
 
 .puppy-chow .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
   }
 }
 
 .puppy-chow .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .puppy-chow .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }

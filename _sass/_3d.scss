@@ -1,12 +1,13 @@
 body.three-d {
-  background: url(/images/3d/desktop/backgroud-3d.jpg) no-repeat;
+  background: url(/images/3d/desktop/backgroud-3d.png) no-repeat;
+  min-height: 100vh;
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/3d/tablet/background-3d.jpg) no-repeat;
+    background: url(/images/3d/tablet/background-3d.png) no-repeat;
     background-size: cover;
   }
   @include media-query($on-palm) {
-    background: url(/images/3d/mobile/background-3d.jpg) no-repeat;
+    background: url(/images/3d/mobile/background-3d.png) no-repeat;
     background-size: cover;
   }
 }

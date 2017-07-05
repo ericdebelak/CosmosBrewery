@@ -13,7 +13,9 @@
   font-family: Davida;
   src: url(/fonts/DavidaD.otf); }
 body.home {
-  background: url(/images/1-AreYou21/desktop/background21.jpg) no-repeat;
+  background: url(/images/1-AreYou21/desktop/background21.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -22,11 +24,11 @@ body.home {
   color: #fff; }
   @media screen and (max-width: 1200px) {
     body.home {
-      background: url(/images/1-AreYou21/tablet/background21.jpg) no-repeat;
+      background: url(/images/1-AreYou21/tablet/background21.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.home {
-      background: url(/images/1-AreYou21/-mobile/background.jpg) no-repeat;
+      background: url(/images/1-AreYou21/-mobile/background.png) no-repeat;
       background-size: cover; } }
 
 .home img {
@@ -330,6 +332,21 @@ html {
 .double-black-hole-text {
   color: #7b92ff; }
 
+.beta-cru-text {
+  color: #f8af3c; }
+
+.deep-sky-text {
+  color: #bade5a; }
+
+.plane-shifter-text {
+  color: #b598da; }
+
+.pillars-of-creation-text {
+  color: #fee8aa; }
+
+.apollo-smash-text {
+  color: #fff200; }
+
 /**
  * Site header
  */
@@ -338,10 +355,12 @@ html {
   background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png) no-repeat;
   background-position: bottom;
   background-size: cover;
-  min-height: 79px;
-  height: 79px; }
+  min-height: 80px;
+  height: 105px; }
   @media screen and (max-width: 1200px) {
     .site-header {
+      min-height: 80px;
+      height: 80px;
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png) no-repeat;
       background-position: center; } }
 
@@ -881,17 +900,18 @@ input.error {
     color: #099; }
 
 body.x-pa {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.jpg) no-repeat;
+  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/backgroudXPA.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.jpg) no-repeat;
+      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/backgroudXPA.png) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.x-pa {
-      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.jpg) no-repeat;
+      background: url(/images/2-TryOurBeer-PlanerXPA/-mobile/background-xpa.png) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -962,17 +982,18 @@ body.x-pa {
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/bottomiconsXPA.png); } }
 
 body.crop-formation {
-  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.jpg) no-repeat;
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-cropformation.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.jpg) no-repeat;
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-cropformation.png) no-repeat;
       height: 100%;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.crop-formation {
-      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.jpg) no-repeat;
+      background: url(/images/3-TryOurBeer-CropFormation/-mobile/background-cropformation.png) no-repeat;
       height: 100%;
       background-size: cover; } }
 
@@ -1143,7 +1164,7 @@ body.crop-formation {
         width: 141px; } }
     @media screen and (max-width: 880px) {
       .beer-bar .beers {
-        width: 1750px;
+        width: 2500px;
         height: 20px;
         overflow: visible;
         margin-bottom: 40px; } }
@@ -1376,16 +1397,92 @@ body.crop-formation {
       height: 20px;
       width: 136px; } }
 
+.beta-cru-link {
+  background: url(/images/beta-cru/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .beta-cru-link {
+      background: url(/images/beta-cru/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .beta-cru-link {
+      background: url(/images/beta-cru/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
+.deep-sky-link {
+  background: url(/images/deep-sky/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky-link {
+      background: url(/images/deep-sky/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .deep-sky-link {
+      background: url(/images/deep-sky/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
+.plane-shifter-link {
+  background: url(/images/plane-shifter/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter-link {
+      background: url(/images/plane-shifter/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .plane-shifter-link {
+      background: url(/images/plane-shifter/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
+.pillars-of-creation-link {
+  background: url(/images/pillars-of-creation/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation-link {
+      background: url(/images/pillars-of-creation/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .pillars-of-creation-link {
+      background: url(/images/pillars-of-creation/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
+.apollo-smash-link {
+  background: url(/images/apollo-smash/link-tablet.png);
+  height: 75px;
+  width: 106px; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash-link {
+      background: url(/images/apollo-smash/link-tablet.png);
+      height: 75px;
+      width: 106px; } }
+  @media screen and (max-width: 880px) {
+    .apollo-smash-link {
+      background: url(/images/apollo-smash/link-mobile.png);
+      height: 20px;
+      width: 136px; } }
+
 body.habitable-saizon {
-  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.jpg) no-repeat;
+  background: url(/images/4-TryOurBeer-HabitableSaizone/desktop/background-habitablesaizone.png) no-repeat;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.jpg) no-repeat;
+      background: url(/images/4-TryOurBeer-HabitableSaizone/tablet/background-habitablesaizone.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.habitable-saizon {
-      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.jpg) no-repeat;
+      background: url(/images/4-TryOurBeer-HabitableSaizone/-mobile/background-habitablesaizone.png) no-repeat;
       background-size: cover; } }
 
 .habitable-saizon .planet-container {
@@ -1487,15 +1584,16 @@ body.habitable-saizon {
   color: #f2624d; }
 
 body.cosmonut {
-  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.jpg) no-repeat;
+  background: url(/images/5-TryOurBeer-Cosmonut/desktop/backgroud-cosmonut.png) no-repeat;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.jpg) no-repeat;
+      background: url(/images/5-TryOurBeer-Cosmonut/tablet/backgroud-cosmonut.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.cosmonut {
-      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.jpg) no-repeat;
+      background: url(/images/5-TryOurBeer-Cosmonut/-mobile/background-cosmonut.png) no-repeat;
       background-size: cover; } }
 
 .cosmonut .planet-container {
@@ -1626,15 +1724,16 @@ body.cosmonut {
   color: #c78032; }
 
 body.dark-martian {
-  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.jpg) no-repeat;
-  background-size: cover; }
+  background: url(/images/6-TryOurBeer-DarkMartian/desktop/background-darkmartian.png) no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
   @media screen and (max-width: 1200px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.jpg) no-repeat;
+      background: url(/images/6-TryOurBeer-DarkMartian/tablet/background-darkmartian.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.dark-martian {
-      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.jpg) no-repeat;
+      background: url(/images/6-TryOurBeer-DarkMartian/-mobile/background-darkmartian.png) no-repeat;
       background-size: cover; } }
 
 .dark-martian .planet-container {
@@ -1736,15 +1835,16 @@ body.dark-martian {
   color: #f58e86; }
 
 body.paint-planet-red {
-  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.jpg) no-repeat;
+  background: url(/images/7-TryOurBeer-PaintPlanetRed/desktop/background-paintplanetred.png) no-repeat;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.jpg) no-repeat;
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/tablet/background-paintplanetred.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.paint-planet-red {
-      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.jpg) no-repeat;
+      background: url(/images/7-TryOurBeer-PaintPlanetRed/-mobile/background-paintplanetred.png) no-repeat;
       background-size: cover; } }
 
 .paint-planet-red .planet-container {
@@ -1859,15 +1959,16 @@ body.paint-planet-red {
   color: #ff5d5d; }
 
 body.light-source {
-  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.jpg) no-repeat;
+  background: url(/images/8-TryOurBeerLightSource/desktop/background-lightsource.png) no-repeat;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.jpg) no-repeat;
+      background: url(/images/8-TryOurBeerLightSource/tablet/background-lightsource.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.light-source {
-      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.jpg) no-repeat;
+      background: url(/images/8-TryOurBeerLightSource/-mobile/background-lightsource.png) no-repeat;
       background-size: cover; } }
 
 .light-source .stars1 {
@@ -1916,17 +2017,17 @@ body.light-source {
   color: #fff; }
 
 body.creators {
-  background: url(/images/9-TheCreators/desktop/background-thecreators.jpg) no-repeat;
+  background: url(/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.creators {
-      background: url(/images/9-TheCreators/tablet/background-thecreators.jpg) no-repeat;
+      background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 880px) {
     body.creators {
-      background: url(/images/9-TheCreators/-mobile/background-thecreators.jpg) no-repeat;
+      background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -1965,19 +2066,22 @@ body.creators {
   text-align: center; }
 
 .creator-content {
-  display: flex;
+  font-weight: bold;
   justify-content: center;
-  font-weight: bold; }
+  text-align: center;
+  letter-spacing: 1px; }
   @media screen and (max-width: 880px) {
     .creator-content {
       display: block; } }
 
 .creator {
-  flex: 1;
+  float: left;
+  box-sizing: border-box;
   padding: 25px; }
   @media screen and (max-width: 880px) {
     .creator {
-      margin: 0 auto; } }
+      margin: 0 auto;
+      width: 100%; } }
 
 .creator-image img {
   display: block;
@@ -1995,17 +2099,17 @@ body.creators {
   font-weight: bold; }
 
 body.our-craft {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 880px) {
     body.our-craft {
-      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -2079,21 +2183,20 @@ body.our-craft {
   margin: auto; }
 
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.jpg) no-repeat;
-  background-size: cover;
-  position: absolute;
+  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png);
   height: 100%;
-  width: 100%; }
+  min-height: 100vh;
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.events {
-      background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.jpg) no-repeat;
+      background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
       background-size: cover;
-      height: 100%; } }
-  @media screen and (max-width: 1200px) {
+      width: 100%; } }
+  @media screen and (max-width: 880px) {
     body.events {
-      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.jpg) no-repeat;
+      background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
       background-size: cover;
-      height: 100%; } }
+      width: 100%; } }
 
 .events .stars1 {
   background: url(/images/11-CosmicEvents/desktop/background-stars-cosmicevents1.png);
@@ -2153,11 +2256,15 @@ body.events {
   position: absolute;
   z-index: 0;
   left: -100px;
-  top: 45%;
+  top: 65%;
   height: 590px;
   width: 591px;
-  margin-top: -190px; }
-  @media screen and (max-width: 880px) {
+  margin-top: -500px; }
+  @media screen and (max-width: 1200px) {
+    .events .planet-container {
+      left: -150px;
+      top: 75%; } }
+  @media screen and (max-width: 1200px) and (max-width: 880px) {
     .events .planet-container {
       display: none; } }
 
@@ -2195,18 +2302,19 @@ body.events {
   75% {
     background: url(/images/11-CosmicEvents/tablet/moon.png); } }
 body.contact {
-  background: url(/images/12-MakeContact/desktop/background-makecontact.jpg) no-repeat;
-  background-size: cover;
-  height: 100%; }
+  background: url(/images/12-MakeContact/desktop/background-makecontact.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.contact {
-      background: url(/images/12-MakeContact/tablet/background-makecontact.jpg) no-repeat;
+      background: url(/images/12-MakeContact/tablet/background-makecontact.png) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }
   @media screen and (max-width: 880px) {
     body.contact {
-      background: url(/images/12-MakeContact/-mobile/background-makecontact.jpg) no-repeat;
+      background: url(/images/12-MakeContact/-mobile/background-makecontact.png) no-repeat;
       background-size: cover;
       background-position: center;
       height: 100%; } }
@@ -2282,6 +2390,7 @@ body.contact {
 body.muttnik {
   background: url(/images/muttnik/backgroud-muttnik.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.muttnik {
@@ -2295,27 +2404,27 @@ body.muttnik {
       background-size: cover; } }
 
 .muttnik .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .muttnik .stars1 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .muttnik .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .muttnik .stars2 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .muttnik .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .muttnik .stars3 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .muttnik .beer-can {
@@ -2340,15 +2449,16 @@ body.muttnik {
   color: #9e76b2; }
 
 body.three-d {
-  background: url(/images/3d/desktop/backgroud-3d.jpg) no-repeat;
+  background: url(/images/3d/desktop/backgroud-3d.png) no-repeat;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.three-d {
-      background: url(/images/3d/tablet/background-3d.jpg) no-repeat;
+      background: url(/images/3d/tablet/background-3d.png) no-repeat;
       background-size: cover; } }
   @media screen and (max-width: 880px) {
     body.three-d {
-      background: url(/images/3d/mobile/background-3d.jpg) no-repeat;
+      background: url(/images/3d/mobile/background-3d.png) no-repeat;
       background-size: cover; } }
 
 .three-d .stars1 {
@@ -2410,6 +2520,7 @@ body.three-d {
 body.martian-rambler {
   background: url(/images/martian-rambler/background.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.martian-rambler {
@@ -2423,27 +2534,27 @@ body.martian-rambler {
       background-size: cover; } }
 
 .martian-rambler .stars1 {
-  background: url(/images/martian-rambler/desktop/background-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .martian-rambler .stars1 {
-      background: url(/images/martian-rambler/tablet/background-stars1.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .martian-rambler .stars2 {
-  background: url(/images/martian-rambler/desktop/background-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .martian-rambler .stars2 {
-      background: url(/images/martian-rambler/tablet/background-stars2.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .martian-rambler .stars3 {
-  background: url(/images/martian-rambler/desktop/background-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .martian-rambler .stars3 {
-      background: url(/images/martian-rambler/tablet/background-stars3.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .martian-rambler .beer-can {
@@ -2480,6 +2591,7 @@ body.martian-rambler {
 body.buzzed-aldrin {
   background: url(/images/buzzed-aldrin/background.png) no-repeat;
   height: 100%;
+  min-height: 100vh;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     body.buzzed-aldrin {
@@ -2493,27 +2605,27 @@ body.buzzed-aldrin {
       background-size: cover; } }
 
 .buzzed-aldrin .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .buzzed-aldrin .stars1 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .buzzed-aldrin .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .buzzed-aldrin .stars2 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .buzzed-aldrin .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .buzzed-aldrin .stars3 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .buzzed-aldrin .beer-can {
@@ -2534,11 +2646,18 @@ body.buzzed-aldrin {
       background-size: cover;
       background-position: center; } }
 
+.buzzed-aldrin .beer-footer-icons {
+  background: url(/images/buzzed-aldrin/alaskacoffeelogos.png); }
+  @media screen and (max-width: 1200px) {
+    .buzzed-aldrin .beer-footer-icons {
+      background: url(/images/buzzed-aldrin/alaskacoffeelogostab.png); } }
+
 .buzzed-aldrin .post-title {
   color: #d8b309; }
 
 body.double-black-hole {
   background: url(/images/double-black-hole/background.png) no-repeat;
+  min-height: 100vh;
   height: 100%;
   background-size: cover; }
   @media screen and (max-width: 1200px) {
@@ -2553,27 +2672,27 @@ body.double-black-hole {
       background-size: cover; } }
 
 .double-black-hole .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .double-black-hole .stars1 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
       background-size: cover; } }
 
 .double-black-hole .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .double-black-hole .stars2 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .double-black-hole .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover; }
   @media screen and (max-width: 1200px) {
     .double-black-hole .stars3 {
-      background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
       background-size: cover; } }
 
 .double-black-hole .beer-can {
@@ -2597,18 +2716,369 @@ body.double-black-hole {
 .double-black-hole .post-title {
   color: #7b92ff; }
 
+body.beta-cru {
+  background: url(/images/beta-cru/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.beta-cru {
+      background: url(/images/beta-cru/background-tablet.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 880px) {
+    body.beta-cru {
+      background: url(/images/beta-cru/background-mobile.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.beta-cru .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.beta-cru .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.beta-cru .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.beta-cru .beer-can {
+  background: url(/images/beta-cru/can-tabletsize.png); }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .beer-can {
+      background: url(/images/beta-cru/can-tabletsize.png); } }
+  @media screen and (max-width: 880px) {
+    .beta-cru .beer-can {
+      background: url(/images/beta-cru/can-mobilesize.png); } }
+
+.beta-cru .site-header {
+  background: url(/images/beta-cru/banner.png) no-repeat;
+  background-position: bottom; }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .site-header {
+      background: url(/images/beta-cru/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
+
+.beta-cru .beer-footer-icons {
+  background: url(); }
+  @media screen and (max-width: 1200px) {
+    .beta-cru .beer-footer-icons {
+      background: url(); } }
+
+.beta-cru .post-title {
+  color: #f8af3c; }
+
+body.deep-sky {
+  background: url(/images/deep-sky/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.deep-sky {
+      background: url(/images/deep-sky/background-tablet.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 880px) {
+    body.deep-sky {
+      background: url(/images/deep-sky/background-mobile.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.deep-sky .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.deep-sky .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.deep-sky .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.deep-sky .beer-can {
+  background: url(/images/deep-sky/can-tabletsize.png); }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .beer-can {
+      background: url(/images/deep-sky/can-tabletsize.png); } }
+  @media screen and (max-width: 880px) {
+    .deep-sky .beer-can {
+      background: url(/images/deep-sky/can-mobilesize.png); } }
+
+.deep-sky .beer-footer-icons {
+  background: url(/images/deep-sky/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .beer-footer-icons {
+      background: url(/images/deep-sky/tablet/bottomicons-cropcircle.png);
+      height: 47px;
+      width: 140px; } }
+
+.deep-sky .site-header {
+  background: url(/images/deep-sky/banner.png) no-repeat;
+  background-position: bottom; }
+  @media screen and (max-width: 1200px) {
+    .deep-sky .site-header {
+      background: url(/images/deep-sky/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
+
+.deep-sky .post-title {
+  color: #bade5a; }
+
+body.plane-shifter {
+  background: url(/images/plane-shifter/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.plane-shifter {
+      background: url(/images/plane-shifter/background-tablet.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 880px) {
+    body.plane-shifter {
+      background: url(/images/plane-shifter/background-mobile.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.plane-shifter .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.plane-shifter .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.plane-shifter .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.plane-shifter .beer-can {
+  background: url(/images/plane-shifter/can-tabletsize.png); }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .beer-can {
+      background: url(/images/plane-shifter/can-tabletsize.png); } }
+  @media screen and (max-width: 880px) {
+    .plane-shifter .beer-can {
+      background: url(/images/plane-shifter/can-mobilesize.png); } }
+
+.plane-shifter .beer-footer-icons {
+  background: url(/images/plane-shifter/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .beer-footer-icons {
+      background: url(/images/plane-shifter/tablet/bottomicons-cropcircle.png);
+      height: 47px;
+      width: 140px; } }
+
+.plane-shifter .site-header {
+  background: url(/images/plane-shifter/banner.png) no-repeat;
+  background-position: bottom; }
+  @media screen and (max-width: 1200px) {
+    .plane-shifter .site-header {
+      background: url(/images/plane-shifter/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
+
+.plane-shifter .post-title {
+  color: #b598da; }
+
+body.pillars-of-creation {
+  background: url(/images/pillars-of-creation/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.pillars-of-creation {
+      background: url(/images/pillars-of-creation/background-tablet.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 880px) {
+    body.pillars-of-creation {
+      background: url(/images/pillars-of-creation/background-mobile.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.pillars-of-creation .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.pillars-of-creation .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.pillars-of-creation .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.pillars-of-creation .beer-can {
+  background: url(/images/pillars-of-creation/can-tabletsize.png); }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .beer-can {
+      background: url(/images/pillars-of-creation/can-tabletsize.png); } }
+  @media screen and (max-width: 880px) {
+    .pillars-of-creation .beer-can {
+      background: url(/images/pillars-of-creation/can-mobilesize.png); } }
+
+.pillars-of-creation .beer-footer-icons {
+  background: url(/images/pillars-of-creation/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .beer-footer-icons {
+      background: url(/images/pillars-of-creation/tablet/bottomicons-cropcircle.png);
+      height: 47px;
+      width: 140px; } }
+
+.pillars-of-creation .site-header {
+  background: url(/images/pillars-of-creation/banner.png) no-repeat;
+  background-position: bottom; }
+  @media screen and (max-width: 1200px) {
+    .pillars-of-creation .site-header {
+      background: url(/images/pillars-of-creation/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
+
+.pillars-of-creation .post-title {
+  color: #fee8aa; }
+
+body.apollo-smash {
+  background: url(/images/apollo-smash/background.png) no-repeat;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    body.apollo-smash {
+      background: url(/images/apollo-smash/background-tablet.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+  @media screen and (max-width: 880px) {
+    body.apollo-smash {
+      background: url(/images/apollo-smash/background-mobile.png) no-repeat;
+      height: 100%;
+      background-size: cover; } }
+
+.apollo-smash .stars1 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .stars1 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
+      background-size: cover; } }
+
+.apollo-smash .stars2 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .stars2 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.apollo-smash .stars3 {
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
+  background-size: cover; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .stars3 {
+      background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
+      background-size: cover; } }
+
+.apollo-smash .beer-can {
+  background: url(/images/apollo-smash/can-tabletsize.png); }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .beer-can {
+      background: url(/images/apollo-smash/can-tabletsize.png); } }
+  @media screen and (max-width: 880px) {
+    .apollo-smash .beer-can {
+      background: url(/images/apollo-smash/can-mobilesize.png); } }
+
+.apollo-smash .beer-footer-icons {
+  background: url(/images/apollo-smash/desktop/bottomicons-cropcircle.png);
+  height: 94px;
+  width: 199px; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .beer-footer-icons {
+      background: url(/images/apollo-smash/tablet/bottomicons-cropcircle.png);
+      height: 47px;
+      width: 140px; } }
+
+.apollo-smash .site-header {
+  background: url(/images/apollo-smash/banner.png) no-repeat;
+  background-position: bottom; }
+  @media screen and (max-width: 1200px) {
+    .apollo-smash .site-header {
+      background: url(/images/apollo-smash/banner-tablet.png) no-repeat;
+      background-size: cover;
+      background-position: center; } }
+
+.apollo-smash .post-title {
+  color: #fff200; }
+
 body.mediapage {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.mediapage {
-      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 880px) {
     body.mediapage {
-      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -2663,17 +3133,17 @@ body.mediapage {
   margin: auto; }
 
 body.find-us {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%; }
   @media screen and (max-width: 1200px) {
     body.find-us {
-      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
   @media screen and (max-width: 880px) {
     body.find-us {
-      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
+      background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
       background-size: cover;
       height: 100%; } }
 
@@ -2710,3 +3180,24 @@ body.find-us {
 .find-us .post-title {
   color: #fff;
   text-align: center; }
+
+.find-us-map {
+  display: flex;
+  position: relative;
+  font-weight: bold; }
+  @media screen and (max-width: 880px) {
+    .find-us-map {
+      display: block; } }
+
+.find-us-content {
+  position: relative;
+  display: flex;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1.5em;
+  letter-spacing: 2.5px;
+  padding-right: 10px;
+  padding-left: 30px; }
+  @media screen and (max-width: 880px) {
+    .find-us-content {
+      display: block; } }

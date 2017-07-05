@@ -1,14 +1,14 @@
 body.creators {
-  background: url(/images/9-TheCreators/desktop/background-thecreators.jpg) no-repeat;
+  background: url(/images/9-TheCreators/desktop/background-thecreators.png) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/9-TheCreators/tablet/background-thecreators.jpg) no-repeat;
+    background: url(/images/9-TheCreators/tablet/background-thecreators.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include media-query($on-palm) {
-    background: url(/images/9-TheCreators/-mobile/background-thecreators.jpg) no-repeat;
+    background: url(/images/9-TheCreators/-mobile/background-thecreators.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
@@ -53,19 +53,22 @@ body.creators {
 }
 
 .creator-content {
-  display: flex;
-  justify-content: center;
   font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 1px;
   @include media-query($on-palm) {
     display: block;
   }
 }
 
 .creator {
-  flex: 1;
+  float: left;
+  box-sizing: border-box;
   padding: 25px;
   @include media-query($on-palm) {
     margin: 0 auto;
+    width: 100%
   }
 }
 

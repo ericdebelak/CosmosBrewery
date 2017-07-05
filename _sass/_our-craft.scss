@@ -1,14 +1,14 @@
 body.our-craft {
-  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.jpg) no-repeat;
+  background: url(/images/10-InsideOurCraft/desktop/background-insideourcraft.png) no-repeat;
   background-size: cover;
   height: 100%;
   @include media-query($on-laptop) {
-    background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.jpg) no-repeat;
+    background: url(/images/10-InsideOurCraft/tablet/background-insideourcraft.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
   @include media-query($on-palm) {
-    background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.jpg) no-repeat;
+    background: url(/images/10-InsideOurCraft/-mobile/background-insideourcraft.png) no-repeat;
     background-size: cover;
     height: 100%;
   }
@@ -92,5 +92,5 @@ body.our-craft {
 
 .craft-pics {
   margin:auto;
-  
+
   }

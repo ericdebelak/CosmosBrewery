@@ -1,18 +1,17 @@
 body.events {
-  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.jpg) no-repeat;
-  background-size: cover;
-  position: absolute;
+  background: url(/images/11-CosmicEvents/desktop/background-cosmicevents.png);
   height: 100%;
-  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.jpg) no-repeat;
+    background: url(/images/11-CosmicEvents/tablet/background-cosmicevents.png) no-repeat;
     background-size: cover;
-    height: 100%;
+    width: 100%;
   }
-  @include media-query($on-laptop) {
-    background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.jpg) no-repeat;
+  @include media-query($on-palm) {
+    background: url(/images/11-CosmicEvents/-mobile/background-cosmicevents.png) no-repeat;
     background-size: cover;
-    height: 100%;
+    width: 100%;
   }
 }
 
@@ -79,13 +78,17 @@ body.events {
   position: absolute;
   z-index: 0;
   left: -100px;
-  top: 45%;
+  top: 65%;
   height: 590px;
   width: 591px;
-  margin-top: -190px;
-  @include media-query($on-palm) {
+  margin-top: -500px;
+  @include media-query($on-laptop) {
+    left: -150px;
+    top: 75%;
+    @include media-query($on-palm) {
     display: none;
   }
+}
 }
 
 .events .planet {

@@ -1,5 +1,6 @@
 body.double-black-hole {
   background: url(/images/double-black-hole/background.png) no-repeat;
+  min-height: 100vh;
   height: 100%;
   background-size: cover;
   @include media-query($on-laptop) {
@@ -15,28 +16,28 @@ body.double-black-hole {
 }
 
 .double-black-hole .stars1 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars1.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars1.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars1.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars1.png);
     background-size: cover;
   }
 }
 
 .double-black-hole .stars2 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars2.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars2.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars2.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }
 
 .double-black-hole .stars3 {
-  background: url(/images/2-TryOurBeer-PlanerXPA/desktop/background-green-stars3.png);
+  background: url(/images/3-TryOurBeer-CropFormation/desktop/background-stars3.png);
   background-size: cover;
   @include media-query($on-laptop) {
-    background: url(/images/2-TryOurBeer-PlanerXPA/tablet/background-green-stars3.png);
+    background: url(/images/3-TryOurBeer-CropFormation/tablet/background-stars2.png);
     background-size: cover;
   }
 }

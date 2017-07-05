@@ -46,6 +46,21 @@ html {
 .double-black-hole-text {
   color: $double-black-hole;
 }
+.beta-cru-text {
+  color: $beta-cru;
+}
+.deep-sky-text {
+  color: $deep-sky;
+}
+.plane-shifter-text {
+  color: $plane-shifter;
+}
+.pillars-of-creation-text {
+  color: $pillars-of-creation;
+}
+.apollo-smash-text {
+  color: $apollo-smash;
+}
 /**
  * Site header
  */
@@ -55,9 +70,11 @@ html {
     background: url(/images/2-TryOurBeer-PlanerXPA/desktop/header-main.png) no-repeat;
     background-position: bottom;
     background-size: cover;
-    min-height: 79px;
-    height: 79px;
+    min-height: 80px;
+    height: 105px;
     @include media-query($on-laptop) {
+      min-height: 80px;
+      height: 80px;
       background: url(/images/2-TryOurBeer-PlanerXPA/tablet/header-main.png) no-repeat;
       background-position: center;
     }

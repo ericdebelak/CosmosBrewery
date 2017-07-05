@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Cosmos Brewery
+title: Cosmos Brewing
 email: planetxpa@gmail.com
 description: Local brewery to Hugo, MN, Cosmos Brewing
 baseurl: "" # the subpath of your site, e.g. /blog

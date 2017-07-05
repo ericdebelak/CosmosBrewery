@@ -6,7 +6,7 @@ class: buzzed-aldrin
 buzzed-aldrin: active
 try-our-beer: active
 beer-heading: "Is there alien life out there?"
-beer-text: Golden cappuccino ale is the best way to describe Buzzed Aldrin. A large coffee addition imparts both aroma and flavor, lactose brings sweetness and flaked grains round out the body. Looks like a pale, drinks like a stout. <br><br> <span class='buzzed-aldrin-text'>SAVE SPACE FOR BEER!</span>
+beer-text: CANS AVAILABLE <a href='http://cosmosbrewing.com/find-us/'>AT SELECT LOCATIONS!<BR><BR> Golden cappuccino ale is the best way to describe Buzzed Aldrin. A large coffee addition imparts both aroma and flavor, lactose brings sweetness and flaked grains round out the body. Looks like a pale, drinks like a stout.<BR><BR><span class='buzzed-aldrin-text'>SAVE SPACE FOR BEER!</span>
 ---
 <div class='beer-can'></div>
 <div class='beer-content'>
@@ -14,7 +14,7 @@ beer-text: Golden cappuccino ale is the best way to describe Buzzed Aldrin. A la
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
   <div class="beer-text no-mobile">
-  <p class='buzzed-aldrin'>{{page.beer-heading}}</p>
+  <p class='buzzed-aldrin-text'>{{page.beer-heading}}</p>
   <p>{{page.beer-text}}</p>
   </div>
   <div class="post-header only-mobile">
@@ -29,9 +29,9 @@ beer-text: Golden cappuccino ale is the best way to describe Buzzed Aldrin. A la
     </tbody>
   </table>
   <BR>
-  <div class='beer-footer-icons'></div>
+  <a href="http://alaskaartisancoffee.com/" target="_blank"><div class='beer-footer-icons'></div></a>
 </div>
-<div class="beer-text-mobile">
+  <div class="beer-text-mobile">
   <p class='buzzed-aldrin'>{{page.beer-heading}}</p>
   <p>{{page.beer-text}}</p>
 </div>

@@ -49,7 +49,7 @@
       width: 141px;
     }
     @include media-query($on-palm) {
-      width: 1750px;
+      width: 2500px;
       height: 20px;
       overflow: visible;
       margin-bottom: 40px;
@@ -302,6 +302,84 @@
   }
   @include media-query($on-palm) {
     background: url(/images/double-black-hole/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.beta-cru-link {
+    background: url(/images/beta-cru/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/beta-cru/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/beta-cru/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.deep-sky-link {
+    background: url(/images/deep-sky/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/deep-sky/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/deep-sky/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+
+.plane-shifter-link {
+    background: url(/images/plane-shifter/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/plane-shifter/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/plane-shifter/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+.pillars-of-creation-link {
+    background: url(/images/pillars-of-creation/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/pillars-of-creation/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/pillars-of-creation/link-mobile.png);
+    height: 20px;
+    width: 136px;
+  }
+}
+.apollo-smash-link {
+    background: url(/images/apollo-smash/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  @include media-query($on-laptop) {
+    background: url(/images/apollo-smash/link-tablet.png);
+    height: 75px;
+    width: 106px;
+  }
+  @include media-query($on-palm) {
+    background: url(/images/apollo-smash/link-mobile.png);
     height: 20px;
     width: 136px;
   }
