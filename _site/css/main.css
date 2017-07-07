@@ -3287,3 +3287,6 @@ body.limited-releases {
   .limited-release-beer .limited-release-text {
     max-width: 100%;
     float: none; } }
+.photos .thumbnail {
+  max-width: 250px;
+  height: auto; }
