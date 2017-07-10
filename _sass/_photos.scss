@@ -2,5 +2,16 @@
 	.thumbnail {
 		max-width: 250px;
 		height: auto;
+		margin-top: 5px;
 	}
+}
+
+.lightbox-link {
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.media-content {
+	text-align: center;
 }

@@ -8,7 +8,13 @@ layout: default
   </header>
 
   <div class="media-content">
-    {{ content }}
+    {{ page.intro }}
+	{% for image in page.images %}
+  		<a class='lightbox-link' href="/images/media-art/{{page.image_folder}}/{{image}}" data-lightbox="lightbox">
+			<img class='thumbnail' src='/images/media-art/{{page.image_folder}}/{{image}}'/>
+		</a>
+	{% endfor %}
+    {{ page.outro }}
   </div>
 
 </article>
